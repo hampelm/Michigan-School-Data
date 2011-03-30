@@ -1,0 +1,721 @@
+Free and Reduced-Price Lunch Counts,,,,,,,,,
+"Fall 2009 Building-Level Data: Age Groups, Ungraded Special Education",,,,,,,,,
+Includes Grades K through 12 plus Ungraded Special Education (14),,,,,,,,,
+DCODE,District_Name,BCODE,Entity_Name,GradeOrSetting,Age Group,Free Lunch Eligible,Reduced-Price Lunch Eligible,Not Eligible,Total Count
+03000,Allegan Area Educational Service Agency,06730,Hillside Learning & Behavior Center,14,Age 0 to 4,4,2,6,12
+03000,Allegan Area Educational Service Agency,06730,Hillside Learning & Behavior Center,14,Age 5 to 19,32,8,23,63
+03000,Allegan Area Educational Service Agency,06730,Hillside Learning & Behavior Center,14,Age 20 to 26,12,3,2,17
+03000,Allegan Area Educational Service Agency,09075,Wayland Young Adult Program,14,Age 5 to 19,0,0,1,1
+03000,Allegan Area Educational Service Agency,09075,Wayland Young Adult Program,14,Age 20 to 26,1,0,6,7
+03000,Allegan Area Educational Service Agency,09076,Plainwell Young Adult Program,14,Age 5 to 19,0,0,1,1
+03000,Allegan Area Educational Service Agency,09076,Plainwell Young Adult Program,14,Age 20 to 26,1,0,7,8
+03030,Allegan Public Schools,00881,Dawson Elementary School,14,Age 0 to 4,5,1,0,6
+03040,Wayland Union Schools,04404,Wayland High School,14,Age 20 to 26,0,0,1,1
+03050,Fennville Public Schools,07494,Fennville Elementary School,14,Age 0 to 4,0,0,3,3
+03050,Fennville Public Schools,07494,Fennville Elementary School,14,Age 5 to 19,0,0,1,1
+04000,Alpena-Montmorency-Alcona ESD,00808,Pied Piper Opportunity Center,14,Age 0 to 4,2,0,3,5
+04000,Alpena-Montmorency-Alcona ESD,00808,Pied Piper Opportunity Center,14,Age 5 to 19,25,4,13,42
+04000,Alpena-Montmorency-Alcona ESD,00808,Pied Piper Opportunity Center,14,Age 20 to 26,8,2,13,23
+04000,Alpena-Montmorency-Alcona ESD,09473,ESD Sp Ed Programs in LEA Facilities,14,Age 0 to 4,9,0,10,19
+04000,Alpena-Montmorency-Alcona ESD,09473,ESD Sp Ed Programs in LEA Facilities,14,Age 5 to 19,0,0,2,2
+08000,Barry ISD,08881,Barry ISD Special Education,14,Age 5 to 19,5,2,2,9
+08000,Barry ISD,08881,Barry ISD Special Education,14,Age 20 to 26,15,1,3,19
+08010,Delton-Kellogg School District,00901,Delton Kellogg Elem. School,14,Age 0 to 4,9,0,7,16
+08010,Delton-Kellogg School District,00901,Delton Kellogg Elem. School,14,Age 5 to 19,2,0,0,2
+08030,Hastings Area School District,01607,Hastings Middle School,14,Age 5 to 19,3,0,0,3
+09000,Bay-Arenac ISD,07276,Detention Center,14,Age 5 to 19,5,0,7,12
+09000,Bay-Arenac ISD,08912,LLC---Bay Campus,14,Age 0 to 4,2,0,1,3
+09000,Bay-Arenac ISD,08912,LLC---Bay Campus,14,Age 5 to 19,22,4,22,48
+09000,Bay-Arenac ISD,08912,LLC---Bay Campus,14,Age 20 to 26,37,6,17,60
+09000,Bay-Arenac ISD,08913,LLC--Arenac Campus,14,Age 5 to 19,15,1,7,23
+09000,Bay-Arenac ISD,08913,LLC--Arenac Campus,14,Age 20 to 26,6,1,2,9
+09000,Bay-Arenac ISD,09735,ISD-Local Programs,14,Age 0 to 4,1,0,1,2
+09000,Bay-Arenac ISD,09735,ISD-Local Programs,14,Age 5 to 19,46,5,44,95
+09010,Bay City School District,09080,Jefferson Center,14,Age 0 to 4,17,0,19,36
+09010,Bay City School District,09080,Jefferson Center,14,Age 5 to 19,0,0,2,2
+10015,Benzie County Central Schools,00848,Crystal Lake Elementary School,14,Age 0 to 4,1,0,0,1
+11000,Berrien RESA,05794,Lighthouse Education Center,14,Age 0 to 4,3,0,2,5
+11000,Berrien RESA,05794,Lighthouse Education Center,14,Age 5 to 19,5,2,1,8
+11000,Berrien RESA,06922,Blossomland Learning Center,14,Age 0 to 4,7,0,1,8
+11000,Berrien RESA,06922,Blossomland Learning Center,14,Age 5 to 19,84,8,52,144
+11000,Berrien RESA,06922,Blossomland Learning Center,14,Age 20 to 26,34,1,31,66
+11000,Berrien RESA,09637,Community Based Early Childhood Services,14,Age 0 to 4,9,0,9,18
+11010,Benton Harbor Area Schools,03502,Sorter Elementary School,14,Age 0 to 4,6,0,3,9
+11010,Benton Harbor Area Schools,03502,Sorter Elementary School,14,Age 5 to 19,3,0,0,3
+11010,Benton Harbor Area Schools,09557,Stump School,14,Age 0 to 4,9,1,1,11
+11010,Benton Harbor Area Schools,09893,Stump Early Childhood Center,14,Age 0 to 4,7,0,8,15
+11020,St. Joseph Public Schools,00422,Brown School,14,Age 0 to 4,0,0,3,3
+11030,Lakeshore School District (Berrien),02098,Roosevelt Elementary School,14,Age 0 to 4,0,0,1,1
+11033,River Valley School District,00670,Chikaming Elementary School,14,Age 0 to 4,0,0,1,1
+11033,River Valley School District,04180,Three Oaks Elementary School,14,Age 0 to 4,0,0,1,1
+11200,New Buffalo Area Schools,08503,New Buffalo Middle School,14,Age 5 to 19,1,0,0,1
+11250,Eau Claire Public Schools,02288,Lybrook Elementary School,14,Age 0 to 4,0,0,1,1
+11300,Niles Community School District,03546,Southside Special Educ School,14,Age 5 to 19,7,1,3,11
+11300,Niles Community School District,03546,Southside Special Educ School,14,Age 20 to 26,15,1,6,22
+11310,Buchanan Community Schools,02583,Moccasin Elementary School,14,Age 0 to 4,6,0,0,6
+11330,Coloma Community Schools,04390,Washington Elementary School,14,Age 0 to 4,2,0,0,2
+11670,Hagar Township S/D #6,03217,Riverside School,14,Age 5 to 19,0,0,1,1
+12000,Branch ISD,00000,RESA/ISD students attending LEA school--12000,14,Age 0 to 4,1,0,0,1
+12000,Branch ISD,00000,RESA/ISD students attending LEA school--12000,14,Age 5 to 19,0,0,1,1
+12000,Branch ISD,04792,Waldron Learning Center,14,Age 0 to 4,2,1,2,5
+12000,Branch ISD,04792,Waldron Learning Center,14,Age 5 to 19,20,3,12,35
+12000,Branch ISD,04792,Waldron Learning Center,14,Age 20 to 26,11,0,1,12
+13000,Calhoun ISD,00426,Doris Klaussen Dev. Center,14,Age 0 to 4,108,3,120,231
+13000,Calhoun ISD,00426,Doris Klaussen Dev. Center,14,Age 5 to 19,107,15,63,185
+13000,Calhoun ISD,00426,Doris Klaussen Dev. Center,14,Age 20 to 26,47,1,10,58
+13020,Battle Creek Public Schools,09351,Ann J. Kellogg School,14,Age 0 to 4,23,1,3,27
+13020,Battle Creek Public Schools,09351,Ann J. Kellogg School,14,Age 5 to 19,8,0,1,9
+14000,Lewis Cass ISD,06215,Brookside Learning Center,14,Age 0 to 4,1,0,0,1
+14000,Lewis Cass ISD,06215,Brookside Learning Center,14,Age 5 to 19,7,1,6,14
+14000,Lewis Cass ISD,09082,North Pointe Center,14,Age 5 to 19,6,2,2,10
+14000,Lewis Cass ISD,09082,North Pointe Center,14,Age 20 to 26,11,0,5,16
+14020,Dowagiac Union School District,01983,Justus Gage Elementary School,14,Age 0 to 4,4,0,2,6
+14020,Dowagiac Union School District,01983,Justus Gage Elementary School,14,Age 5 to 19,4,0,1,5
+14030,Edwardsburg Public Schools,01096,Edwardsburg High School,14,Age 20 to 26,1,0,0,1
+16000,Cheb-Otsego-Presque Isle ESD,09024,COP ESD Programs,14,Age 0 to 4,22,0,24,46
+16000,Cheb-Otsego-Presque Isle ESD,09024,COP ESD Programs,14,Age 5 to 19,41,2,21,64
+16000,Cheb-Otsego-Presque Isle ESD,09024,COP ESD Programs,14,Age 20 to 26,7,0,2,9
+16015,Cheboygan Area Schools,00655,Cheboygan Area High School,14,Age 5 to 19,5,0,10,15
+16015,Cheboygan Area Schools,00655,Cheboygan Area High School,14,Age 20 to 26,1,0,6,7
+16015,Cheboygan Area Schools,05776,Cheboygan Middle School,14,Age 5 to 19,2,0,12,14
+16050,Inland Lakes Schools,01842,Inland Lakes High School,14,Age 20 to 26,0,0,2,2
+17000,Eastern Upper Peninsula ISD,09022,Rudyard Area Service Center,14,Age 0 to 4,4,0,3,7
+17000,Eastern Upper Peninsula ISD,09022,Rudyard Area Service Center,14,Age 5 to 19,15,2,5,22
+17000,Eastern Upper Peninsula ISD,09022,Rudyard Area Service Center,14,Age 20 to 26,7,0,4,11
+17010,Sault Ste. Marie Area Schools,02214,Lincoln School,14,Age 5 to 19,15,0,6,21
+17010,Sault Ste. Marie Area Schools,06068,Sault Area High School,14,Age 5 to 19,2,0,5,7
+17010,Sault Ste. Marie Area Schools,06068,Sault Area High School,14,Age 20 to 26,4,0,0,4
+17050,DeTour Area Schools,00905,DeTour High School,14,Age 5 to 19,1,0,0,1
+18000,Clare-Gladwin Regional Education Service District,00777,Clare-Gladwin Area School,14,Age 0 to 4,22,0,18,40
+18000,Clare-Gladwin Regional Education Service District,00777,Clare-Gladwin Area School,14,Age 5 to 19,46,7,10,63
+18000,Clare-Gladwin Regional Education Service District,00777,Clare-Gladwin Area School,14,Age 20 to 26,10,4,6,20
+19000,Clinton County RESA,06889,Clinton County Education Center,14,Age 5 to 19,0,0,2,2
+19000,Clinton County RESA,06889,Clinton County Education Center,14,Age 20 to 26,9,0,13,22
+21000,Delta-Schoolcraft ISD,03370,Learning Center,14,Age 0 to 4,14,2,13,29
+21000,Delta-Schoolcraft ISD,03370,Learning Center,14,Age 5 to 19,25,6,23,54
+21000,Delta-Schoolcraft ISD,03370,Learning Center,14,Age 20 to 26,7,2,3,12
+22000,Dickinson-Iron ISD,08877,Dickinson-Iron Special Education,14,Age 5 to 19,25,7,11,43
+22000,Dickinson-Iron ISD,08877,Dickinson-Iron Special Education,14,Age 20 to 26,7,0,5,12
+22000,Dickinson-Iron ISD,09547,Dickinson Iron Early Childhood Education,14,Age 0 to 4,2,0,0,2
+23000,Eaton ISD,07286,Meadowview School,14,Age 0 to 4,1,0,0,1
+23000,Eaton ISD,07286,Meadowview School,14,Age 5 to 19,6,0,21,27
+23000,Eaton ISD,07286,Meadowview School,14,Age 20 to 26,2,0,3,5
+23000,Eaton ISD,09236,Meadowview Offsite -CLC,14,Age 5 to 19,24,0,34,58
+23000,Eaton ISD,09236,Meadowview Offsite -CLC,14,Age 20 to 26,16,0,34,50
+23030,Charlotte Public Schools,09959,Weymouth Child Development Center,14,Age 0 to 4,12,2,11,25
+23030,Charlotte Public Schools,09959,Weymouth Child Development Center,14,Age 5 to 19,1,0,0,1
+23050,Eaton Rapids Public Schools,06026,Lockwood Elementary School,14,Age 0 to 4,13,3,10,26
+23050,Eaton Rapids Public Schools,06026,Lockwood Elementary School,14,Age 5 to 19,2,0,0,2
+23065,Maple Valley Schools,01339,Fuller Street Elementary School,14,Age 0 to 4,13,2,3,18
+23065,Maple Valley Schools,01339,Fuller Street Elementary School,14,Age 5 to 19,1,0,1,2
+23090,Potterville Public Schools,02170,Potterville Elementary School,14,Age 0 to 4,3,1,4,8
+23090,Potterville Public Schools,02170,Potterville Elementary School,14,Age 5 to 19,0,0,1,1
+25000,Genesee ISD,02658,Special Education Services-South,14,Age 0 to 4,71,0,114,185
+25000,Genesee ISD,02658,Special Education Services-South,14,Age 5 to 19,24,0,26,50
+25000,Genesee ISD,03691,Marion D. Crouse Instr. Center,14,Age 5 to 19,47,0,107,154
+25000,Genesee ISD,03691,Marion D. Crouse Instr. Center,14,Age 20 to 26,20,2,22,44
+25000,Genesee ISD,06156,Elmer A. Knopf Learning Center,14,Age 5 to 19,124,8,243,375
+25000,Genesee ISD,06156,Elmer A. Knopf Learning Center,14,Age 20 to 26,31,2,38,71
+25000,Genesee ISD,09765,Genesee ISD Transition Center,14,Age 5 to 19,3,0,8,11
+25000,Genesee ISD,09765,Genesee ISD Transition Center,14,Age 20 to 26,45,3,39,87
+25030,Grand Blanc Community Schools,01452,Perry Kindergarten,14,Age 0 to 4,0,0,18,18
+25030,Grand Blanc Community Schools,01452,Perry Kindergarten,14,Age 5 to 19,0,0,2,2
+25060,Bendle Public Schools,03503,South Bendle Elementary School,14,Age 0 to 4,11,0,9,20
+25060,Bendle Public Schools,03503,South Bendle Elementary School,14,Age 5 to 19,1,0,1,2
+25180,Swartz Creek Community Schools,07465,Swartz Creek Academy,14,Age 0 to 4,1,0,2,3
+25180,Swartz Creek Community Schools,07465,Swartz Creek Academy,14,Age 5 to 19,0,0,3,3
+25250,Linden Community Schools,00118,Argentine Elementary School,14,Age 0 to 4,0,0,8,8
+25250,Linden Community Schools,02230,Linden Elementary School,14,Age 0 to 4,5,0,3,8
+25250,Linden Community Schools,02230,Linden Elementary School,14,Age 5 to 19,4,0,1,5
+27000,Gogebic-Ontonagon ISD,08902,Gogebic-Ontonagon ISD Special Education,14,Age 0 to 4,9,0,3,12
+27000,Gogebic-Ontonagon ISD,08902,Gogebic-Ontonagon ISD Special Education,14,Age 5 to 19,22,1,3,26
+27000,Gogebic-Ontonagon ISD,08902,Gogebic-Ontonagon ISD Special Education,14,Age 20 to 26,3,0,0,3
+28000,Traverse Bay Area ISD,07492,Adult Work Center,14,Age 5 to 19,34,4,20,58
+28000,Traverse Bay Area ISD,07492,Adult Work Center,14,Age 20 to 26,65,0,10,75
+28000,Traverse Bay Area ISD,09503,TBA Early Childhood,14,Age 0 to 4,4,0,5,9
+28000,Traverse Bay Area ISD,09503,TBA Early Childhood,14,Age 5 to 19,0,0,1,1
+28000,Traverse Bay Area ISD,09748,TBA ISD Oak Park Special Education,14,Age 0 to 4,3,0,2,5
+28000,Traverse Bay Area ISD,09748,TBA ISD Oak Park Special Education,14,Age 5 to 19,12,4,31,47
+28000,Traverse Bay Area ISD,09748,TBA ISD Oak Park Special Education,14,Age 20 to 26,1,0,3,4
+28000,Traverse Bay Area ISD,09783,TBA ISD Traverse Heights,14,Age 0 to 4,6,0,6,12
+28000,Traverse Bay Area ISD,09783,TBA ISD Traverse Heights,14,Age 5 to 19,43,8,39,90
+28010,Traverse City Area Public Schools,00599,Central Grade School,14,Age 0 to 4,6,0,0,6
+28010,Traverse City Area Public Schools,01040,Eastern Elementary School,14,Age 5 to 19,0,0,1,1
+28010,Traverse City Area Public Schools,01844,Interlochen Elementary School,14,Age 0 to 4,3,0,0,3
+28010,Traverse City Area Public Schools,01844,Interlochen Elementary School,14,Age 5 to 19,2,0,5,7
+28010,Traverse City Area Public Schools,02250,Long Lake Elementary School,14,Age 0 to 4,7,2,1,10
+28010,Traverse City Area Public Schools,04201,Traverse Heights Elem. School,14,Age 0 to 4,11,2,0,13
+28010,Traverse City Area Public Schools,04201,Traverse Heights Elem. School,14,Age 5 to 19,1,0,0,1
+28010,Traverse City Area Public Schools,04549,Willow Hill Elementary School,14,Age 5 to 19,2,1,0,3
+28010,Traverse City Area Public Schools,07461,Blair Elementary School,14,Age 0 to 4,8,3,0,11
+28010,Traverse City Area Public Schools,07573,Courtade Elementary School,14,Age 0 to 4,1,0,0,1
+28090,Kingsley Area Schools,05896,Kingsley Area Elementary School,14,Age 5 to 19,1,0,0,1
+29000,Gratiot-Isabella RESD,06883,RESD Isabella County,14,Age 0 to 4,14,0,0,14
+29000,Gratiot-Isabella RESD,06883,RESD Isabella County,14,Age 5 to 19,19,0,16,35
+29000,Gratiot-Isabella RESD,06883,RESD Isabella County,14,Age 20 to 26,4,0,8,12
+29000,Gratiot-Isabella RESD,07502,RESD Gratiot County,14,Age 0 to 4,13,0,0,13
+29000,Gratiot-Isabella RESD,07502,RESD Gratiot County,14,Age 5 to 19,40,0,26,66
+29000,Gratiot-Isabella RESD,07502,RESD Gratiot County,14,Age 20 to 26,7,0,6,13
+30000,Hillsdale ISD,00737,Greenfield School,14,Age 5 to 19,9,0,5,14
+30000,Hillsdale ISD,00737,Greenfield School,14,Age 20 to 26,11,0,8,19
+30000,Hillsdale ISD,09169,The Manor,14,Age 5 to 19,0,0,12,12
+31000,Copper Country ISD,03822,Copper Country Learning Center,14,Age 5 to 19,22,1,11,34
+31000,Copper Country ISD,03822,Copper Country Learning Center,14,Age 20 to 26,9,0,10,19
+31010,Hancock Public Schools,01555,Hancock Central High School,14,Age 20 to 26,0,0,1,1
+31020,Adams Township School District,01893,Jeffers High School,14,Age 5 to 19,1,0,0,1
+31030,Public Schools of Calumet,00497,Calumet High School,14,Age 5 to 19,3,0,0,3
+31030,Public Schools of Calumet,04357,Washington Middle School,14,Age 5 to 19,1,0,0,1
+32000,Huron ISD,07287,Huron Learning Center,14,Age 0 to 4,3,0,4,7
+32000,Huron ISD,07287,Huron Learning Center,14,Age 5 to 19,3,0,10,13
+32000,Huron ISD,07287,Huron Learning Center,14,Age 20 to 26,9,0,1,10
+33000,Ingham ISD,06962,Heartwood School,14,Age 0 to 4,0,0,7,7
+33000,Ingham ISD,06962,Heartwood School,14,Age 5 to 19,16,0,60,76
+33000,Ingham ISD,06962,Heartwood School,14,Age 20 to 26,11,0,31,42
+33000,Ingham ISD,08847,Ingham Administrative Unit,14,Age 0 to 4,0,0,2,2
+33000,Ingham ISD,08847,Ingham Administrative Unit,14,Age 5 to 19,1,0,16,17
+33020,Lansing Public School District,00326,Bingham School,14,Age 0 to 4,1,0,0,1
+33020,Lansing Public School District,01122,Elmhurst School,14,Age 0 to 4,20,0,7,27
+33020,Lansing Public School District,01122,Elmhurst School,14,Age 5 to 19,10,0,0,10
+33020,Lansing Public School District,01269,Forest View School,14,Age 0 to 4,24,2,12,38
+33020,Lansing Public School District,01269,Forest View School,14,Age 5 to 19,10,0,0,10
+33020,Lansing Public School District,03462,Sheridan Road School,14,Age 0 to 4,29,2,8,39
+33020,Lansing Public School District,03462,Sheridan Road School,14,Age 5 to 19,5,0,1,6
+33020,Lansing Public School District,05261,Beekman Center,14,Age 0 to 4,10,1,6,17
+33020,Lansing Public School District,05261,Beekman Center,14,Age 5 to 19,55,9,34,98
+33020,Lansing Public School District,05261,Beekman Center,14,Age 20 to 26,50,4,28,82
+33020,Lansing Public School District,06662,North School,14,Age 0 to 4,3,0,2,5
+33020,Lansing Public School District,09834,Harley Franks Early Childhood Center,14,Age 0 to 4,47,1,16,64
+33020,Lansing Public School District,09834,Harley Franks Early Childhood Center,14,Age 5 to 19,4,0,1,5
+33060,Haslett Public Schools,04529,Wilkshire School,14,Age 0 to 4,2,1,13,16
+33060,Haslett Public Schools,04529,Wilkshire School,14,Age 5 to 19,1,0,3,4
+33100,Leslie Public Schools,01846,Leslie Middle School,14,Age 5 to 19,1,0,0,1
+33220,Webberville Community Schools,04416,Webberville Elementary School,14,Age 0 to 4,0,0,1,1
+33230,Williamston Community Schools,08620,Williamston Discovery Elementary School,14,Age 0 to 4,0,0,3,3
+34000,Ionia ISD,00722,Freedom Acres School,14,Age 0 to 4,1,1,1,3
+34000,Ionia ISD,00722,Freedom Acres School,14,Age 5 to 19,40,4,38,82
+34000,Ionia ISD,00722,Freedom Acres School,14,Age 20 to 26,17,2,29,48
+34010,Ionia Public Schools,01914,Jefferson School,14,Age 0 to 4,41,2,18,61
+34010,Ionia Public Schools,01914,Jefferson School,14,Age 5 to 19,4,1,3,8
+34090,Lakewood Public Schools,04451,West Elementary School,14,Age 0 to 4,5,5,0,10
+34090,Lakewood Public Schools,04451,West Elementary School,14,Age 5 to 19,1,0,0,1
+34090,Lakewood Public Schools,04581,Woodland Elementary School,14,Age 0 to 4,1,0,0,1
+34110,Portland Public School District,03101,Oakwood Elementary School,14,Age 0 to 4,2,0,11,13
+34110,Portland Public School District,06310,Portland Middle School,14,Age 0 to 4,1,0,10,11
+34120,Saranac Community Schools,07567,Saranac Elementary School,14,Age 0 to 4,10,5,13,28
+34120,Saranac Community Schools,07567,Saranac Elementary School,14,Age 5 to 19,1,1,0,2
+35000,Iosco RESA,08870,Iosco RESA Special Education,14,Age 0 to 4,1,0,0,1
+35000,Iosco RESA,08870,Iosco RESA Special Education,14,Age 5 to 19,31,10,3,44
+35000,Iosco RESA,08870,Iosco RESA Special Education,14,Age 20 to 26,4,1,3,8
+35020,Hale Area Schools,09979,Hale Elementary/Middle School,14,Age 5 to 19,17,6,0,23
+37010,Mt. Pleasant City School District,02635,West Intermediate School,14,Age 5 to 19,3,0,8,11
+37010,Mt. Pleasant City School District,02636,Mt. Pleasant Senior High School,14,Age 5 to 19,5,2,9,16
+37010,Mt. Pleasant City School District,02636,Mt. Pleasant Senior High School,14,Age 20 to 26,20,0,3,23
+37010,Mt. Pleasant City School District,03292,Rosebush School,14,Age 5 to 19,4,0,7,11
+38000,Jackson ISD,00000,RESA/ISD students attending LEA school--38000,14,Age 5 to 19,2,1,7,10
+38000,Jackson ISD,05984,Lyle A. Torrant Center,14,Age 0 to 4,1,0,0,1
+38000,Jackson ISD,05984,Lyle A. Torrant Center,14,Age 5 to 19,35,13,46,94
+38000,Jackson ISD,05984,Lyle A. Torrant Center,14,Age 20 to 26,37,1,28,66
+38000,Jackson ISD,06435,Youth Home- Jackson ISD,14,Age 5 to 19,4,0,9,13
+39000,Kalamazoo RESA,01448,Croyden Avenue School,14,Age 0 to 4,2,0,0,2
+39000,Kalamazoo RESA,01448,Croyden Avenue School,14,Age 5 to 19,6,2,6,14
+39000,Kalamazoo RESA,01448,Croyden Avenue School,14,Age 20 to 26,13,1,7,21
+39000,Kalamazoo RESA,07288,Young Adult Program,14,Age 5 to 19,32,3,17,52
+39000,Kalamazoo RESA,07288,Young Adult Program,14,Age 20 to 26,54,1,24,79
+39000,Kalamazoo RESA,07289,Valley Center School,14,Age 5 to 19,0,0,1,1
+39000,Kalamazoo RESA,09368,Oakwood School,14,Age 0 to 4,28,0,64,92
+39000,Kalamazoo RESA,09777,Lakeside Academy,14,Age 5 to 19,1,0,0,1
+39010,Kalamazoo Public School District,00113,Arcadia Elementary School,14,Age 0 to 4,11,1,3,15
+39010,Kalamazoo Public School District,00602,Transition Services,14,Age 5 to 19,1,0,9,10
+39010,Kalamazoo Public School District,00602,Transition Services,14,Age 20 to 26,1,0,1,2
+39010,Kalamazoo Public School District,01501,Greenwood Elementary School,14,Age 0 to 4,15,1,0,16
+39010,Kalamazoo Public School District,01837,Indian Prairie Elementary School,14,Age 0 to 4,3,0,1,4
+39010,Kalamazoo Public School District,01837,Indian Prairie Elementary School,14,Age 5 to 19,2,0,0,2
+39010,Kalamazoo Public School District,02574,Milwood Elementary School,14,Age 0 to 4,13,0,6,19
+39010,Kalamazoo Public School District,02762,Northglade Montessori School,14,Age 0 to 4,10,1,0,11
+39030,Comstock Public Schools,02725,North Elementary School,14,Age 0 to 4,16,0,4,20
+39030,Comstock Public Schools,02725,North Elementary School,14,Age 5 to 19,4,0,1,5
+39130,Parchment School District,02940,Parchment Northwood Elem. School,14,Age 0 to 4,1,0,6,7
+39130,Parchment School District,02941,Parchment North Elem. School,14,Age 0 to 4,0,0,1,1
+39130,Parchment School District,05885,Parchment Central Elem. School,14,Age 0 to 4,2,0,4,6
+39130,Parchment School District,05885,Parchment Central Elem. School,14,Age 5 to 19,0,0,3,3
+39140,Portage Public Schools,00081,Amberly Elementary School,14,Age 0 to 4,0,0,3,3
+39140,Portage Public Schools,00100,Angling Road Elementary School,14,Age 0 to 4,2,0,1,3
+39140,Portage Public Schools,00100,Angling Road Elementary School,14,Age 5 to 19,0,0,4,4
+39140,Portage Public Schools,00583,Central Elementary School,14,Age 0 to 4,2,0,9,11
+39140,Portage Public Schools,00583,Central Elementary School,14,Age 5 to 19,2,0,4,6
+39140,Portage Public Schools,01610,Haverhill Elementary School,14,Age 0 to 4,0,0,7,7
+39140,Portage Public Schools,01610,Haverhill Elementary School,14,Age 5 to 19,0,0,2,2
+39140,Portage Public Schools,02076,Lake Center Elementary School,14,Age 0 to 4,0,0,3,3
+39140,Portage Public Schools,02561,Portage Community High School,14,Age 0 to 4,1,0,4,5
+39140,Portage Public Schools,05561,Woodland Elementary School,14,Age 0 to 4,0,0,9,9
+39140,Portage Public Schools,07926,Moorsbridge Elementary School,14,Age 0 to 4,5,0,12,17
+39140,Portage Public Schools,09848,12th Street Elementary,14,Age 0 to 4,1,0,1,2
+39170,Vicksburg Community Schools,01836,Indian Lake Elementary School,14,Age 0 to 4,2,0,2,4
+39170,Vicksburg Community Schools,01836,Indian Lake Elementary School,14,Age 5 to 19,2,0,0,2
+39170,Vicksburg Community Schools,04104,Sunset Lake Elementary School,14,Age 0 to 4,2,0,22,24
+39170,Vicksburg Community Schools,04104,Sunset Lake Elementary School,14,Age 5 to 19,0,0,4,4
+41025,Northview Public School District,01028,East Oakview Elementary School,14,Age 5 to 19,1,0,1,2
+41025,Northview Public School District,04461,West Oakview Elementary School,14,Age 0 to 4,16,1,19,36
+41025,Northview Public School District,04461,West Oakview Elementary School,14,Age 5 to 19,2,0,1,3
+41040,Byron Center Public Schools,00475,Byron Center High School,14,Age 5 to 19,0,0,2,2
+41050,Caledonia Community Schools,09504,Duncan Lake Early Childhood Center,14,Age 0 to 4,8,1,20,29
+41050,Caledonia Community Schools,09504,Duncan Lake Early Childhood Center,14,Age 5 to 19,0,0,4,4
+41050,Caledonia Community Schools,09723,Duncan Lake Transitions Program,14,Age 5 to 19,3,0,4,7
+41050,Caledonia Community Schools,09723,Duncan Lake Transitions Program,14,Age 20 to 26,23,0,1,24
+41070,Cedar Springs Public Schools,09743,R1TS,14,Age 5 to 19,11,0,4,15
+41070,Cedar Springs Public Schools,09743,R1TS,14,Age 20 to 26,4,2,7,13
+41110,Forest Hills Public Schools,09712,Forest Hills Transition Center,14,Age 5 to 19,0,0,5,5
+41110,Forest Hills Public Schools,09712,Forest Hills Transition Center,14,Age 20 to 26,4,0,11,15
+41130,Grandville Public Schools,01463,Grandville High School,14,Age 5 to 19,4,0,4,8
+41130,Grandville Public Schools,01463,Grandville High School,14,Age 20 to 26,5,0,2,7
+41130,Grandville Public Schools,01466,Grandville South Elementary School,14,Age 5 to 19,5,3,9,17
+41140,Kelloggsville Public Schools,02006,Southeast Kelloggsville School,14,Age 5 to 19,1,0,0,1
+41140,Kelloggsville Public Schools,09514,Kelloggsville Early Childhood Center,14,Age 0 to 4,9,1,19,29
+41145,Kenowa Hills Public Schools,05529,Kenowa Hills Middle School,14,Age 5 to 19,0,0,4,4
+41160,Kentwood Public Schools,02500,Meadowlawn Elementary,14,Age 0 to 4,33,5,22,60
+41160,Kentwood Public Schools,08172,Crossroads Alternative High School,14,Age 5 to 19,4,0,1,5
+41160,Kentwood Public Schools,08172,Crossroads Alternative High School,14,Age 20 to 26,8,0,0,8
+41160,Kentwood Public Schools,09669,Discovery Elementary,14,Age 0 to 4,17,3,8,28
+41160,Kentwood Public Schools,09669,Discovery Elementary,14,Age 5 to 19,3,0,0,3
+41170,Lowell Area Schools,05001,Bushnell Elementary School,14,Age 0 to 4,6,0,33,39
+41170,Lowell Area Schools,05001,Bushnell Elementary School,14,Age 5 to 19,1,0,2,3
+41210,Rockford Public Schools,09391,Rockford Special Services,14,Age 5 to 19,0,1,4,5
+41210,Rockford Public Schools,09391,Rockford Special Services,14,Age 20 to 26,3,0,9,12
+41240,Sparta Area Schools,07467,Ridgeview Elementary School,14,Age 0 to 4,12,1,17,30
+41240,Sparta Area Schools,07467,Ridgeview Elementary School,14,Age 5 to 19,4,1,3,8
+44000,Lapeer ISD,06544,Lapeer Co. Education and Technology  Center,14,Age 5 to 19,14,2,22,38
+44000,Lapeer ISD,06544,Lapeer Co. Education and Technology  Center,14,Age 20 to 26,27,0,12,39
+46000,Lenawee ISD,00565,Milton C. Porter Ed. Center,14,Age 0 to 4,1,0,3,4
+46000,Lenawee ISD,00565,Milton C. Porter Ed. Center,14,Age 5 to 19,12,2,31,45
+46000,Lenawee ISD,00565,Milton C. Porter Ed. Center,14,Age 20 to 26,19,5,14,38
+47000,Livingston ESA,03613,Pathway School,14,Age 0 to 4,0,0,1,1
+47000,Livingston ESA,03613,Pathway School,14,Age 5 to 19,26,8,88,122
+47000,Livingston ESA,03613,Pathway School,14,Age 20 to 26,28,2,36,66
+48040,Tahquamenon Area Schools,02692,Newberry High School,14,Age 5 to 19,1,0,1,2
+48040,Tahquamenon Area Schools,02692,Newberry High School,14,Age 20 to 26,0,0,1,1
+49040,Les Cheneaux Community Schools,08446,Cedarville Middle School,14,Age 5 to 19,1,0,0,1
+49055,Engadine Consolidated Schools,01148,Engadine Elementary School,14,Age 5 to 19,0,0,5,5
+49055,Engadine Consolidated Schools,01148,Engadine Elementary School,14,Age 20 to 26,1,0,0,1
+50000,Macomb ISD,01346,Glen H. Peters School,14,Age 5 to 19,2,0,2,4
+50000,Macomb ISD,01346,Glen H. Peters School,14,Age 20 to 26,12,0,24,36
+50000,Macomb ISD,01350,Lutz School for Work Experience,14,Age 5 to 19,12,0,52,64
+50000,Macomb ISD,01350,Lutz School for Work Experience,14,Age 20 to 26,53,0,131,184
+50000,Macomb ISD,01363,Keith Bovenschen School,14,Age 5 to 19,1,0,0,1
+50000,Macomb ISD,01363,Keith Bovenschen School,14,Age 20 to 26,11,2,22,35
+50000,Macomb ISD,08395,Bozymowski Center,14,Age 0 to 4,2,0,9,11
+50000,Macomb ISD,08395,Bozymowski Center,14,Age 5 to 19,4,1,2,7
+50000,Macomb ISD,08395,Bozymowski Center,14,Age 20 to 26,13,1,15,29
+50010,Center Line Public Schools,00580,Center Line High School,14,Age 20 to 26,0,1,0,1
+50080,Chippewa Valley Schools,00557,Fox Elementary School,14,Age 0 to 4,3,0,20,23
+50080,Chippewa Valley Schools,00557,Fox Elementary School,14,Age 5 to 19,0,0,1,1
+50080,Chippewa Valley Schools,00728,Clinton Valley Elementary School,14,Age 0 to 4,3,0,12,15
+50080,Chippewa Valley Schools,00728,Clinton Valley Elementary School,14,Age 5 to 19,1,0,0,1
+50080,Chippewa Valley Schools,02821,Ojibwa Elementary School,14,Age 0 to 4,1,0,22,23
+50080,Chippewa Valley Schools,02821,Ojibwa Elementary School,14,Age 5 to 19,1,0,0,1
+50080,Chippewa Valley Schools,06359,Huron Elementary School,14,Age 0 to 4,6,0,18,24
+50080,Chippewa Valley Schools,06588,Miami Elementary School,14,Age 0 to 4,3,0,20,23
+50140,L'Anse Creuse Public Schools,06360,Emma V. Lobbestael Elem. School,14,Age 0 to 4,5,0,34,39
+50140,L'Anse Creuse Public Schools,06360,Emma V. Lobbestael Elem. School,14,Age 5 to 19,1,0,6,7
+50140,L'Anse Creuse Public Schools,09376,Anna Mae Burdi Early Childhood Center,14,Age 0 to 4,14,0,33,47
+50140,L'Anse Creuse Public Schools,09376,Anna Mae Burdi Early Childhood Center,14,Age 5 to 19,2,0,2,4
+50190,Romeo Community Schools,00839,Croswell Elementary School,14,Age 0 to 4,17,0,70,87
+50190,Romeo Community Schools,00839,Croswell Elementary School,14,Age 5 to 19,1,0,5,6
+50220,Van Dyke Public Schools,02379,Marjorie Carlson Elementary School,14,Age 0 to 4,25,0,21,46
+50220,Van Dyke Public Schools,02379,Marjorie Carlson Elementary School,14,Age 5 to 19,1,0,2,3
+50901,Macomb Academy,08051,Macomb Academy,14,Age 5 to 19,8,0,37,45
+50901,Macomb Academy,08051,Macomb Academy,14,Age 20 to 26,22,0,105,127
+51000,Manistee ISD,08937,Manistee ISD Center Programs,14,Age 0 to 4,6,2,0,8
+51000,Manistee ISD,08937,Manistee ISD Center Programs,14,Age 5 to 19,9,3,6,18
+51000,Manistee ISD,08937,Manistee ISD Center Programs,14,Age 20 to 26,6,1,5,12
+52000,Marquette-Alger RESA,08859,Marquette-Alger Administrative Unit,14,Age 5 to 19,0,0,4,4
+52000,Marquette-Alger RESA,08859,Marquette-Alger Administrative Unit,14,Age 20 to 26,3,0,15,18
+52015,N.I.C.E. Community Schools,06054,Westwood High School,14,Age 20 to 26,1,0,0,1
+52090,Negaunee Public Schools,02666,Negaunee High School,14,Age 5 to 19,0,0,1,1
+52090,Negaunee Public Schools,02666,Negaunee High School,14,Age 20 to 26,0,0,2,2
+52170,Marquette Area Public Schools,02389,Marquette Senior High School,14,Age 5 to 19,6,1,5,12
+52170,Marquette Area Public Schools,02389,Marquette Senior High School,14,Age 20 to 26,4,0,1,5
+52170,Marquette Area Public Schools,03402,Sandy Knoll School,14,Age 5 to 19,3,1,3,7
+52170,Marquette Area Public Schools,06268,Bothwell Middle School,14,Age 5 to 19,0,0,1,1
+52170,Marquette Area Public Schools,07822,Cherry Creek Elementary School,14,Age 5 to 19,1,0,3,4
+53000,Mason-Lake ISD,00000,RESA/ISD students attending LEA school--53000,14,Age 5 to 19,18,0,8,26
+53000,Mason-Lake ISD,00000,RESA/ISD students attending LEA school--53000,14,Age 20 to 26,1,0,1,2
+53000,Mason-Lake ISD,08874,Mason-Lake ISD Special Education,14,Age 5 to 19,9,0,10,19
+53000,Mason-Lake ISD,08874,Mason-Lake ISD Special Education,14,Age 20 to 26,3,0,1,4
+53040,Ludington Area School District,02279,Ludington High School,14,Age 5 to 19,1,1,3,5
+53040,Ludington Area School District,02279,Ludington High School,14,Age 20 to 26,6,3,2,11
+54000,Mecosta-Osceola ISD,06159,Mecosta-Osceola Education Center,14,Age 0 to 4,8,0,5,13
+54000,Mecosta-Osceola ISD,06159,Mecosta-Osceola Education Center,14,Age 5 to 19,38,0,63,101
+54000,Mecosta-Osceola ISD,06159,Mecosta-Osceola Education Center,14,Age 20 to 26,11,0,25,36
+54010,Big Rapids Public Schools,01057,Eastwood Early Childhood Center,14,Age 0 to 4,16,0,2,18
+54010,Big Rapids Public Schools,01057,Eastwood Early Childhood Center,14,Age 5 to 19,2,0,1,3
+54025,Chippewa Hills School District,04424,Weidman Elementary School,14,Age 0 to 4,13,2,2,17
+54025,Chippewa Hills School District,04424,Weidman Elementary School,14,Age 5 to 19,4,0,0,4
+55000,Menominee ISD,08944,Menominee ISD Special Education,14,Age 5 to 19,13,1,6,20
+55000,Menominee ISD,08944,Menominee ISD Special Education,14,Age 20 to 26,3,0,1,4
+55100,Menominee Area Public Schools,09387,Blesch Intermediate School,14,Age 5 to 19,1,0,0,1
+55100,Menominee Area Public Schools,09387,Blesch Intermediate School,14,Age 20 to 26,2,0,0,2
+56000,Midland County Educational Service Agency,08857,MCESA and Sugnet School Classroom Programs,14,Age 0 to 4,2,0,1,3
+56000,Midland County Educational Service Agency,08857,MCESA and Sugnet School Classroom Programs,14,Age 5 to 19,6,1,6,13
+56000,Midland County Educational Service Agency,08857,MCESA and Sugnet School Classroom Programs,14,Age 20 to 26,11,0,10,21
+56010,Midland Public Schools,02555,Midland High School,14,Age 20 to 26,0,0,1,1
+56010,Midland Public Schools,05157,H.H. Dow High School,14,Age 5 to 19,9,3,7,19
+56010,Midland Public Schools,05157,H.H. Dow High School,14,Age 20 to 26,6,0,5,11
+56010,Midland Public Schools,09919,Post Secondary Transition Program,14,Age 5 to 19,0,0,2,2
+56010,Midland Public Schools,09919,Post Secondary Transition Program,14,Age 20 to 26,15,1,7,23
+58000,Monroe ISD,01274,Monroe County Education Center,14,Age 5 to 19,20,7,61,88
+58000,Monroe ISD,01274,Monroe County Education Center,14,Age 20 to 26,20,3,29,52
+58000,Monroe ISD,09253,Monroe County Transition Center,14,Age 5 to 19,3,0,10,13
+58000,Monroe ISD,09253,Monroe County Transition Center,14,Age 20 to 26,12,2,33,47
+59000,Montcalm Area ISD,06333,Seiter Education Service Center,14,Age 0 to 4,2,0,0,2
+59000,Montcalm Area ISD,06333,Seiter Education Service Center,14,Age 5 to 19,21,1,16,38
+59000,Montcalm Area ISD,06333,Seiter Education Service Center,14,Age 20 to 26,19,0,15,34
+59000,Montcalm Area ISD,09238,ISD/Local Center Programs,14,Age 0 to 4,0,1,0,1
+59000,Montcalm Area ISD,09238,ISD/Local Center Programs,14,Age 5 to 19,52,12,16,80
+59000,Montcalm Area ISD,09902,Harold O. Steele Education Center,14,Age 5 to 19,15,0,5,20
+61000,Muskegon Area ISD,07068,Wesley School,14,Age 0 to 4,7,0,1,8
+61000,Muskegon Area ISD,07068,Wesley School,14,Age 5 to 19,57,7,28,92
+61000,Muskegon Area ISD,07068,Wesley School,14,Age 20 to 26,96,2,9,107
+61010,Muskegon City School District,06290,Nelson EC,14,Age 0 to 4,43,2,21,66
+61010,Muskegon City School District,06290,Nelson EC,14,Age 5 to 19,11,0,1,12
+61020,Muskegon Heights School District,01419,Glendale Early Childhood Academy,14,Age 0 to 4,15,0,3,18
+61020,Muskegon Heights School District,04154,Theodore Roosevelt School,14,Age 0 to 4,17,1,2,20
+61060,Mona Shores Public School District,01670,Ross Park Elementary School,14,Age 0 to 4,10,0,13,23
+61060,Mona Shores Public School District,01670,Ross Park Elementary School,14,Age 5 to 19,0,0,2,2
+61065,Oakridge Public Schools,08893,Oakridge Early Childhood Center,14,Age 0 to 4,8,1,2,11
+61065,Oakridge Public Schools,08893,Oakridge Early Childhood Center,14,Age 5 to 19,2,0,1,3
+61120,Holton Public Schools,01712,Holton Elementary School,14,Age 0 to 4,8,1,5,14
+61120,Holton Public Schools,01712,Holton Elementary School,14,Age 5 to 19,2,0,0,2
+61180,Montague Area Public Schools,03139,Oehrli Elementary School,14,Age 0 to 4,12,1,5,18
+61180,Montague Area Public Schools,03139,Oehrli Elementary School,14,Age 5 to 19,2,0,0,2
+61190,Orchard View Schools,07371,Orchard View Early Elementary,14,Age 0 to 4,7,0,3,10
+61190,Orchard View Schools,07371,Orchard View Early Elementary,14,Age 5 to 19,2,0,0,2
+61210,Ravenna Public Schools,03154,Beechnau Elementary School,14,Age 0 to 4,3,1,2,6
+61220,Reeths-Puffer Schools,02495,McMillan Elementary School,14,Age 0 to 4,11,0,30,41
+61220,Reeths-Puffer Schools,02495,McMillan Elementary School,14,Age 5 to 19,2,0,2,4
+61220,Reeths-Puffer Schools,08609,Reeths-Puffer Intermediate Sch.,14,Age 0 to 4,7,0,9,16
+61220,Reeths-Puffer Schools,08609,Reeths-Puffer Intermediate Sch.,14,Age 5 to 19,1,0,0,1
+61240,Whitehall District Schools,08057,Shoreline Elementary School,14,Age 0 to 4,12,0,11,23
+61240,Whitehall District Schools,08057,Shoreline Elementary School,14,Age 5 to 19,0,0,1,1
+61904,Three Oaks Public School Academy,09304,Three Oaks Public School Academy,14,Age 5 to 19,2,0,0,2
+62000,Newaygo County RESA,08955,Fremont Education and Activity Center,14,Age 5 to 19,7,1,7,15
+62000,Newaygo County RESA,08955,Fremont Education and Activity Center,14,Age 20 to 26,16,2,4,22
+63010,Birmingham City School District,01154,Ernest W. Seaholm High School,14,Age 5 to 19,1,0,13,14
+63010,Birmingham City School District,01154,Ernest W. Seaholm High School,14,Age 20 to 26,3,0,15,18
+63010,Birmingham City School District,04608,Wylie E. Groves High School,14,Age 20 to 26,0,0,1,1
+63020,Ferndale Public Schools,01222,Ferndale High School,14,Age 5 to 19,8,1,6,15
+63020,Ferndale Public Schools,01222,Ferndale High School,14,Age 20 to 26,1,0,1,2
+63030,Pontiac City School District,06213,Whitmer Resource Center,14,Age 0 to 4,22,0,23,45
+63030,Pontiac City School District,06213,Whitmer Resource Center,14,Age 5 to 19,1,0,0,1
+63030,Pontiac City School District,08689,Kennedy Center,14,Age 0 to 4,3,1,0,4
+63030,Pontiac City School District,08689,Kennedy Center,14,Age 5 to 19,52,4,14,70
+63030,Pontiac City School District,08689,Kennedy Center,14,Age 20 to 26,62,0,12,74
+63050,Berkley School District,00291,Berkley High School,14,Age 20 to 26,0,0,1,1
+63060,Southfield Public School District,02749,Bussey Center for Early Child Education,14,Age 0 to 4,0,0,6,6
+63070,Avondale School District,00148,Auburn Elementary School,14,Age 0 to 4,2,1,16,19
+63070,Avondale School District,00148,Auburn Elementary School,14,Age 5 to 19,1,0,0,1
+63080,Bloomfield Hills School District,04984,Bloomfield Hills Andover H.S.,14,Age 5 to 19,5,0,3,8
+63080,Bloomfield Hills School District,04984,Bloomfield Hills Andover H.S.,14,Age 20 to 26,3,0,4,7
+63080,Bloomfield Hills School District,05558,Wing Lake Developmental Center,14,Age 0 to 4,0,0,1,1
+63080,Bloomfield Hills School District,05558,Wing Lake Developmental Center,14,Age 5 to 19,35,2,58,95
+63080,Bloomfield Hills School District,05558,Wing Lake Developmental Center,14,Age 20 to 26,29,0,7,36
+63110,Oxford Community Schools,02437,Oxford High School,14,Age 5 to 19,2,1,0,3
+63110,Oxford Community Schools,02437,Oxford High School,14,Age 20 to 26,6,0,0,6
+63130,Hazel Park City School District,02399,Jardon Vocational School,14,Age 5 to 19,27,1,18,46
+63130,Hazel Park City School District,02399,Jardon Vocational School,14,Age 20 to 26,64,1,34,99
+63130,Hazel Park City School District,09429,Webb Elementary School,14,Age 0 to 4,2,0,2,4
+63150,Troy School District,06365,Martell Elementary School,14,Age 0 to 4,0,0,6,6
+63150,Troy School District,09460,Troy GROW Program,14,Age 5 to 19,0,0,10,10
+63150,Troy School District,09460,Troy GROW Program,14,Age 20 to 26,6,0,18,24
+63150,Troy School District,09685,Troy Early Childhood,14,Age 0 to 4,2,0,29,31
+63150,Troy School District,09685,Troy Early Childhood,14,Age 5 to 19,1,0,1,2
+63160,West Bloomfield School District,01401,Ealy Elementary School,14,Age 0 to 4,3,0,41,44
+63160,West Bloomfield School District,01401,Ealy Elementary School,14,Age 5 to 19,1,0,8,9
+63190,Clarkston Community School District,00706,Clarkston High School,14,Age 5 to 19,4,0,11,15
+63190,Clarkston Community School District,00706,Clarkston High School,14,Age 20 to 26,4,0,7,11
+63190,Clarkston Community School District,07565,Student Support Services,14,Age 20 to 26,0,0,1,1
+63200,Farmington Public School District,00735,Cloverdale School,14,Age 5 to 19,6,0,7,13
+63200,Farmington Public School District,00735,Cloverdale School,14,Age 20 to 26,8,0,7,15
+63200,Farmington Public School District,01203,Visions Unlimited,14,Age 5 to 19,9,0,11,20
+63200,Farmington Public School District,01203,Visions Unlimited,14,Age 20 to 26,35,0,39,74
+63200,Farmington Public School District,01204,Farmington High School,14,Age 20 to 26,0,0,1,1
+63210,Holly Area School District,08711,Karl Richter Campus,14,Age 0 to 4,0,0,1,1
+63210,Holly Area School District,08711,Karl Richter Campus,14,Age 5 to 19,3,1,7,11
+63210,Holly Area School District,08711,Karl Richter Campus,14,Age 20 to 26,12,0,15,27
+63220,Huron Valley Schools,02641,Muir Middle School,14,Age 5 to 19,10,0,0,10
+63220,Huron Valley Schools,02641,Muir Middle School,14,Age 20 to 26,17,0,0,17
+63230,Lake Orion Community Schools,02088,Lake Orion Community High School,14,Age 5 to 19,2,0,3,5
+63230,Lake Orion Community Schools,02088,Lake Orion Community High School,14,Age 20 to 26,11,0,3,14
+63240,South Lyon Community Schools,09365,Sharon J. Hardy Elementary School,14,Age 0 to 4,0,0,1,1
+63250,Oak Park City School District,02166,Lessenger Elementary School,14,Age 0 to 4,2,0,0,2
+63260,Rochester Community School District,01551,Hamlin Elementary School,14,Age 0 to 4,46,0,0,46
+63260,Rochester Community School District,01551,Hamlin Elementary School,14,Age 5 to 19,1,0,0,1
+63260,Rochester Community School District,03242,Rochester High School,14,Age 5 to 19,4,0,13,17
+63260,Rochester Community School District,03242,Rochester High School,14,Age 20 to 26,5,0,16,21
+63270,Clawson Public Schools,00710,Clawson High School,14,Age 20 to 26,0,0,1,1
+63280,Lamphere Public Schools,02639,Lamphere Center,14,Age 5 to 19,19,1,12,32
+63280,Lamphere Public Schools,02639,Lamphere Center,14,Age 20 to 26,37,0,11,48
+63290,Walled Lake Consolidated Schools,07792,Walled Lake Community Education Center,14,Age 5 to 19,14,1,7,22
+63290,Walled Lake Consolidated Schools,07792,Walled Lake Community Education Center,14,Age 20 to 26,17,0,9,26
+63300,Waterford School District,04092,Kingsley Montgomery School,14,Age 0 to 4,3,0,2,5
+63300,Waterford School District,04092,Kingsley Montgomery School,14,Age 5 to 19,9,0,3,12
+63300,Waterford School District,04092,Kingsley Montgomery School,14,Age 20 to 26,37,0,4,41
+63300,Waterford School District,05535,Waterford Mott High School,14,Age 5 to 19,2,0,1,3
+63300,Waterford School District,05535,Waterford Mott High School,14,Age 20 to 26,1,0,0,1
+63906,Pontiac Academy for Excellence,08433,Pontiac Academy for Excellence - High School,14,Age 5 to 19,2,0,0,2
+64000,Oceana Intermediate School District,07574,OISD Developmental Center,14,Age 0 to 4,1,0,0,1
+64000,Oceana Intermediate School District,07574,OISD Developmental Center,14,Age 5 to 19,20,2,12,34
+64000,Oceana Intermediate School District,07574,OISD Developmental Center,14,Age 20 to 26,4,0,4,8
+67020,Evart Public Schools,01164,Evart Elementary School,14,Age 0 to 4,11,1,7,19
+67055,Pine River Area Schools,09070,Pine River Middle School,14,Age 5 to 19,2,0,0,2
+70000,Ottawa Area ISD,01054,Ottawa Area Center,14,Age 5 to 19,51,13,64,128
+70000,Ottawa Area ISD,01054,Ottawa Area Center,14,Age 20 to 26,85,0,39,124
+70010,Grand Haven Area Public Schools,01454,White Pines Middle School,14,Age 5 to 19,0,1,4,5
+70020,Holland City School District,09964,West,14,Age 0 to 4,1,1,3,5
+70040,Allendale Public School District,00069,Evergreen Elementary,14,Age 0 to 4,7,0,3,10
+70040,Allendale Public School District,00069,Evergreen Elementary,14,Age 5 to 19,1,0,0,1
+70175,Jenison Public Schools,06127,Jenison High School,14,Age 20 to 26,2,0,0,2
+70175,Jenison Public Schools,09405,Jenison Public Schools Early Childhood Center,14,Age 0 to 4,5,0,13,18
+70175,Jenison Public Schools,09405,Jenison Public Schools Early Childhood Center,14,Age 5 to 19,0,0,2,2
+72000,C.O.O.R. ISD,07995,C.O.O.R. Special Educational Center,14,Age 5 to 19,34,9,14,57
+72000,C.O.O.R. ISD,07995,C.O.O.R. Special Educational Center,14,Age 20 to 26,12,2,9,23
+72020,Houghton Lake Community Schools,00750,Collins Elementary School,14,Age 0 to 4,8,0,4,12
+72020,Houghton Lake Community Schools,00750,Collins Elementary School,14,Age 5 to 19,3,1,0,4
+73000,Saginaw ISD,07016,Saginaw County Juvenile Center,14,Age 5 to 19,30,0,0,30
+73000,Saginaw ISD,07038,M.G. Millet Learning Center,14,Age 0 to 4,33,1,14,48
+73000,Saginaw ISD,07038,M.G. Millet Learning Center,14,Age 5 to 19,111,11,85,207
+73000,Saginaw ISD,07038,M.G. Millet Learning Center,14,Age 20 to 26,19,1,6,26
+73000,Saginaw ISD,08905,Saginaw ISD Transitions Center,14,Age 5 to 19,3,0,2,5
+73000,Saginaw ISD,08905,Saginaw ISD Transitions Center,14,Age 20 to 26,18,1,4,23
+73030,Carrollton School District,05141,Carrollton Elementary School,14,Age 0 to 4,0,0,2,2
+73080,Buena Vista School District,01628,Henry Doerr CDC,14,Age 0 to 4,1,0,0,1
+73180,Bridgeport-Spaulding Community School District,04173,Thomas White School,14,Age 0 to 4,2,0,0,2
+73210,Hemlock Public School District,01624,Hemlock Elementary School,14,Age 0 to 4,5,1,12,18
+74000,St. Clair County RESA,03376,Woodland Developmental Center,14,Age 5 to 19,49,9,50,108
+74000,St. Clair County RESA,03376,Woodland Developmental Center,14,Age 20 to 26,43,1,17,61
+74010,Port Huron Area School District,01366,Garfield Elementary School,14,Age 0 to 4,21,0,18,39
+74010,Port Huron Area School District,01772,H.D. Crull Elementary School,14,Age 0 to 4,8,5,5,18
+74010,Port Huron Area School District,01772,H.D. Crull Elementary School,14,Age 5 to 19,4,0,1,5
+74010,Port Huron Area School District,02033,Kimball Elementary School,14,Age 0 to 4,8,1,3,12
+74010,Port Huron Area School District,02033,Kimball Elementary School,14,Age 5 to 19,3,0,0,3
+74010,Port Huron Area School District,02538,Michigamme Elementary School,14,Age 0 to 4,7,1,4,12
+74010,Port Huron Area School District,02538,Michigamme Elementary School,14,Age 5 to 19,4,1,0,5
+74010,Port Huron Area School District,04160,Edison Elementary School,14,Age 0 to 4,2,0,2,4
+74010,Port Huron Area School District,06775,Indian Woods Elementary School,14,Age 0 to 4,7,0,2,9
+74030,Algonac Community School District,00053,Algonac Elementary School,14,Age 0 to 4,8,1,10,19
+74030,Algonac Community School District,00053,Algonac Elementary School,14,Age 5 to 19,3,0,1,4
+74030,Algonac Community School District,01179,Fair Haven Elementary School,14,Age 0 to 4,0,0,1,1
+74030,Algonac Community School District,01179,Fair Haven Elementary School,14,Age 5 to 19,0,0,1,1
+74040,Capac Community School District,00518,Capac Elementary School,14,Age 0 to 4,6,0,8,14
+74050,East China School District,08924,Riverview East High School,14,Age 0 to 4,13,0,32,45
+74050,East China School District,08924,Riverview East High School,14,Age 5 to 19,0,0,4,4
+74100,Marysville Public Schools,08355,Morton Elementary School,14,Age 0 to 4,1,1,1,3
+74120,Memphis Community Schools,06672,Memphis Elementary School,14,Age 0 to 4,2,0,6,8
+74130,Yale Public Schools,00157,Avoca Elementary School,14,Age 0 to 4,4,3,4,11
+75000,St. Joseph County ISD,01037,Pathfinder Center,14,Age 5 to 19,53,9,39,101
+75000,St. Joseph County ISD,01037,Pathfinder Center,14,Age 20 to 26,18,0,9,27
+75010,Sturgis Public Schools,01924,Jerolene School,14,Age 0 to 4,8,0,4,12
+75010,Sturgis Public Schools,01924,Jerolene School,14,Age 5 to 19,1,0,0,1
+75010,Sturgis Public Schools,04095,Sturgis High School,14,Age 5 to 19,1,0,0,1
+75010,Sturgis Public Schools,04337,Wall School,14,Age 5 to 19,0,1,0,1
+75030,Centreville Public Schools,00628,Centreville Elementary School,14,Age 0 to 4,1,0,4,5
+75030,Centreville Public Schools,00628,Centreville Elementary School,14,Age 5 to 19,1,0,1,2
+75080,Three Rivers Community Schools,00336,Andrews Elementary School,14,Age 0 to 4,7,0,8,15
+75080,Three Rivers Community Schools,00336,Andrews Elementary School,14,Age 5 to 19,1,0,0,1
+75080,Three Rivers Community Schools,03301,Ruth Hoppin School,14,Age 0 to 4,1,0,0,1
+76000,Sanilac ISD,06548,Sanilac Career Center,14,Age 5 to 19,0,0,1,1
+76000,Sanilac ISD,08852,Sanilac ISD Special Education Services,14,Age 0 to 4,15,2,9,26
+76000,Sanilac ISD,08852,Sanilac ISD Special Education Services,14,Age 5 to 19,53,4,50,107
+76000,Sanilac ISD,08852,Sanilac ISD Special Education Services,14,Age 20 to 26,4,3,2,9
+76080,Croswell-Lexington Community Schools,00840,Geiger Early Childhood Center,14,Age 0 to 4,4,0,2,6
+76080,Croswell-Lexington Community Schools,00840,Geiger Early Childhood Center,14,Age 5 to 19,1,0,0,1
+78000,Shiawassee Regional ESD,01035,Shiawassee RESD - Student Learning Center - West,14,Age 0 to 4,3,0,4,7
+78000,Shiawassee Regional ESD,01035,Shiawassee RESD - Student Learning Center - West,14,Age 5 to 19,74,10,51,135
+78000,Shiawassee Regional ESD,01035,Shiawassee RESD - Student Learning Center - West,14,Age 20 to 26,4,2,1,7
+78000,Shiawassee Regional ESD,09016,Shiawassee RESD - Student Learning Center - East,14,Age 5 to 19,7,0,13,20
+78000,Shiawassee Regional ESD,09016,Shiawassee RESD - Student Learning Center - East,14,Age 20 to 26,7,0,18,25
+78030,Durand Area Schools,00185,Wilbur Bills Elementary School,14,Age 0 to 4,8,1,10,19
+78030,Durand Area Schools,00185,Wilbur Bills Elementary School,14,Age 5 to 19,1,0,0,1
+78100,Corunna Public School District,00806,Corunna Middle School,14,Age 5 to 19,6,2,0,8
+78100,Corunna Public School District,02674,Nellie Reed Elementary School,14,Age 5 to 19,8,0,0,8
+78100,Corunna Public School District,06673,Corunna High School,14,Age 5 to 19,9,3,0,12
+79000,Tuscola ISD,01997,Highland Pines School,14,Age 5 to 19,83,15,53,151
+79000,Tuscola ISD,01997,Highland Pines School,14,Age 20 to 26,42,2,14,58
+79030,Cass City Public Schools,09568,Transition Center,14,Age 5 to 19,3,0,9,12
+79030,Cass City Public Schools,09568,Transition Center,14,Age 20 to 26,2,0,3,5
+80000,Van Buren ISD,06908,Bert Goens Learning Center,14,Age 5 to 19,71,10,44,125
+80000,Van Buren ISD,06908,Bert Goens Learning Center,14,Age 20 to 26,16,3,10,29
+80000,Van Buren ISD,09764,Behavioral Education Center,14,Age 5 to 19,30,4,11,45
+80000,Van Buren ISD,09764,Behavioral Education Center,14,Age 20 to 26,0,0,4,4
+80000,Van Buren ISD,09764,Behavioral Education Center,14,Age 27+,1,0,0,1
+80000,Van Buren ISD,09768,Community-based Transition Center,14,Age 5 to 19,21,3,14,38
+80000,Van Buren ISD,09768,Community-based Transition Center,14,Age 20 to 26,8,2,5,15
+81000,Washtenaw ISD,06147,High Point School,14,Age 0 to 4,0,0,2,2
+81000,Washtenaw ISD,06147,High Point School,14,Age 5 to 19,54,2,20,76
+81000,Washtenaw ISD,06147,High Point School,14,Age 20 to 26,101,2,6,109
+81000,Washtenaw ISD,07487,Young Adult Programs,14,Age 5 to 19,2,0,17,19
+81000,Washtenaw ISD,07487,Young Adult Programs,14,Age 20 to 26,31,0,59,90
+81000,Washtenaw ISD,09239,Local-Based SpecEd Programs,14,Age 5 to 19,7,0,37,44
+81000,Washtenaw ISD,09239,Local-Based SpecEd Programs,14,Age 20 to 26,0,0,1,1
+81020,School District of Ypsilanti,01157,Estabrook School,14,Age 0 to 4,2,0,1,3
+81020,School District of Ypsilanti,02062,Perry Child Development Center,14,Age 5 to 19,1,0,0,1
+81120,Saline Area Schools,06203,Saline High School,14,Age 5 to 19,2,0,14,16
+81120,Saline Area Schools,06203,Saline High School,14,Age 20 to 26,2,0,20,22
+81140,Whitmore Lake Public Schools,04515,Whitmore Lake High School,14,Age 5 to 19,1,0,0,1
+81140,Whitmore Lake Public Schools,04515,Whitmore Lake High School,14,Age 20 to 26,1,0,0,1
+82000,State of Michigan,00000,RESA/ISD students attending LEA school--82000,14,Age 5 to 19,8,0,18,26
+82000,State of Michigan,00000,RESA/ISD students attending LEA school--82000,14,Age 20 to 26,0,0,4,4
+82010,Detroit City School District,00005,"Holmes, A.L.  Elementary School",14,Age 0 to 4,1,0,1,2
+82010,Detroit City School District,00005,"Holmes, A.L.  Elementary School",14,Age 5 to 19,2,0,4,6
+82010,Detroit City School District,00015,Robinson Elementary-Middle School,14,Age 5 to 19,1,0,0,1
+82010,Detroit City School District,00039,Detroit International Academy for Young Women,14,Age 5 to 19,1,0,2,3
+82010,Detroit City School District,00176,Golightly Education Center,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,00446,Bunche Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,00463,Burt Elementary School,14,Age 0 to 4,0,0,2,2
+82010,Detroit City School District,00463,Burt Elementary School,14,Age 5 to 19,1,0,1,2
+82010,Detroit City School District,00468,Burton International School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,00510,Campbell Elementary School,14,Age 0 to 4,0,0,3,3
+82010,Detroit City School District,00510,Campbell Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,00542,Carstens Elementary School,14,Age 0 to 4,0,0,3,3
+82010,Detroit City School District,00617,Central High School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,00739,Cody College Preparatory Upper School of Teaching and Learning,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,00781,Cooke Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,00785,Cooley High School,14,Age 5 to 19,0,0,4,4
+82010,Detroit City School District,00826,Crary Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,00908,Detroit Day School For The Deaf,14,Age 0 to 4,46,0,182,228
+82010,Detroit City School District,00908,Detroit Day School For The Deaf,14,Age 5 to 19,0,0,8,8
+82010,Detroit City School District,00975,Durfee Elementary School,14,Age 0 to 4,0,0,2,2
+82010,Detroit City School District,00975,Durfee Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,01084,Edison Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,01087,Edmonson Elementary School,14,Age 0 to 4,0,0,2,2
+82010,Detroit City School District,01211,Farwell Middle School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,01518,Bethune Academy,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,01569,Harding Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,01569,Harding Elementary School,14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,01634,Ford High School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,01802,Hutchins Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,01803,Hutchinson Elementary School,14,Age 5 to 19,1,0,0,1
+82010,Detroit City School District,02377,Law Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,02390,Marquette Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,02475,McKenny Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,02475,McKenny Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,02644,Mumford High School,14,Age 5 to 19,1,0,7,8
+82010,Detroit City School District,02648,Murphy Elementary-Middle School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,02648,Murphy Elementary-Middle School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,02701,Rutherford Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,02701,Rutherford Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,02703,Nichols Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,02811,Oakman Elementary / Orthopedic School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,02811,Oakman Elementary / Orthopedic School,14,Age 5 to 19,0,0,17,17
+82010,Detroit City School District,02951,Parker Elementary School,14,Age 5 to 19,1,0,0,1
+82010,Detroit City School District,02969,Pasteur Elementary School,14,Age 0 to 4,0,0,2,2
+82010,Detroit City School District,02969,Pasteur Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,03015,Pershing High School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,03123,Priest Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,03420,Schulze Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,03466,Sherrill Elementary School,14,Age 5 to 19,0,0,2,2
+82010,Detroit City School District,03540,Southeastern High School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,04062,"Brown, Ronald Academy",14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,04156,Thirkell Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,04319,Bow Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,04365,"Detroit Transition Center, East",14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,04365,"Detroit Transition Center, East",14,Age 20 to 26,4,0,3,7
+82010,Detroit City School District,04420,Webster Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,04420,Webster Elementary School,14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,04500,White Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,04807,Van Zile Elementary School,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,04812,McFarlane Elementary School,14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,05445,Hally Magnet Middle School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,05773,Drew Middle School,14,Age 5 to 19,1,0,0,1
+82010,Detroit City School District,06381,Detroit Transition Center West,14,Age 20 to 26,1,0,17,18
+82010,Detroit City School District,06631,"Beckham, William Academy",14,Age 0 to 4,0,0,3,3
+82010,Detroit City School District,06631,"Beckham, William Academy",14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,06693,Vetal Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,07024,Crockett High School,14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,07581,Garvey Academy,14,Age 5 to 19,1,0,2,3
+82010,Detroit City School District,07795,Jemison School of Choice,14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,08004,Westside Multicultural Academy,14,Age 0 to 4,0,0,1,1
+82010,Detroit City School District,08396,"Hughes, Langston Academy",14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,08928,"McKinney, Johnson H. Day Treatment Center",14,Age 5 to 19,0,0,13,13
+82010,Detroit City School District,08951,"Field, Moses",14,Age 0 to 4,0,0,4,4
+82010,Detroit City School District,08951,"Field, Moses",14,Age 5 to 19,0,0,24,24
+82010,Detroit City School District,09125,"Wright, Charles School",14,Age 0 to 4,1,0,0,1
+82010,Detroit City School District,09125,"Wright, Charles School",14,Age 5 to 19,0,0,3,3
+82010,Detroit City School District,09474,Cooley North Wing,14,Age 5 to 19,2,0,28,30
+82010,Detroit City School District,09475,Kettering West Wing,14,Age 5 to 19,0,0,15,15
+82010,Detroit City School District,09475,Kettering West Wing,14,Age 20 to 26,1,0,7,8
+82010,Detroit City School District,09592,Jerry L White Center High School,14,Age 5 to 19,0,0,48,48
+82010,Detroit City School District,09594,Keidan Special Education School,14,Age 0 to 4,0,0,3,3
+82010,Detroit City School District,09594,Keidan Special Education School,14,Age 5 to 19,6,0,46,52
+82010,Detroit City School District,09788,Turning Point Academy,14,Age 5 to 19,0,0,5,5
+82010,Detroit City School District,09991,Brewer Elementary School,14,Age 5 to 19,0,0,1,1
+82010,Detroit City School District,09992,Clark Elementary School,14,Age 5 to 19,1,0,3,4
+82040,Dearborn Heights School District #7,05357,Polk Elementary School,14,Age 0 to 4,3,1,3,7
+82040,Dearborn Heights School District #7,05357,Polk Elementary School,14,Age 5 to 19,1,0,2,3
+82050,Garden City School District,02136,Lathers School,14,Age 0 to 4,8,0,7,15
+82050,Garden City School District,04674,Burger Development Center,14,Age 0 to 4,3,1,5,9
+82050,Garden City School District,04674,Burger Development Center,14,Age 5 to 19,6,0,16,22
+82050,Garden City School District,04674,Burger Development Center,14,Age 20 to 26,22,3,24,49
+82090,Lincoln Park Public Schools,00997,Earl F. Carr School,14,Age 0 to 4,1,1,3,5
+82090,Lincoln Park Public Schools,00997,Earl F. Carr School,14,Age 5 to 19,1,0,0,1
+82090,Lincoln Park Public Schools,01752,Hoover School,14,Age 0 to 4,0,0,1,1
+82090,Lincoln Park Public Schools,02025,Keppen School,14,Age 0 to 4,1,0,0,1
+82090,Lincoln Park Public Schools,02069,Lafayette School,14,Age 0 to 4,0,0,1,1
+82090,Lincoln Park Public Schools,08187,Crowley School,14,Age 0 to 4,3,0,14,17
+82090,Lincoln Park Public Schools,08187,Crowley School,14,Age 5 to 19,2,1,5,8
+82090,Lincoln Park Public Schools,08832,LeBlanc School,14,Age 0 to 4,0,0,1,1
+82090,Lincoln Park Public Schools,08832,LeBlanc School,14,Age 5 to 19,17,0,1,18
+82090,Lincoln Park Public Schools,08832,LeBlanc School,14,Age 20 to 26,0,0,1,1
+82095,Livonia Public Schools,02501,N.W. Wayne Skill Center,14,Age 5 to 19,49,4,97,150
+82095,Livonia Public Schools,02501,N.W. Wayne Skill Center,14,Age 20 to 26,54,1,88,143
+82095,Livonia Public Schools,04907,N.W. Wayne Trainable Center,14,Age 0 to 4,0,0,12,12
+82095,Livonia Public Schools,04907,N.W. Wayne Trainable Center,14,Age 5 to 19,1,0,0,1
+82095,Livonia Public Schools,08585,Perrinville Early Childhood Center,14,Age 0 to 4,21,0,131,152
+82095,Livonia Public Schools,08585,Perrinville Early Childhood Center,14,Age 5 to 19,2,0,16,18
+82100,Plymouth-Canton Community Schools,05503,Tanger Center,14,Age 0 to 4,10,0,97,107
+82100,Plymouth-Canton Community Schools,05503,Tanger Center,14,Age 5 to 19,3,1,26,30
+82130,Romulus Community Schools,06051,Merriman Elementary School,14,Age 0 to 4,2,0,4,6
+82130,Romulus Community Schools,06051,Merriman Elementary School,14,Age 5 to 19,4,0,2,6
+82140,South Redford School District,09162,Shear Early Childhood Center,14,Age 0 to 4,2,0,0,2
+82140,South Redford School District,09162,Shear Early Childhood Center,14,Age 5 to 19,2,1,0,3
+82150,Taylor School District,00345,Blair Moody Elementary School,14,Age 0 to 4,4,0,6,10
+82150,Taylor School District,01237,Fischer Elementary School,14,Age 0 to 4,6,0,8,14
+82150,Taylor School District,01237,Fischer Elementary School,14,Age 5 to 19,2,0,2,4
+82155,Trenton Public Schools,04138,William C. Taylor Elementary School,14,Age 0 to 4,6,1,11,18
+82155,Trenton Public Schools,04138,William C. Taylor Elementary School,14,Age 5 to 19,0,1,0,1
+82160,Wayne-Westland Community School District,01950,John Glenn High School,14,Age 5 to 19,5,1,6,12
+82160,Wayne-Westland Community School District,01950,John Glenn High School,14,Age 20 to 26,2,0,5,7
+82160,Wayne-Westland Community School District,01956,John Marshall Middle School,14,Age 5 to 19,8,0,1,9
+82160,Wayne-Westland Community School District,03262,Roosevelt/McGrath Elem. School,14,Age 0 to 4,0,1,0,1
+82160,Wayne-Westland Community School District,03262,Roosevelt/McGrath Elem. School,14,Age 5 to 19,28,5,17,50
+82160,Wayne-Westland Community School District,04407,Wayne Memorial High School,14,Age 5 to 19,15,1,10,26
+82160,Wayne-Westland Community School District,04407,Wayne Memorial High School,14,Age 20 to 26,11,1,2,14
+82170,Wyandotte City School District,00008,Jo Brighton Skills Center,14,Age 5 to 19,112,16,87,215
+82170,Wyandotte City School District,00008,Jo Brighton Skills Center,14,Age 20 to 26,60,4,56,120
+82170,Wyandotte City School District,04389,Washington Elementary School,14,Age 0 to 4,4,3,10,17
+82170,Wyandotte City School District,06726,Madison School,14,Age 0 to 4,13,0,13,26
+82170,Wyandotte City School District,06726,Madison School,14,Age 5 to 19,69,10,56,135
+82170,Wyandotte City School District,06726,Madison School,14,Age 20 to 26,17,1,7,25
+82170,Wyandotte City School District,08828,The Lincoln Center,14,Age 5 to 19,106,22,62,190
+82170,Wyandotte City School District,08828,The Lincoln Center,14,Age 20 to 26,26,1,3,30
+82290,Gibraltar School District,08971,Gibraltar Early Child Education Center,14,Age 0 to 4,4,0,10,14
+82290,Gibraltar School District,08971,Gibraltar Early Child Education Center,14,Age 5 to 19,1,0,0,1
+82300,Grosse Ile Township Schools,02948,Parke Lane Elementary School,14,Age 0 to 4,1,0,10,11
+82365,Woodhaven-Brownstown School District,06420,Gudith Elementary School,14,Age 0 to 4,3,0,9,12
+82365,Woodhaven-Brownstown School District,06420,Gudith Elementary School,14,Age 5 to 19,0,0,1,1
+82390,Northville Public Schools,02770,Cooke School,14,Age 5 to 19,45,6,35,86
+82390,Northville Public Schools,02770,Cooke School,14,Age 20 to 26,40,1,38,79
+82390,Northville Public Schools,06707,Old Village School,14,Age 0 to 4,3,0,7,10
+82390,Northville Public Schools,06707,Old Village School,14,Age 5 to 19,37,9,61,107
+82390,Northville Public Schools,09087,Main Street School,14,Age 0 to 4,0,0,13,13
+82390,Northville Public Schools,09087,Main Street School,14,Age 5 to 19,0,0,1,1
+82405,Southgate Community School District,08962,Sp Ed - Transitions,14,Age 5 to 19,0,0,1,1
+82430,Van Buren Public Schools,08882,Early Childhood Development Center--ECDC,14,Age 0 to 4,18,2,59,79
+82430,Van Buren Public Schools,08882,Early Childhood Development Center--ECDC,14,Age 5 to 19,4,0,2,6
+82903,Aisha Shule/WEB Dubois Prep. Academy School,08047,Aisha Shule/WEB Dubois Prep. Academy School,14,Age 5 to 19,2,0,4,6
+83000,Wexford-Missaukee ISD,08873,Wexford-Missaukee ISD Special Education,14,Age 0 to 4,1,0,0,1
+83000,Wexford-Missaukee ISD,08873,Wexford-Missaukee ISD Special Education,14,Age 5 to 19,30,1,20,51
+83000,Wexford-Missaukee ISD,08873,Wexford-Missaukee ISD Special Education,14,Age 20 to 26,24,0,2,26
+83060,Manton Consolidated Schools,02343,Manton Consolidated High School,14,Age 5 to 19,7,0,0,7
+83060,Manton Consolidated Schools,05901,Manton Consolidated Elem. School,14,Age 5 to 19,1,1,0,2
+83060,Manton Consolidated Schools,08301,Manton Consolidated Middle School,14,Age 5 to 19,2,1,0,3
+84050,Michigan School f/t Deaf/MDE-LIO,02548,Michigan School for the Deaf,14,Age 5 to 19,4,2,9,15

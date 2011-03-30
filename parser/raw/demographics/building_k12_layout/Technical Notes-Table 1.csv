@@ -1,0 +1,33 @@
+Processing of Fall 2009 Public School Headcount Data
+"State, District, Building, ISD, County"
+
+
+"The Center for Educational Performance and Information (CEPI) created this file using data collected from the Fall 2009 Michigan Student Data System (MSDS) Submission. Data comes from the MSDS GoodStudentRecords database and includes records from the Supplemental Nutrition Eligibility (SNE) Collection and Student Record Maintenance (SRM) data. The SRM data includes records that have an AsOfDate of 09/30/2009 through 10/30/2009 and a CertificationDate earlier than January 1, 2010."
+
+"Prior to 2009, students submitted without full-time equivalency (FTE) values were excluded. Beginning with the fall 2009 headcount data, students with zero FTE who are in grades K-12 or ungraded special education (Grade 14) may be included."
+
+The following students were excluded:
+graduates or other exited students;
+non-public school and home-schooled students as determined by student residency codes;
+students who exited the district before the count date;
+students who enrolled in the district after the count date;
+adult education students;
+students attending non-public schools;
+potential duplicates matched by Unique Identification Code (UIC).
+
+"Duplicated student records were deleted based on comparisons of the Unique Identification Code (UIC) for state-level data. For district-level data, duplicates were removed based on UIC and district code. For building-level data, the process included the school code. For intermediate school district (ISD) level, duplicates were removed based on UIC and ISD code, and for county-level data, UIC and county code."
+
+"Before duplicate records were eliminated, data were first sorted by full-time equivalency (FTE) and date of enrollment, so that records with the highest FTE value and most recent enrollment dates were given priority for inclusion."
+
+"The racial/ethnic codes include the following: American Indian (ai), Asian (as), African-American (aa), Hawaiian (hw), White (wh), Hispanic (hs) and Multiracial (mr)."
+
+"For building-level data, schools reported with a code of 00000 reflect regional educational service agency or intermediate school district (RESA/ISD) students attending a local education agency (LEA) school within their jurisdictions. "
+
+For the Michigan School for the Deaf/Blind:
+"In the building-level data, the district code is assigned the code from Educational Entity Master (EEM), 84050. For ISDs with these students, the district name is the ISD name rather than ""State of Michigan."" For district-level data, the school retains the district code and district name of the district reporting the students."
+
+"Beginning with the Fall 2007 Single Record Student Database (SRSD) Submission, students in alternative education (grade 13) were no longer counted as ungraded. Ungraded now includes only special education (grade 14). Students in alternative education programs are counted in grades that best represent their educational levels. "
+
+"Schools, districts, ISDs, or counties with no ungraded students are excluded from the ungraded data files."
+
+The totals for the K-12 files do not include the ungraded or prekindergarten pupil headcounts.  

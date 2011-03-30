@@ -1,0 +1,36 @@
+;;;;;;;;;;;
+;"Select a District and/or Building by entering the District and/or Building Code below:";;;;;;;;;;
+;;;;;;;;;;;
+;;"District Code:";"00000";"← Use 00000 as the district code for all districts in the state";;;;;;;
+;;"Building Code:";"00000";"← Use 00000 as the school code for all schools in the selected district";;;;;;;
+;;;;;;;;;;;
+;;"Selected D";"ALL DISTRICTS";;;;;;;;
+;;"Selected S";"ALL SCHOOLS";;;;;;;;
+;;"Selected D-S";"ALL DISTRICTS - ALL SCHOOLS";;;;;;;;
+;;;;;;;;;;;
+;;"Selected District:";"ALL DISTRICTS";;;;;;;;
+;;"Selected School:";"ALL SCHOOLS";;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;"Search for a DISTRICT CODE by entering part or all of the district name:";;;;;;;;;;
+;;;;;;;;;;;
+;;"District Search:";;;;;;;;;
+;;;;;;;;;;;
+;;"Top Matches";"Code";"Name";;;;;;;
+;;"Match 1:";"";"";;;;1;"#N/A";"#N/A";"#N/A"
+;;"Match 2:";"";"";;;;2;"#N/A";"#N/A";"#N/A"
+;;"Match 3:";"";"";;;;3;"#N/A";"#N/A";"#N/A"
+;;"Match 4:";"";"";;;;4;"#N/A";"#N/A";"#N/A"
+;;"Match 5:";"";"";;;;5;"#N/A";"#N/A";"#N/A"
+;;;;;;;;;;;
+;;;;;;;;;;;
+;"Search for a BUILDING CODE by entering part or all of the school name below:";;;;;;;;;;
+;;;;;;;;;;;
+;;"School Search:";;;;;;;;;
+;;;;;;;;;;;
+;;"Top Matches";"Code";"Name";;;;;;;
+;;"Match 1:";"";"";;;;1;"#N/A";"#N/A";"#N/A"
+;;"Match 2:";"";"";;;;2;"#N/A";"#N/A";"#N/A"
+;;"Match 3:";"";"";;;;3;"#N/A";"#N/A";"#N/A"
+;;"Match 4:";"";"";;;;4;"#N/A";"#N/A";"#N/A"
+;;"Match 5:";"";"";;;;5;"#N/A";"#N/A";"#N/A"

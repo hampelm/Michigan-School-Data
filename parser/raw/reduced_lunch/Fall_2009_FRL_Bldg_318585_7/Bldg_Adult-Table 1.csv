@@ -1,0 +1,155 @@
+Free and Reduced-Price Lunch Counts,,,,,,,
+Fall 2009 Building-Level Data: Adult Education,,,,,,,
+,,,,,,,
+DCODE,District_Name,BCODE,Entity_Name,Free Lunch Eligible,Reduced-Price Lunch Eligible,Not Eligible,Total Count
+03010,Plainwell Community Schools,03065,Plainwell High School,0,0,1,1
+03010,Plainwell Community Schools,08016,Renaissance High School,3,0,14,17
+03020,Otsego Public Schools,09525,Otsego West Campus High School,3,1,6,10
+03030,Allegan Public Schools,03535,Allegan Alternative High School,9,0,60,69
+03050,Fennville Public Schools,05790,Pearl Alternative/Adult Education School,8,0,64,72
+04010,Alpena Public Schools,07361,OxBow ACES Academy/Alternative and Adult Ed,7,0,22,29
+07020,Baraga Area Schools,00198,Baraga Area High School,9,0,17,26
+08010,Delton-Kellogg School District,07761,Delton-Kellogg Alternative H.S.,10,0,61,71
+09010,Bay City School District,08914,Bay City Adult Education/CTP,10,0,22,32
+11010,Benton Harbor Area Schools,00286,Benton Harbor High School,12,1,17,30
+11210,Brandywine Community Schools,08161,Bell Education Center,7,0,31,38
+11240,Berrien Springs Public Schools,00297,Berrien Springs High School,0,0,46,46
+11300,Niles Community School District,08948,Niles Comm. Schools Adult Education,11,0,87,98
+12010,Coldwater Community Schools,00744,Coldwater High School,7,0,61,68
+13020,Battle Creek Public Schools,07858,Battle Creek Adult Education,23,0,107,130
+14010,Cassopolis Public Schools,07867,Cassopolis Adult Education,31,0,104,135
+14020,Dowagiac Union School District,02193,Pathfinders Alternative Ed,15,0,71,86
+17090,Pickford Public Schools,09417,Consolidated Community School Services,17,0,76,93
+18010,Clare Public Schools,07754,Pioneer High and Clare Adult Ed.,40,0,80,120
+20015,Crawford AuSable Schools,09822,Frederic School,5,0,17,22
+22010,Iron Mountain Public Schools,08831,IM-K Community Education,17,0,31,48
+23065,Maple Valley Schools,07776,Kellogg Education Center,11,0,16,27
+23090,Potterville Public Schools,07894,CAP Adult and Alternative Education,13,0,28,41
+25010,Flint City School District,05950,Zimmerman Center,63,0,210,273
+25040,Mt. Morris Consolidated Schools,07691,Mt. Morris Alternative Ed.,11,0,56,67
+25060,Bendle Public Schools,07710,Bendle/Carman-Ainsworth Alternative Education,41,0,84,125
+25070,Genesee School District,01378,Genesee High School,0,0,1,1
+25100,Fenton Area Public Schools,00188,Three District Adult Ed,5,0,17,22
+25120,Flushing Community Schools,01256,Flushing High School,3,0,10,13
+25240,Beecher Community School District,02052,Beecher Adult/Alternative Education Center,27,0,56,83
+26010,Beaverton Rural Schools,00244,Beaverton High School,1,0,4,5
+26040,Gladwin Community Schools,07898,Gladwin Community Alternative H.S.,6,0,18,24
+27020,Ironwood Area Schools,09008,Gogebic Co. Community Education,11,0,16,27
+28000,Traverse Bay Area ISD,09003,TBA ISD Adult Education,23,0,125,148
+29010,Alma Public Schools,07242,Alma Adult/Alternative Education,9,0,23,32
+29050,Fulton Schools,09005,Fulton Alternative Education,13,0,71,84
+30020,Hillsdale Community Schools,08512,Adult Education,1,0,15,16
+33020,Lansing Public School District,04456,Education Options,31,0,140,171
+33060,Haslett Public Schools,07679,English as a Second Language,2,0,72,74
+33200,Stockbridge Community Schools,04077,Stockbridge Middle School,3,0,16,19
+34080,Belding Area School District,07570,"Belding Comm., Adult and Alternative Ed.",10,0,45,55
+34110,Portland Public School District,03098,Portland High School,3,0,14,17
+37010,Mt. Pleasant City School District,07801,Mission Creek Community Education,20,0,92,112
+38040,Columbia School District,05598,Columbia Alternative Education,1,0,40,41
+39010,Kalamazoo Public School District,07684,Kalamazoo Adult High School,33,0,131,164
+39020,Climax-Scotts Community Schools,09930,Climax-Scotts Adult/Alternative Ed,7,0,12,19
+39030,Comstock Public Schools,08222,Educational Service Center,11,0,32,43
+39130,Parchment School District,00201,Barclay Hills Education Center,16,0,38,54
+39140,Portage Public Schools,02561,Portage Community High School,7,0,68,75
+39170,Vicksburg Community Schools,07890,Adult and Community Ed. Building,2,0,8,10
+41010,Grand Rapids Public Schools,08552,GRPS Adult Education,51,0,425,476
+41020,Godwin Heights Public Schools,08423,Godwin Heights Learning Center,20,0,223,243
+41026,Wyoming Public Schools,00736,Wyoming Community Educ. Center,12,0,209,221
+41120,Godfrey-Lee Public Schools,08809,Godfrey-Lee Ed. Station,0,0,29,29
+41160,Kentwood Public Schools,08172,Crossroads Alternative High School,7,0,73,80
+41210,Rockford Public Schools,09394,Rockford Community Services,2,0,26,28
+41240,Sparta Area Schools,07884,Sparta Adult Education,9,0,384,393
+44010,Lapeer Community Schools,07468,Lapeer Community High School,1,0,17,18
+44060,Imlay City Community Schools,07729,Venture High School,1,0,3,4
+46010,Adrian City School District,07431,Adrian Adult and Alternative Education,18,0,72,90
+47010,Brighton Area Schools,09920,Brighton Alternative Education,13,0,58,71
+50020,East Detroit Public Schools,07671,East Detroit Adult Education,14,0,121,135
+50040,Anchor Bay School District,07825,Anchor Bay Adult Education,8,0,29,37
+50070,Clintondale Community Schools,07669,Continuing Education Center,93,0,169,262
+50080,Chippewa Valley Schools,07984,Chippewa Valley Adult and Mohegan Alt. Educ.,4,0,85,89
+50120,Lake Shore Public Schools (Macomb),07687,North Lake High School,6,0,88,94
+50140,L'Anse Creuse Public Schools,07833,L'Anse Creuse-Mount Clemens Center for Lifelong Learning,40,0,171,211
+50210,Utica Community Schools,08958,Adult Education Center,23,0,440,463
+50220,Van Dyke Public Schools,08595,Thompson Community Center,8,0,35,43
+50230,Warren Consolidated Schools,08397,Butcher Community Center,22,0,469,491
+50240,Warren Woods Public Schools,07885,Warren Woods Adult Education,4,0,62,66
+52015,N.I.C.E. Community Schools,08864,Ishpeming-Neguanee-NICE Comm. Ed. Division,5,0,30,35
+53010,Mason County Central Schools,02424,Mason County Central H.S.,15,0,40,55
+55115,North Central Area Schools,09599,Phoenix Alternative High School,27,0,65,92
+56020,Bullock Creek School District,09686,Bullock Creek Adult Education,52,0,195,247
+56030,Coleman Community School District,00746,Coleman Junion/Senior High School,0,0,1,1
+58020,Airport Community School District,06362,Wagar Junior High School,0,0,16,16
+58030,Bedford Public Schools,09327,Bedford Adult Education,2,0,22,24
+58090,Mason Consolidated Schools (Monroe),02432,Mason Senior High School,4,0,27,31
+59125,Central Montcalm Public Schools,08583,Central Montcalm Public Schools Alternative,14,0,50,64
+61010,Muskegon City School District,06247,MCEC,53,0,115,168
+61020,Muskegon Heights School District,07692,Muskegon Heights Adult/Comm. Ed.,14,0,23,37
+61065,Oakridge Public Schools,09958,Oakridge Alternative & Adult Ed,5,0,3,8
+61080,Fruitport Community Schools,09531,Fruitport Adult Education,7,0,38,45
+61190,Orchard View Schools,08193,Orchard View Community Education,60,0,151,211
+61230,North Muskegon Public Schools,09729,North Muskegon Adult Education,23,0,48,71
+61240,Whitehall District Schools,07704,White Lake Area Community Ed.,42,1,19,62
+62040,Fremont Public School District,00576,Quest High School,6,0,37,43
+62050,Grant Public School District,08544,Grant Learning Center,4,0,164,168
+62060,Hesperia Community Schools,07917,Hesperia Community Education,22,0,33,55
+62070,Newaygo Public School District,07919,Learning Center East,5,0,31,36
+63010,Birmingham City School District,01154,Ernest W. Seaholm High School,0,0,50,50
+63020,Ferndale Public Schools,07786,Ferndale Adult Education,85,0,406,491
+63030,Pontiac City School District,00187,Alternatives Unlimited Bethune,5,0,16,21
+63040,School District of the City of Royal Oak,05932,Churchill Community Ed. Center,9,0,210,219
+63050,Berkley School District,02928,Tri County Educational Center,8,0,47,55
+63100,Novi Community School District,07903,Novi Adult Education,0,0,105,105
+63130,Hazel Park City School District,07680,Hazel Park Adult Education,34,0,210,244
+63150,Troy School District,07700,Troy Adult Education,7,0,219,226
+63160,West Bloomfield School District,03422,Community Service Center,2,0,60,62
+63200,Farmington Public School District,08181,Farmington Community School,3,0,168,171
+63220,Huron Valley Schools,07560,Huron Valley Adult Education,3,0,53,56
+63230,Lake Orion Community Schools,02085,Community Ed. Resource Center,5,0,61,66
+63260,Rochester Community School District,07864,Rochester Adult Education,7,0,154,161
+63290,Walled Lake Consolidated Schools,07792,Walled Lake Community Education Center,5,0,145,150
+63300,Waterford School District,08408,Lutes Campus,14,0,128,142
+64080,Shelby Public Schools,09002,Oceana Community Education,12,0,24,36
+67020,Evart Public Schools,07673,Evart Alternative High School,9,0,10,19
+70020,Holland City School District,09258,Washington Administration Building,2,0,207,209
+70350,Zeeland Public Schools,08994,Zeeland Adult Education Center,28,0,192,220
+72020,Houghton Lake Community Schools,08258,Houghton Lake Adult Education,6,0,26,32
+73010,Saginaw City School District,09736,Ruben Daniels Adult Ed - ETC,11,0,44,55
+73030,Carrollton School District,09242,Omni Adult and Alternative Education,11,2,46,59
+73210,Hemlock Public School District,09668,Hemlock Alternative/Adult Education,1,0,5,6
+73255,Swan Valley School District,09484,Swan Valley Adult and Alternative Education,2,0,12,14
+74010,Port Huron Area School District,02640,Grant Educational Center,43,0,122,165
+74040,Capac Community School District,07820,Capac Adult and Community Education,0,0,6,6
+74130,Yale Public Schools,04613,Yale Senior High School,0,0,2,2
+75010,Sturgis Public Schools,08919,Sturgis Schools Adult Education Center,12,0,105,117
+75030,Centreville Public Schools,09738,Centreville Adult Education,2,0,24,26
+75080,Three Rivers Community Schools,07698,Barrows Adult Education,11,0,16,27
+76060,Brown City Community Schools,07906,Brown City Adult Education,20,0,39,59
+78080,Perry Public School District,09747,Alternative/Adult Education (Administration Building),7,0,14,21
+78100,Corunna Public School District,01981,Shiawassee Street School,6,0,18,24
+78110,Owosso Public Schools,02924,Owosso High School,6,0,21,27
+79020,Caro Community Schools,07809,Caro Alternative Education,3,1,7,11
+79100,Millington Community Schools,09628,Glaza Building,6,0,11,17
+80020,Bangor Public Schools,07220,Community Education Building,6,0,25,31
+80120,Hartford Public School District,00085,Southwest Michigan Community School,29,1,11,41
+80120,Hartford Public School District,01598,Hartford High School,1,0,0,1
+80160,Paw Paw Public School District,07750,Michigan Avenue Academy,2,0,36,38
+81010,Ann Arbor Public Schools,08680,Stone High School,7,0,104,111
+81020,School District of Ypsilanti,07697,Ypsilanti Adult/Community Ed.,0,0,100,100
+81040,Chelsea School District,09004,Washington Street Education Center,0,0,2,2
+81040,Chelsea School District,09317,Cassidy Lake Technical School,3,0,15,18
+81100,Milan Area Schools,02558,Milan High School,5,0,84,89
+81150,Willow Run Community Schools,09404,Willow Run Middle School,3,0,47,50
+82010,Detroit City School District,09020,Office of Adult Education,153,0,1068,1221
+82030,Dearborn City School District,06904,Adult Ed Department,15,0,631,646
+82050,Garden City School District,07376,Cambridge High School,30,2,39,71
+82060,Hamtramck Public Schools,09948,Horizon Alternative Education,25,0,297,322
+82070,Highland Park City Schools,08376,Career Academy/Adult Education,31,0,67,98
+82080,School District of the City of Inkster,01840,Inkster High School,7,0,27,34
+82095,Livonia Public Schools,05063,Dickinson Center,4,0,282,286
+82100,Plymouth-Canton Community Schools,04055,Starkweather CEC,10,1,126,137
+82130,Romulus Community Schools,07915,Romulus Adult Education,13,0,97,110
+82160,Wayne-Westland Community School District,07026,William Ford Career-Tech Center,24,0,218,242
+82160,Wayne-Westland Community School District,09241,Wayne-Westland Adult and Community Education,19,0,85,104
+82240,Westwood Community Schools,03238,Robichaud Senior High School,1,0,10,11
+82405,Southgate Community School District,02956,Asher School,48,0,425,473
+83010,Cadillac Area Public Schools,08920,Cadillac Schools Adult Education,7,0,19,26

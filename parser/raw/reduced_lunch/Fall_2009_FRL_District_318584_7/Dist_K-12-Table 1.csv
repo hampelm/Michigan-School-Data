@@ -1,0 +1,843 @@
+District Code,District_Name,free_lunch_eligible,reduced_price_lunch_eligible,Not Eligible,Total Count
+01010,Alcona Community Schools,383,85,431,899
+02010,AuTrain-Onota Public Schools,22,5,17,44
+02020,Burt Township School District,30,4,7,41
+02070,Munising Public Schools,251,52,375,678
+02080,Superior Central Schools,109,52,221,382
+03000,Allegan Area Educational Service Agency,73,18,54,145
+03010,Plainwell Community Schools,703,152,1909,2764
+03020,Otsego Public Schools,688,162,1447,2297
+03030,Allegan Public Schools,1084,245,1500,2829
+03040,Wayland Union Schools,892,300,1745,2937
+03050,Fennville Public Schools,913,163,439,1515
+03060,Martin Public Schools,253,58,297,608
+03070,Hopkins Public Schools,438,145,1106,1689
+03080,Saugatuck Public Schools,222,82,553,857
+03100,Hamilton Community Schools,443,216,1927,2586
+03440,Glenn Public School District,11,3,27,41
+03902,Outlook Academy,41,8,4,53
+04000,Alpena-Montmorency-Alcona ESD,44,6,41,91
+04010,Alpena Public Schools,1751,407,2275,4433
+04901,Bingham Academy,88,10,44,142
+05010,Alba Public Schools,117,37,59,213
+05035,Central Lake Public Schools,168,38,172,378
+05040,Bellaire Public Schools,191,46,287,524
+05060,Elk Rapids Schools,410,104,1035,1549
+05065,Ellsworth Community School,74,31,125,230
+05070,Mancelona Public Schools,598,185,312,1095
+05901,Concord Montessori and Community School,118,0,51,169
+06010,Arenac Eastern School District,175,36,59,270
+06020,Au Gres-Sims School District,182,48,170,400
+06050,Standish-Sterling Community Schools,798,156,848,1802
+07010,Arvon Township School District,2,0,3,5
+07020,Baraga Area Schools,268,42,233,543
+07040,L'Anse Area Schools,266,88,394,748
+08000,Barry ISD,30,6,19,55
+08010,Delton-Kellogg School District,636,149,873,1658
+08030,Hastings Area School District,976,289,1707,2972
+08050,Thornapple Kellogg School District,642,254,2072,2968
+09000,Bay-Arenac ISD,134,17,102,253
+09010,Bay City School District,3618,686,4669,8973
+09030,Bangor Township Schools,988,189,1304,2481
+09050,Essexville-Hampton Public Schools,490,103,1291,1884
+09090,Pinconning Area Schools,620,155,775,1550
+09901,Bay-Arenac Community High School,68,0,81,149
+09902,Bay County PSA,172,24,38,234
+10015,Benzie County Central Schools,883,261,674,1818
+10025,Frankfort-Elberta Area Schools,223,72,255,550
+11000,Berrien RESA,219,18,149,386
+11010,Benton Harbor Area Schools,3140,166,289,3595
+11020,St. Joseph Public Schools,385,116,2327,2828
+11030,Lakeshore School District (Berrien),532,160,2239,2931
+11033,River Valley School District,297,96,318,711
+11160,Galien Township School District,90,14,69,173
+11200,New Buffalo Area Schools,204,73,383,660
+11210,Brandywine Community Schools,634,138,653,1425
+11240,Berrien Springs Public Schools,995,165,833,1993
+11250,Eau Claire Public Schools,545,65,219,829
+11300,Niles Community School District,1861,313,1728,3902
+11310,Buchanan Community Schools,636,148,855,1639
+11320,Watervliet School District,623,122,575,1320
+11330,Coloma Community Schools,811,159,869,1839
+11340,Bridgman Public Schools,218,108,659,985
+11670,Hagar Township S/D #6,35,5,31,71
+11830,Sodus Township S/D #5,32,0,40,72
+11901,Countryside Academy,287,44,106,437
+11903,Benton Harbor Charter School,376,6,14,396
+11904,Mildred C. Wells Preparatory Academy,172,0,0,172
+11905,Dream Academy,185,8,35,228
+12000,Branch ISD,322,6,509,837
+12010,Coldwater Community Schools,1415,213,1528,3156
+12020,Bronson Community School District,617,147,484,1248
+12040,Quincy Community School District,485,120,783,1388
+12901,Pansophia Academy,163,35,57,255
+13000,Calhoun ISD,448,22,215,685
+13010,Albion Public Schools,787,28,245,1060
+13020,Battle Creek Public Schools,4209,346,1710,6265
+13050,Athens Area Schools,239,61,364,664
+13070,Harper Creek Community Schools,835,162,1606,2603
+13080,Homer Community Schools,481,101,446,1028
+13090,Lakeview Sch. District (Calhoun),1243,206,2386,3835
+13095,Mar Lee School District,122,23,170,315
+13110,Marshall Public Schools,568,128,1703,2399
+13120,Pennfield Schools,729,143,1223,2095
+13130,Tekonsha Community Schools,154,31,121,306
+13135,Union City Community Schools,500,126,514,1140
+13901,Arbor Academy,126,14,80,220
+13902,Endeavor Charter Academy,300,78,279,657
+13903,Marshall Academy,65,0,198,263
+13904,Battle Creek Area Learning Center,96,6,68,170
+14000,Lewis Cass ISD,65,9,28,102
+14010,Cassopolis Public Schools,680,82,478,1240
+14020,Dowagiac Union School District,1434,204,846,2484
+14030,Edwardsburg Public Schools,780,184,1759,2723
+14050,Marcellus Community Schools,438,82,417,937
+15000,Charlevoix-Emmet ISD,61,12,48,121
+15010,Beaver Island Community School,9,17,45,71
+15020,Boyne City Public Schools,512,143,635,1290
+15030,Boyne Falls Public School District,112,25,113,250
+15050,Charlevoix Public Schools,292,86,760,1138
+15060,East Jordan Public Schools,471,115,498,1084
+15901,Concord Academy Boyne,42,0,162,204
+15902,Northwest Academy,40,12,80,132
+16000,Cheb-Otsego-Presque Isle ESD,80,2,47,129
+16015,Cheboygan Area Schools,973,182,913,2068
+16050,Inland Lakes Schools,396,100,456,952
+16070,Mackinaw City Public Schools,42,11,136,189
+16100,Wolverine Community Schools,202,44,89,335
+17000,Eastern Upper Peninsula ISD,26,2,12,40
+17010,Sault Ste. Marie Area Schools,850,195,1384,2429
+17050,DeTour Area Schools,73,42,92,207
+17090,Pickford Public Schools,201,57,342,600
+17110,Rudyard Area Schools,440,101,355,896
+17140,Brimley Area Schools,171,56,288,515
+17160,Whitefish Township Schools,39,4,7,50
+17901,Joseph K. Lumsden Bahweting Anishnabe Academy,233,58,181,472
+17902,Ojibwe Charter School,69,8,29,106
+18000,Clare-Gladwin Regional Education Service District,78,11,34,123
+18010,Clare Public Schools,642,105,799,1546
+18020,Farwell Area Schools,871,95,537,1503
+18060,Harrison Community Schools,1051,140,463,1654
+19000,Clinton County RESA,33,1,89,123
+19010,DeWitt Public Schools,256,71,2663,2990
+19070,Fowler Public Schools,46,22,459,527
+19100,Bath Community Schools,236,66,666,968
+19120,Ovid-Elsie Area Schools,576,176,1055,1807
+19125,Pewamo-Westphalia Community Schools,69,34,554,657
+19140,St. Johns Public Schools,708,197,2336,3241
+20015,Crawford AuSable Schools,875,182,738,1795
+21000,Delta-Schoolcraft ISD,46,10,39,95
+21010,Escanaba Area Public Schools,1017,244,1433,2694
+21025,Gladstone Area Schools,434,159,993,1586
+21060,Rapid River Public Schools,116,26,250,392
+21065,Big Bay De Noc School District,96,24,128,248
+21090,Bark River-Harris School District,235,75,345,655
+21135,Mid Peninsula School District,100,18,115,233
+22000,Dickinson-Iron ISD,35,9,16,60
+22010,Iron Mountain Public Schools,359,124,804,1287
+22025,Norway-Vulcan Area Schools,209,88,500,797
+22030,Breitung Township Schools,438,186,1093,1717
+22045,North Dickinson County Schools,86,73,167,326
+23000,Eaton ISD,50,0,94,144
+23010,Bellevue Community Schools,283,54,331,668
+23030,Charlotte Public Schools,978,264,1851,3093
+23050,Eaton Rapids Public Schools,967,259,1630,2856
+23060,Grand Ledge Public Schools,1005,313,3962,5280
+23065,Maple Valley Schools,605,95,697,1397
+23080,Olivet Community Schools,463,104,945,1512
+23090,Potterville Public Schools,322,85,543,950
+23490,Oneida Township S/D #3,2,0,21,23
+23901,Island City Academy,43,33,128,204
+24020,Harbor Springs School District,238,68,718,1024
+24030,Alanson Public Schools,172,51,111,334
+24040,Pellston Public Schools,299,84,301,684
+24070,Public Schools of Petoskey,805,234,1904,2943
+24901,Concord Academy - Petoskey,79,22,219,320
+25000,Genesee ISD,389,28,620,1037
+25010,Flint City School District,9458,272,2980,12710
+25030,Grand Blanc Community Schools,1821,418,6455,8694
+25040,Mt. Morris Consolidated Schools,1916,221,876,3013
+25050,Goodrich Area Schools,261,76,1855,2192
+25060,Bendle Public Schools,1139,86,469,1694
+25070,Genesee School District,409,66,292,767
+25080,Carman-Ainsworth Community Schools,2553,434,1758,4745
+25100,Fenton Area Public Schools,719,204,2616,3539
+25110,Kearsley Community Schools,1388,245,1763,3396
+25120,Flushing Community Schools,1050,239,3083,4372
+25130,Atherton Community Schools,545,119,314,978
+25140,Davison Community Schools,1622,389,3596,5607
+25150,Clio Area School District,1229,259,1981,3469
+25180,Swartz Creek Community Schools,1159,252,2600,4011
+25200,Lake Fenton Community Schools,393,100,1323,1816
+25210,Westwood Heights Schools,812,40,142,994
+25230,Bentley Community Schools,413,92,395,900
+25240,Beecher Community School District,1459,30,228,1717
+25250,Linden Community Schools,675,151,2227,3053
+25260,Montrose Community Schools,657,159,713,1529
+25280,LakeVille Community Schools,696,194,828,1718
+25902,Woodland Park Academy,217,45,160,422
+25903,Grand Blanc Academy,312,13,146,471
+25904,Northridge Academy,258,1,5,264
+25905,International Academy of Flint,884,81,215,1180
+25906,Center Academy,447,30,22,499
+25907,Linden Charter Academy,609,64,99,772
+25908,Academy of Flint,521,22,21,564
+25909,Burton Glen Charter Academy,545,71,153,769
+25910,Richfield Public School Academy,490,29,84,603
+25911,Madison Academy,267,41,209,517
+26010,Beaverton Rural Schools,641,107,624,1372
+26040,Gladwin Community Schools,913,161,803,1877
+26901,Creative Learning Academy of Science,50,0,14,64
+27000,Gogebic-Ontonagon ISD,34,1,6,41
+27010,Bessemer Area School District,176,50,229,455
+27020,Ironwood Area Schools,492,84,419,995
+27070,Wakefield-Marenisco School District,107,44,130,281
+27080,Watersmeet Township School District,74,43,53,170
+28000,Traverse Bay Area ISD,214,23,124,361
+28010,Traverse City Area Public Schools,3002,841,6184,10027
+28035,Buckley Community School District,199,46,151,396
+28090,Kingsley Area Schools,557,138,812,1507
+28901,Woodland School,33,0,174,207
+28902,Grand Traverse Academy,270,54,787,1111
+28903,Traverse City College Preparatory Academy,21,1,49,71
+29000,Gratiot-Isabella RESD,103,0,85,188
+29010,Alma Public Schools,1009,168,1110,2287
+29020,Ashley Community Schools,158,36,189,383
+29040,Breckenridge Community Schools,349,53,454,856
+29050,Fulton Schools,409,61,543,1013
+29060,Ithaca Public Schools,488,98,764,1350
+29100,St. Louis Public Schools,563,0,652,1215
+30000,Hillsdale ISD,61,5,125,191
+30010,Camden-Frontier Schools,226,76,268,570
+30020,Hillsdale Community Schools,930,161,681,1772
+30030,Jonesville Community Schools,626,132,670,1428
+30040,Litchfield Community Schools,183,54,105,342
+30050,North Adams-Jerome Schools,193,42,232,467
+30060,Pittsford Area Schools,246,72,342,660
+30070,Reading Community Schools,441,73,381,895
+30080,Waldron Area Schools,197,25,116,338
+30901,Hillsdale Preparatory School,46,21,4,71
+30902,Will Carleton Charter School Academy,35,0,225,260
+31000,Copper Country ISD,45,1,44,90
+31010,Hancock Public Schools,255,148,456,859
+31020,Adams Township School District,142,76,213,431
+31030,Public Schools of Calumet,736,214,604,1554
+31050,Chassell Township School District,108,34,128,270
+31070,Elm River Township School District,9,0,7,16
+31100,Dollar Bay-Tamarack City Area Schools,122,49,127,298
+31110,Houghton-Portage Township Schools,264,100,942,1306
+31130,Lake Linden-Hubbell School District,184,60,263,507
+31140,Stanton Township Public Schools,61,37,44,142
+32000,Huron ISD,52,8,50,110
+32010,Bad Axe Public Schools,420,109,718,1247
+32030,Caseville Public Schools,132,21,114,267
+32040,Church School District,12,2,12,26
+32050,Elkton-Pigeon-Bay Port Laker Schools,361,120,498,979
+32060,Harbor Beach Community Schools,221,83,275,579
+32080,North Huron School District,203,56,176,435
+32090,Owendale-Gagetown Area Schools,116,33,68,217
+32130,Port Hope Community Schools,44,11,27,82
+32170,Ubly Community Schools,283,118,404,805
+32260,Colfax Township S/D #1F,18,0,6,24
+32610,Sigel Township S/D #3F,5,3,10,18
+32620,Sigel Township S/D #4F,9,0,7,16
+32630,Sigel Township S/D #6,2,1,8,11
+32650,Verona Township S/D #1F,8,0,15,23
+33000,Ingham ISD,61,0,189,250
+33010,East Lansing School District,890,174,2369,3433
+33020,Lansing Public School District,9877,1037,3221,14135
+33040,Dansville Schools,218,44,645,907
+33060,Haslett Public Schools,420,68,2239,2727
+33070,Holt Public Schools,1958,0,3951,5909
+33100,Leslie Public Schools,418,127,842,1387
+33130,Mason Public Schools (Ingham),663,197,2171,3031
+33170,Okemos Public Schools,529,108,3367,4004
+33200,Stockbridge Community Schools,527,113,1025,1665
+33215,Waverly Community Schools,1116,262,1596,2974
+33220,Webberville Community Schools,220,71,374,665
+33230,Williamston Community Schools,254,71,1563,1888
+33901,Cole Academy,83,13,36,132
+33902,El-Hajj Malik El-Shabazz Academy,286,2,11,299
+33904,Mid-Michigan Leadership Academy,173,4,19,196
+33906,White Pine Academy,37,8,114,159
+33907,Capital Area Academy,141,25,32,198
+33908,New City Academy,122,2,0,124
+33909,Windemere Park Charter Academy,296,55,329,680
+33910,Lansing Charter Academy,162,24,99,285
+34000,Ionia ISD,73,8,71,152
+34010,Ionia Public Schools,1504,262,1400,3166
+34040,Palo Community School District,42,8,28,78
+34080,Belding Area School District,1064,256,921,2241
+34090,Lakewood Public Schools,576,233,1329,2138
+34110,Portland Public School District,434,109,1554,2097
+34120,Saranac Community Schools,371,148,638,1157
+34140,Berlin Township S/D #3,8,0,27,35
+34340,Easton Township S/D #6,7,0,24,31
+34360,Ionia Township S/D #2,8,0,2,10
+35000,Iosco RESA,36,12,10,58
+35010,Oscoda Area Schools,799,144,411,1354
+35020,Hale Area Schools,424,62,180,666
+35030,Tawas Area Schools,594,113,684,1391
+35040,Whittemore-Prescott Area Schools,786,92,185,1063
+35901,Sunrise Education Center,36,11,8,55
+36015,Forest Park School District,163,86,301,550
+36025,West Iron County Public Schools,444,112,365,921
+37010,Mt. Pleasant City School District,1113,136,2387,3636
+37040,Beal City Public Schools,175,44,481,700
+37060,Shepherd Public School District,582,123,1028,1733
+37901,Renaissance Public School Academy,190,22,113,325
+37902,Morey Charter School,122,30,103,255
+38000,Jackson ISD,114,21,109,244
+38010,Western School District,825,234,1825,2884
+38020,Vandercook Lake Public Schools,575,127,587,1289
+38040,Columbia School District,516,133,1045,1694
+38050,Grass Lake Community Schools,218,81,951,1250
+38080,Concord Community Schools,344,72,472,888
+38090,East Jackson Community Schools,676,98,545,1319
+38100,Hanover-Horton Schools,330,79,928,1337
+38120,Michigan Center School District,603,88,720,1411
+38130,Napoleon Community Schools,531,101,952,1584
+38140,Northwest Community Schools,1023,192,1783,2998
+38150,Springport Public Schools,429,146,458,1033
+38170,Jackson Public Schools,3791,417,1933,6141
+38901,Da Vinci Institute,199,29,104,332
+38902,Paragon Charter Academy,260,71,313,644
+38903,Jackson Arts and Technology PSA,151,8,4,163
+39000,Kalamazoo RESA,380,21,249,650
+39010,Kalamazoo Public School District,7754,747,3891,12392
+39020,Climax-Scotts Community Schools,163,54,389,606
+39030,Comstock Public Schools,1372,168,834,2374
+39050,Galesburg-Augusta Community Schools,499,88,633,1220
+39065,Gull Lake Community Schools,437,78,2330,2845
+39130,Parchment School District,753,116,896,1765
+39140,Portage Public Schools,1681,417,6669,8767
+39160,Schoolcraft Community Schools,89,51,1029,1169
+39170,Vicksburg Community Schools,634,183,1829,2646
+39903,Oakland Academy,45,16,166,227
+39905,Paramount Charter Academy,220,80,393,693
+39906,Youth Advancement Academy,31,3,1,35
+40020,Forest Area Community Schools,429,99,229,757
+40040,Kalkaska Public Schools,770,153,638,1561
+40060,Excelsior Township S/D #1,31,7,15,53
+41010,Grand Rapids Public Schools,14991,892,2546,18429
+41020,Godwin Heights Public Schools,1483,207,530,2220
+41025,Northview Public School District,1099,301,2053,3453
+41026,Wyoming Public Schools,2881,521,1754,5156
+41040,Byron Center Public Schools,635,231,2465,3331
+41050,Caledonia Community Schools,538,276,3327,4141
+41070,Cedar Springs Public Schools,1172,312,1914,3398
+41080,Comstock Park Public Schools,940,195,1306,2441
+41090,East Grand Rapids Public Schools,218,45,2723,2986
+41110,Forest Hills Public Schools,758,201,9204,10163
+41120,Godfrey-Lee Public Schools,1279,123,274,1676
+41130,Grandville Public Schools,1122,401,4364,5887
+41140,Kelloggsville Public Schools,1415,231,657,2303
+41145,Kenowa Hills Public Schools,1152,273,2024,3449
+41150,Kent City Community Schools,362,124,860,1346
+41160,Kentwood Public Schools,4036,668,3854,8558
+41170,Lowell Area Schools,810,301,2780,3891
+41210,Rockford Public Schools,952,303,6734,7989
+41240,Sparta Area Schools,1047,232,1665,2944
+41901,New Branches School,144,20,81,245
+41904,West MI Academy of Environmental Science,290,53,129,472
+41905,Excel Charter Academy,322,137,495,954
+41908,Byron Center Charter School,77,0,157,234
+41909,Vista Charter Academy,522,86,114,722
+41910,Vanguard Charter Academy,259,100,363,722
+41911,Grattan Academy,48,0,130,178
+41914,Knapp Charter Academy,303,95,315,713
+41915,Walker Charter Academy,179,77,436,692
+41916,Cross Creek Charter Academy,118,95,518,731
+41917,William C. Abney Academy,435,20,18,473
+41918,Creative Technologies Academy,57,0,253,310
+41919,Ridge Park Charter Academy,397,72,157,626
+41920,Chandler Woods Charter Academy,117,77,508,702
+41921,Grand Rapids Child Discovery Center,112,20,65,197
+41922,Lighthouse Academy,152,6,8,166
+42030,Grant Township S/D #2,0,0,4,4
+43040,Baldwin Community Schools,471,15,60,546
+44000,Lapeer ISD,49,3,40,92
+44010,Lapeer Community Schools,2058,576,3647,6281
+44020,Almont Community Schools,410,92,1239,1741
+44050,Dryden Community Schools,158,41,501,700
+44060,Imlay City Community Schools,954,259,1077,2290
+44090,North Branch Area Schools,918,251,1349,2518
+44901,Chatfield School,67,0,382,449
+45010,Glen Lake Community Schools,145,75,586,806
+45020,Leland Public School District,155,25,285,465
+45040,Northport Public School District,66,12,74,152
+45050,Suttons Bay Public Schools,257,53,465,775
+46000,Lenawee ISD,189,8,118,315
+46010,Adrian City School District,1756,274,1395,3425
+46020,Addison Community Schools,359,59,560,978
+46040,Blissfield Community Schools,338,120,797,1255
+46050,Britton-Macon Area School District,123,38,385,546
+46060,Clinton Community Schools,243,43,842,1128
+46070,Deerfield Public Schools,76,15,202,293
+46080,Hudson Area Schools,452,47,444,943
+46090,Madison School District (Lenawee),782,105,584,1471
+46100,Morenci Area Schools,338,86,375,799
+46110,Onsted Community Schools,323,50,1294,1667
+46130,Sand Creek Community Schools,310,90,525,925
+46140,Tecumseh Public Schools,526,125,2395,3046
+47000,Livingston ESA,54,10,125,189
+47010,Brighton Area Schools,603,222,5732,6557
+47030,Fowlerville Community Schools,695,270,2046,3011
+47060,Hartland Consolidated Schools,595,236,4718,5549
+47070,Howell Public Schools,1566,515,6234,8315
+47080,Pinckney Community Schools,692,146,3797,4635
+47901,Kensington Woods High School,42,12,226,280
+47902,Charyl Stockwell Academy,68,11,799,878
+48040,Tahquamenon Area Schools,364,47,450,861
+49010,St. Ignace Area Schools,252,89,316,657
+49020,Bois Blanc Pines School District,1,0,2,3
+49040,Les Cheneaux Community Schools,114,26,171,311
+49055,Engadine Consolidated Schools,85,43,140,268
+49070,Moran Township School District,25,7,46,78
+49110,Mackinac Island Public Schools,12,11,55,78
+49901,Three Lakes Academy,33,5,24,62
+50000,Macomb ISD,461,46,772,1279
+50010,Center Line Public Schools,1406,260,1176,2842
+50020,East Detroit Public Schools,2442,302,1943,4687
+50030,Roseville Community Schools,3161,655,2034,5850
+50040,Anchor Bay School District,1233,270,4895,6398
+50050,Armada Area Schools,279,98,1684,2061
+50070,Clintondale Community Schools,2641,192,1062,3895
+50080,Chippewa Valley Schools,2778,679,12484,15941
+50090,Fitzgerald Public Schools,1962,208,833,3003
+50100,Fraser Public Schools,1524,386,3099,5009
+50120,Lake Shore Public Schools (Macomb),1026,277,2167,3470
+50130,Lakeview Public Schools (Macomb),886,257,2208,3351
+50140,L'Anse Creuse Public Schools,3407,750,8166,12323
+50160,Mt. Clemens Community School District,1482,125,300,1907
+50170,New Haven Community Schools,537,113,595,1245
+50180,Richmond Community Schools,221,225,1345,1791
+50190,Romeo Community Schools,1183,262,4133,5578
+50200,South Lake Schools,857,203,1182,2242
+50210,Utica Community Schools,5594,1140,22476,29210
+50220,Van Dyke Public Schools,2331,198,718,3247
+50230,Warren Consolidated Schools,6070,1317,8494,15881
+50240,Warren Woods Public Schools,1139,347,2054,3540
+50901,Macomb Academy,30,0,142,172
+50902,Conner Creek Academy East,665,83,284,1032
+50903,Huron Academy,177,25,226,428
+50904,Conner Creek Academy,361,21,61,443
+50905,Arts Academy in the Woods,80,11,187,278
+50906,Merritt Academy,164,15,214,393
+50908,Mt. Clemens Montessori Academy,40,0,278,318
+50909,Prevail Academy,336,65,330,731
+50910,Ben Ross Public School Academy,374,33,35,442
+50911,Academy of Warren,831,9,4,844
+50912,Reach Charter Academy,255,63,207,525
+51000,Manistee ISD,21,6,11,38
+51020,Bear Lake School District,168,32,159,359
+51045,Kaleva Norman Dickson School District,422,51,204,677
+51060,Onekama Consolidated Schools,115,38,253,406
+51070,Manistee Area Schools,614,185,880,1679
+51903,Casman Alternative Academy,69,8,27,104
+52000,Marquette-Alger RESA,10,0,35,45
+52015,N.I.C.E. Community Schools,332,98,799,1229
+52040,Gwinn Area Community Schools,652,99,518,1269
+52090,Negaunee Public Schools,299,101,1034,1434
+52100,Powell Township Schools,16,3,27,46
+52110,Republic-Michigamme Schools,69,23,61,153
+52160,Wells Township School District,5,2,6,13
+52170,Marquette Area Public Schools,684,146,2307,3137
+52180,Ishpeming Public School District,315,80,452,847
+52901,North Star Academy,106,16,80,202
+53000,Mason-Lake ISD,31,0,20,51
+53010,Mason County Central Schools,782,160,656,1598
+53020,Mason County Eastern Schools,236,78,169,483
+53030,Free Soil Community Schools,26,3,5,34
+53040,Ludington Area School District,834,122,1223,2179
+54000,Mecosta-Osceola ISD,162,0,167,329
+54010,Big Rapids Public Schools,897,168,939,2004
+54025,Chippewa Hills School District,1198,204,878,2280
+54040,Morley Stanwood Community Schools,735,142,569,1446
+54901,Crossroads Charter Academy,267,71,286,624
+55000,Menominee ISD,16,1,7,24
+55010,Carney-Nadeau Public Schools,129,40,116,285
+55100,Menominee Area Public Schools,654,153,957,1764
+55115,North Central Area Schools,194,86,185,465
+55120,Stephenson Area Public Schools,277,146,321,744
+55901,Nah Tah Wahsh Public School Academy,118,17,39,174
+56000,Midland County Educational Service Agency,55,12,62,129
+56010,Midland Public Schools,1722,408,6662,8792
+56020,Bullock Creek School District,652,123,1220,1995
+56030,Coleman Community School District,367,70,417,854
+56050,Meridian Public Schools,491,103,791,1385
+56901,Windover High School,72,12,32,116
+56902,Midland Academy of Advanced and Creative Studies,37,0,211,248
+56903,Academic and Career Education Academy,84,9,35,128
+57020,Lake City Area School District,634,118,403,1155
+57030,McBain Rural Agricultural Schools,364,142,546,1052
+58000,Monroe ISD,320,46,394,760
+58010,Monroe Public Schools,2807,446,3198,6451
+58020,Airport Community School District,989,189,1620,2798
+58030,Bedford Public Schools,820,353,3952,5125
+58050,Dundee Community Schools,416,85,1202,1703
+58070,Ida Public School District,264,82,1319,1665
+58080,Jefferson Schools (Monroe),669,158,1418,2245
+58090,Mason Consolidated Schools (Monroe),430,105,733,1268
+58100,Summerfield School District,136,61,618,815
+58110,Whiteford Agricultural Schools,83,44,607,734
+58901,New Bedford Academy,38,2,99,139
+58902,Triumph Academy,250,58,328,636
+59000,Montcalm Area ISD,109,14,51,174
+59020,Carson City-Crystal Area Schools,426,112,547,1085
+59045,Montabella Community Schools,510,33,297,840
+59070,Greenville Public Schools,1512,356,1948,3816
+59080,Tri County Area Schools,890,216,1316,2422
+59090,Lakeview Community Schools (Montcalm),615,170,727,1512
+59125,Central Montcalm Public Schools,951,187,776,1914
+59150,Vestaburg Community Schools,361,72,283,716
+59901,Threshold Academy,157,7,11,175
+60010,Atlanta Community Schools,213,26,88,327
+60020,Hillman Community Schools,284,71,159,514
+61000,Muskegon Area ISD,162,9,38,209
+61010,Muskegon City School District,4131,276,674,5081
+61020,Muskegon Heights School District,1470,33,98,1601
+61060,Mona Shores Public School District,1082,346,2421,3849
+61065,Oakridge Public Schools,956,188,749,1893
+61080,Fruitport Community Schools,1176,354,1611,3141
+61120,Holton Public Schools,594,105,368,1067
+61180,Montague Area Public Schools,592,144,733,1469
+61190,Orchard View Schools,1585,269,1011,2865
+61210,Ravenna Public Schools,343,106,602,1051
+61220,Reeths-Puffer Schools,1424,414,2145,3983
+61230,North Muskegon Public Schools,173,91,674,938
+61240,Whitehall District Schools,840,127,1422,2389
+61902,Timberland Academy,370,25,55,450
+61903,WayPoint Academy,149,18,45,212
+61904,Three Oaks Public School Academy,368,9,62,439
+62000,Newaygo County RESA,23,3,11,37
+62040,Fremont Public School District,948,185,1277,2410
+62050,Grant Public School District,958,134,1185,2277
+62060,Hesperia Community Schools,587,110,423,1120
+62070,Newaygo Public School District,956,199,712,1867
+62090,White Cloud Public Schools,705,81,346,1132
+62470,Big Jackson School District,20,3,9,32
+63000,Oakland Schools,12,4,5,21
+63010,Birmingham City School District,333,44,7755,8132
+63020,Ferndale Public Schools,2002,270,1763,4035
+63030,Pontiac City School District,4768,287,961,6016
+63040,School District of the City of Royal Oak,1112,298,3992,5402
+63050,Berkley School District,941,126,3534,4601
+63060,Southfield Public School District,3769,778,3981,8528
+63070,Avondale School District,893,219,2717,3829
+63080,Bloomfield Hills School District,400,75,5066,5541
+63090,Clarenceville School District,696,140,1008,1844
+63100,Novi Community School District,394,124,5713,6231
+63110,Oxford Community Schools,916,241,3445,4602
+63130,Hazel Park City School District,3072,306,1777,5155
+63140,Madison Public Schools (Oakland),906,120,394,1420
+63150,Troy School District,1070,306,10717,12093
+63160,West Bloomfield School District,1104,276,5549,6929
+63180,Brandon School District,963,127,2291,3381
+63190,Clarkston Community School District,1180,311,6719,8210
+63200,Farmington Public School District,1841,466,9614,11921
+63210,Holly Area School District,1165,331,2296,3792
+63220,Huron Valley Schools,1991,549,7760,10300
+63230,Lake Orion Community Schools,1061,375,6441,7877
+63240,South Lyon Community Schools,1106,298,5657,7061
+63250,Oak Park City School District,2066,187,1215,3468
+63260,Rochester Community School District,1580,412,12950,14942
+63270,Clawson Public Schools,438,187,1127,1752
+63280,Lamphere Public Schools,1077,176,1540,2793
+63290,Walled Lake Consolidated Schools,2487,559,12433,15479
+63300,Waterford School District,3871,975,6588,11434
+63901,AGBU Alex-Marie Manoogian School,157,0,211,368
+63902,Academy of Oak Park,879,28,174,1081
+63903,Academy of Southfield,231,41,57,329
+63904,Academy of Lathrup Village,283,29,54,366
+63906,Pontiac Academy for Excellence,1323,10,122,1455
+63907,Great Lakes Academy,276,12,12,300
+63910,Dr. Joseph F. Pollack Academic Center of Excellence,455,45,208,708
+63911,Holly Academy,106,1,606,713
+63912,Oakland International Academy,583,9,15,607
+63913,Walton Charter Academy,533,70,166,769
+63914,Advanced Technology Academy,914,93,182,1189
+63915,Arts and Technology Academy of Pontiac,326,21,26,373
+63916,Academy of Waterford,190,25,20,235
+63917,Bradford Academy,814,153,505,1472
+63918,Laurus Academy,354,78,260,692
+63919,Woodmont Academy,212,42,120,374
+63920,Life Skills Center of Pontiac,150,5,80,235
+63921,Crescent Academy,288,31,74,393
+63922,Great Oaks Academy,450,61,168,679
+63923,Four Corners Montessori Academy,61,10,106,177
+63924,Michigan Mathematics and Science Academy,74,16,38,128
+64000,Oceana Intermediate School District,25,2,16,43
+64040,Hart Public School District,816,72,393,1281
+64070,Pentwater Public School District,112,45,108,265
+64080,Shelby Public Schools,904,162,584,1650
+64090,Walkerville Public Schools,273,11,54,338
+65045,West Branch-Rose City Area Schools,1034,253,1028,2315
+66045,Ewen-Trout Creek Consolidated School District,112,42,103,257
+66050,Ontonagon Area Schools,147,69,302,518
+67020,Evart Public Schools,600,105,376,1081
+67050,Marion Public Schools,310,39,207,556
+67055,Pine River Area Schools,625,124,507,1256
+67060,Reed City Area Public Schools,678,151,750,1579
+68010,Mio-AuSable Schools,392,59,232,683
+68030,Fairview Area School District,168,36,119,323
+69020,Gaylord Community Schools,1291,220,1711,3222
+69030,Johannesburg-Lewiston Area Schools,337,84,376,797
+69040,Vanderbilt Area Schools,94,15,53,162
+70000,Ottawa Area ISD,165,15,126,306
+70010,Grand Haven Area Public Schools,1411,565,3878,5854
+70020,Holland City School District,2345,260,1435,4040
+70040,Allendale Public School District,496,169,1540,2205
+70070,West Ottawa Public School District,3028,681,3894,7603
+70120,Coopersville Area Public School District,735,175,1639,2549
+70175,Jenison Public Schools,810,324,3467,4601
+70190,Hudsonville Public School District,866,392,4408,5666
+70300,Spring Lake Public Schools,319,104,1974,2397
+70350,Zeeland Public Schools,1080,474,4063,5617
+70901,Walden Green Montessori,51,0,190,241
+70902,West MI Academy of Arts and Academics,88,18,286,392
+70904,Black River Public School,96,37,697,830
+70905,Vanderbilt Charter Academy,270,68,105,443
+70906,Eagle Crest Charter Academy,186,104,424,714
+70907,Wavecrest Career Academy,88,2,73,163
+71050,Onaway Area Community School District,344,75,284,703
+71060,Posen Consolidated School District,86,50,113,249
+71080,Rogers City Area Schools,201,63,291,555
+71902,Presque Isle Academy II,39,4,16,59
+72000,C.O.O.R. ISD,46,11,24,81
+72010,Roscommon Area Public Schools,823,123,581,1527
+72020,Houghton Lake Community Schools,978,134,544,1656
+73000,Saginaw ISD,290,15,158,463
+73010,Saginaw City School District,6368,437,2033,8838
+73030,Carrollton School District,1211,163,538,1912
+73040,Saginaw Township Community Schools,1642,325,3366,5333
+73080,Buena Vista School District,889,24,103,1016
+73110,Chesaning Union Schools,681,141,938,1760
+73170,Birch Run Area School District,592,179,1076,1847
+73180,Bridgeport-Spaulding Community School District,1005,83,462,1550
+73190,Frankenmuth School District,133,34,1061,1228
+73200,Freeland Community School District,249,51,1492,1792
+73210,Hemlock Public School District,283,49,1027,1359
+73230,Merrill Community Schools,307,64,407,778
+73240,St. Charles Community Schools,390,112,619,1121
+73255,Swan Valley School District,435,166,1200,1801
+73905,Saginaw County Transition Academy,124,0,5,129
+73908,Saginaw Preparatory Academy,292,17,11,320
+73909,Francis Reh PSA,323,10,11,344
+73910,North Saginaw Charter Academy,365,47,120,532
+73911,Saginaw Learn to Earn Academy,94,6,26,126
+73912,International Academy of Saginaw,183,13,37,233
+74000,St. Clair County RESA,92,10,67,169
+74010,Port Huron Area School District,4903,617,4918,10438
+74030,Algonac Community School District,704,158,1169,2031
+74040,Capac Community School District,558,169,866,1593
+74050,East China School District,1298,291,3478,5067
+74100,Marysville Public Schools,543,112,2019,2674
+74120,Memphis Community Schools,283,103,670,1056
+74130,Yale Public Schools,672,173,1379,2224
+74901,St. Clair County Learning Academy,25,2,5,32
+74902,Industrial Technology Academy,1,0,0,1
+74903,Landmark Academy,310,94,498,902
+74906,Blue Water Learning Academy,18,2,7,27
+74908,Academic Transitional Academy,2,0,0,2
+74909,Public Safety Academy of St. Clair,0,0,1,1
+74911,St. Clair County Intervention Academy,73,0,0,73
+74912,Virtual Learning Academy of St. Clair County,85,5,14,104
+75000,St. Joseph County ISD,71,9,48,128
+75010,Sturgis Public Schools,1807,281,1191,3279
+75020,Burr Oak Community School District,191,7,101,299
+75030,Centreville Public Schools,353,101,499,953
+75040,Colon Community School District,346,53,294,693
+75050,Constantine Public School District,768,120,665,1553
+75060,Mendon Community School District,253,67,384,704
+75070,White Pigeon Community Schools,441,81,303,825
+75080,Three Rivers Community Schools,1364,199,1249,2812
+75100,Nottawa Community School,55,25,70,150
+76000,Sanilac ISD,74,9,63,146
+76060,Brown City Community Schools,423,123,454,1000
+76070,Carsonville-Port Sanilac School District,349,48,243,640
+76080,Croswell-Lexington Community Schools,952,225,1059,2236
+76090,Deckerville Community School District,308,56,296,660
+76140,Marlette Community Schools,490,123,504,1117
+76180,Peck Community School District,237,79,236,552
+76210,Sandusky Community School District,479,140,540,1159
+77010,Manistique Area Schools,386,111,490,987
+78000,Shiawassee Regional ESD,96,12,89,197
+78020,Byron Area Schools,344,133,766,1243
+78030,Durand Area Schools,708,151,897,1756
+78040,Laingsburg Community School District,212,59,972,1243
+78060,Morrice Area Schools,192,37,332,561
+78070,New Lothrop Area Public Schools,160,35,645,840
+78080,Perry Public School District,595,141,1025,1761
+78100,Corunna Public School District,876,211,1355,2442
+78110,Owosso Public Schools,1682,239,1574,3495
+79000,Tuscola ISD,266,17,71,354
+79010,Akron-Fairgrove Schools,178,41,103,322
+79020,Caro Community Schools,790,204,996,1990
+79030,Cass City Public Schools,502,140,579,1221
+79080,Kingston Community School District,297,68,256,621
+79090,Mayville Community School District,485,83,327,895
+79100,Millington Community Schools,556,164,774,1494
+79110,Reese Public Schools,362,49,578,989
+79145,Unionville-Sebewaing Area S.D.,261,95,591,947
+79150,Vassar Public Schools,900,188,630,1718
+80000,Van Buren ISD,147,22,88,257
+80010,South Haven Public Schools,1156,148,980,2284
+80020,Bangor Public Schools,759,68,463,1290
+80040,Covert Public Schools,642,29,57,728
+80050,Decatur Public Schools,520,123,364,1007
+80090,Bloomingdale Public School District,982,108,330,1420
+80110,Gobles Public School District,363,93,511,967
+80120,Hartford Public School District,1007,131,373,1511
+80130,Lawrence Public School District,378,56,313,747
+80140,Lawton Community School District,529,115,448,1092
+80150,Mattawan Consolidated School,462,157,3214,3833
+80160,Paw Paw Public School District,821,184,1383,2388
+80240,Bangor Township S/D #8,3,0,18,21
+81000,Washtenaw ISD,164,4,81,249
+81010,Ann Arbor Public Schools,3146,528,12914,16588
+81020,School District of Ypsilanti,2358,284,1246,3888
+81040,Chelsea School District,212,76,2317,2605
+81050,Dexter Community School District,229,81,3329,3639
+81070,Lincoln Consolidated School District,1690,382,2727,4799
+81080,Manchester Community Schools,211,40,981,1232
+81100,Milan Area Schools,581,134,1955,2670
+81120,Saline Area Schools,366,89,4987,5442
+81140,Whitmore Lake Public Schools,344,86,773,1203
+81150,Willow Run Community Schools,1443,99,319,1861
+81901,Honey Creek Community School,23,6,191,220
+81902,Central Academy,389,37,88,514
+81903,Washtenaw Technical Middle College,42,0,340,382
+81904,Ann Arbor Learning Community,34,1,229,264
+81905,South Arbor Charter Academy,97,51,619,767
+81906,Fortis Academy,272,74,391,737
+81907,Victory Academy Charter School,140,6,3,149
+81908,Eastern Washtenaw Multicultural Academy,146,15,93,254
+82000,Wayne RESA,8,0,22,30
+82010,Detroit City School District,67901,2128,18474,88503
+82020,Allen Park Public Schools,859,294,2616,3769
+82030,Dearborn City School District,10608,924,6952,18484
+82040,Dearborn Heights School District #7,1378,336,1123,2837
+82045,Melvindale-North Allen Park Schools,1582,334,851,2767
+82050,Garden City School District,1818,396,2966,5180
+82055,Grosse Pointe Public Schools,748,132,7482,8362
+82060,Hamtramck Public Schools,2539,113,485,3137
+82070,Highland Park City Schools,1321,11,513,1845
+82080,School District of the City of Inkster,2397,120,763,3280
+82090,Lincoln Park Public Schools,2672,499,1448,4619
+82095,Livonia Public Schools,2801,783,12991,16575
+82100,Plymouth-Canton Community Schools,2301,615,16203,19119
+82110,Redford Union School District,1628,279,1404,3311
+82120,River Rouge School District,1115,46,132,1293
+82130,Romulus Community Schools,2262,400,1213,3875
+82140,South Redford School District,1394,316,1716,3426
+82150,Taylor School District,4600,863,2863,8326
+82155,Trenton Public Schools,560,102,2211,2873
+82160,Wayne-Westland Community School District,6257,1200,5485,12942
+82170,Wyandotte City School District,1963,403,2491,4857
+82180,Flat Rock Community Schools,640,154,1140,1934
+82230,Crestwood School District,1596,340,1511,3447
+82240,Westwood Community Schools,1735,101,724,2560
+82250,Ecorse Public School District,541,3,415,959
+82290,Gibraltar School District,932,200,2590,3722
+82300,Grosse Ile Township Schools,111,33,1708,1852
+82320,City of Harper Woods Schools,800,90,455,1345
+82340,Huron School District,599,159,1736,2494
+82365,Woodhaven-Brownstown School District,1374,336,3355,5065
+82390,Northville Public Schools,316,64,6934,7314
+82400,Riverview Community School District,637,183,1870,2690
+82405,Southgate Community School District,1975,477,3251,5703
+82430,Van Buren Public Schools,2341,374,3030,5745
+82701,University Preparatory Science and Math (PSAD),192,38,152,382
+82702,University Preparatory Academy,1145,168,344,1657
+82703,Henry Ford Academy: School for Creative Studies (PSAD),216,58,108,382
+82716,Vista Meadows Academy,51,0,10,61
+82717,Achieve Charter Academy,48,16,499,563
+82718,Quest Charter Academy,196,35,100,331
+82719,Washington-Parks Academy,147,26,150,323
+82720,Lincoln-King Academy,147,21,116,284
+82721,McGivney Academy (SDA),3,0,10,13
+82902,Casa Richard Academy,98,14,24,136
+82903,Aisha Shule/WEB Dubois Prep. Academy School,211,5,32,248
+82904,Plymouth Educational Center,776,135,232,1143
+82905,Nataki Talibah Schoolhouse of Detroit,254,10,132,396
+82907,Michigan Technical Academy,998,73,172,1243
+82909,Academy of Detroit-West,271,24,26,321
+82910,"Martin Luther King, Jr. Education Center Academy",251,15,48,314
+82911,Gaudior Academy,113,25,53,191
+82912,Academy of Westland,375,17,32,424
+82913,Woodward Academy,443,57,58,558
+82914,Colin Powell Academy,520,28,43,591
+82915,Eaton Academy,335,38,94,467
+82916,Summit Academy,190,43,172,405
+82917,Michigan Health Academy,161,3,39,203
+82918,Cesar Chavez Academy,1742,59,48,1849
+82919,Commonwealth Community Devel. Academy,238,9,5,252
+82921,Academy for Business and Technology,545,56,52,653
+82922,Nsoroma Institute,146,20,27,193
+82923,Chandler Park Academy,1418,98,203,1719
+82924,Marvin L. Winans Academy of Performing Arts,978,121,308,1407
+82925,Detroit Community Schools,834,54,170,1058
+82926,Henry Ford Academy,188,55,236,479
+82927,HEART Academy,160,22,38,220
+82928,The Dearborn Academy,453,7,21,481
+82929,Detroit Academy of Arts and Sciences,1435,72,348,1855
+82930,Dove Academy of Detroit,400,23,46,469
+82933,Timbuktu Academy of Science and Technology,317,7,12,336
+82937,George Crockett Academy,378,16,38,432
+82938,Summit Academy North,535,143,807,1485
+82939,Pierre Toussaint Academy,395,15,45,455
+82940,Voyageur Academy,614,52,132,798
+82941,Star International Academy,1040,117,147,1304
+82942,Hope Academy,453,0,44,497
+82943,Weston Preparatory Academy,296,27,83,406
+82945,Edison Public School Academy,596,134,345,1075
+82947,David Ellis Academy,189,45,86,320
+82948,Ross Hill Academy,161,9,16,186
+82949,Center for Literacy and Creativity,79,4,33,116
+82950,Universal Academy,473,4,23,500
+82953,Detroit Service Learning Academy,812,98,218,1128
+82955,Allen Academy,1007,7,46,1060
+82956,Old Redford Academy,1409,166,332,1907
+82957,Hope of Detroit Academy,437,12,39,488
+82958,Joy Preparatory Academy,420,18,26,464
+82959,West Village Academy,312,33,58,403
+82960,Cherry Hill School of Performing Arts,861,21,173,1055
+82961,Academy of Inkster,172,10,18,200
+82962,New Beginnings Academy,121,15,48,184
+82963,George Washington Carver Academy,463,1,31,495
+82964,Detroit Midtown Academy,301,0,21,322
+82967,Metro Charter Academy,338,72,311,721
+82968,Canton Charter Academy,60,26,625,711
+82969,Creative Montessori Academy,200,72,382,654
+82970,Warrendale Charter Academy,602,39,88,729
+82971,Blanche Kelso Bruce Academy,415,0,75,490
+82973,Trillium Academy,343,47,337,727
+82974,Detroit Merit Charter Academy,544,52,121,717
+82975,Riverside Academy,987,20,20,1027
+82976,Keystone Academy,129,53,564,746
+82977,Hamtramck Academy,425,17,38,480
+82978,Life Skills Center of Metropolitan Detroit,278,11,52,341
+82979,Detroit Enterprise Academy,576,60,65,701
+82980,"Business Entrepreneurship, Science, Tech. Academy",432,2,3,437
+82981,American Montessori Academy,113,18,315,446
+82982,Universal Learning Academy,396,37,37,470
+82983,Bridge Academy,581,0,5,586
+82984,Dr. Charles Drew Academy,375,9,35,419
+82985,Detroit Premier Academy,622,40,77,739
+82986,Hanley International Academy,535,17,62,614
+82987,Frontier International Academy,321,0,5,326
+82988,Discovery Arts and Technology PSA,194,7,19,220
+82989,Covenant House Life Skills Center West,172,5,74,251
+82990,Covenant House Life Skills Center East,251,0,62,313
+82991,Covenant House Life Skills Center Central,300,1,18,319
+82992,Northpointe Academy,234,4,31,269
+82994,David Ellis Academy West,489,70,275,834
+82995,Taylor Exemplar Academy,280,95,302,677
+82996,Clara B. Ford Academy (SDA),178,0,9,187
+82997,Flagship Charter Academy,513,24,40,577
+82998,ACE Academy (SDA),161,0,25,186
+83000,Wexford-Missaukee ISD,70,1,24,95
+83010,Cadillac Area Public Schools,1418,247,1580,3245
+83060,Manton Consolidated Schools,529,124,362,1015
+83070,Mesick Consolidated Schools,431,72,249,752

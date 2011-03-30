@@ -1,0 +1,556 @@
+{% extends "base.html" %}
+{% load hash %}
+{% load humanize %}
+
+{% block title %}{{district|hash:'District Name'}} - Michigan Public School Data{% endblock %}
+
+{% block banner %}
+{% with district|hash:'2009-10' as year %}
+{% with district|hash:'2010' as act_year %}
+<h2 class="building">{{district|hash:'District Name'}}</h2>
+
+<div class="factbar floatcontainer">
+    <h3 class="fact"><span class="num">{{year.headcount.tot_all.value|intcomma}}</span> students </h3>
+    <h3 class="fact"><span class="num">{{year.ten_fourteen.AVG_P_TCHR}}:1</span> student-teacher ratio</h3>
+    <h3 class="fact"><span class="num">{{year.reduced_lunch.free_lunch_eligible_pct}}%</span> free lunch eligible</h3>
+    <h3 class="fact last"><span class="num">{{act_year.ACT.Composite.Mean}}</span> composite ACT score</h3>
+</div>
+{% endwith %}
+{% endwith %}
+{% endblock %}
+
+{% block content %}
+
+{% with district|hash:'2009-10' as year %}
+{% with district|hash:'2010' as act_year %}
+
+
+<div id="tabs" class="floatcontainer">
+	<ul class="floatcontainer">
+		<li><a href="#academics">Academics</a></li>
+		<li><a href="#demographics">Demographics</a></li>
+		<li><a href="#finances">Finances</a></li>
+	</ul>
+	
+	<section id="academics">
+		<h3>Academics</h3>
+		
+		<h4>MEAP Performance by Demographic</h4>
+		
+		<table class="schooldata">
+		{% for grade,value in year.MEAP.items %}
+            {% for subject, values in value.items %}
+    			<tr class="separator">
+    				<th>{{subject}}</th>
+    				<th>District</th>
+    				<th>State</th>
+    			</tr>
+    			<tr>
+                    <td>All students</td>
+                    <td>{{values.all_students.value}}</td>
+                    <td>{{values.all_students.state}}</td>
+                </tr>     
+                <tr>
+                    <td>Students with disabilities</td>
+                    <td>{{values.students_with_disabilities.value}}</td>
+                    <td>{{values.students_with_disabilities.state}}</td>
+                </tr>     
+                <tr>
+                    <td>Economically disadvantaged</td>
+                    <td>{{values.ed.value}}</td>
+                    <td>{{values.ed.state}}</td>
+                </tr>     
+                <tr class="separator-small">
+                    <td>Limited English Proficiency</td>
+                    <td>{{values.lep.value}}</td>
+                    <td>{{values.lep.state}}</td>
+                </tr>     
+                
+                
+                <tr>
+                    <td>Female</td>
+                    <td>{{values.female.value}}</td>
+                    <td>{{values.female.state}}</td>
+                </tr>     
+                <tr class="separator-small">
+                    <td>Male</td>
+                    <td>{{values.male.value}}</td>
+                    <td>{{values.male.state}}</td>
+                </tr>     
+
+
+                <tr>
+                    <td>American Indian or Alaskan Native</td>
+                    <td>{{values.american_indian_or_alaskan_native.value}}</td>
+                    <td>{{values.american_indian_or_alaskan_native.state}}</td>
+                </tr>     
+                <tr>
+                    <td>Asian or Pacific Islander</td>
+                    <td>{{values.asian_or_pacific_islander.value}}</td>
+                    <td>{{values.asian_or_pacific_islander.state}}</td>
+                </tr>     
+                <tr>
+                    <td>Black, not of Hispanic origin</td>
+                    <td>{{values.black_not_of_hispanic_origin.value}}</td>
+                    <td>{{values.black_not_of_hispanic_origin.state}}</td>
+                </tr>     
+                <tr>
+                    <td>Hispanic</td>
+                    <td>{{values.hispanic.value}}</td>
+                    <td>{{values.hispanic.state}}</td>
+                </tr>     
+                
+                <tr>
+                    <td>White, not of Hispanic origin</td>
+                    <td>{{values.white_not_of_hispanic_origin.value}}</td>
+                    <td>{{values.white_not_of_hispanic_origin.state}}</td>
+                </tr>            
+
+            {% endfor %}
+        {% endfor %}
+		</table>
+		
+<img src="http://chart.apis.google.com/chart?chxl=1:|Hispanic|African+American&chxr=0,-5,160|1,-1.667,100&chxt=x,y&chbh=16,1&chs=440x174&cht=bhs&chco=4D89F9&chds=0,168.333&chd=t:10,50,60,80,40,60,30&chtt=Horizontal+bar+chart" width="440" height="174" alt="Horizontal bar chart" />
+
+        
+
+	</section>
+	
+	<section id="demographics" class="tab-box">
+		<h3>Demographics</h3>
+		<table class="schooldata">
+			<thead>
+				<tr>
+					<th>Group</th>
+					<th>Count</th>
+					<th>%</th>
+					<th>State</th>
+					<th>Difference</th>		
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Total</td>
+					<td>{{year.headcount.tot_all.value}}</td>
+					<td>-</td>
+					<td>-</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>American Indian</td>
+					<td>{{year.headcount.tot_ai.value}}</td>
+					<td>{{year.headcount.tot_ai.percent}}%</td>
+					<td>{{year.headcount.tot_ai.state}}%</td>
+					<td></td>
+					
+				</tr>
+				<tr>
+					<td>Asian</td>
+					<td>{{year.headcount.tot_as.value}}</td>
+					<td>{{year.headcount.tot_as.percent}}</td>
+					<td>{{year.headcount.tot_as.state}}</td>
+					<td></td>
+					
+				</tr>
+				<tr>
+					<td>African-American</td>
+					<td>{{year.headcount.tot_aa.value}}</td>
+					<td>{{year.headcount.tot_aa.percent}}</td>
+					<td>{{year.headcount.tot_aa.state}}</td>
+					<td></td>
+					
+				</tr>
+				<!--
+				<tr>
+					<td>Native Hawaiian</td>
+					<td>{{year.headcount.tot_hw.value}}</td>
+					<td>{{year.headcount.tot_hw.percent}}</td>
+					<td>{{year.headcount.tot_hw.state}}</td>
+				</tr>
+				-->
+				<tr>
+					<td>White</td>
+					<td>{{year.headcount.tot_wh.value}}</td>
+					<td>{{year.headcount.tot_wh.percent}}</td>
+					<td>{{year.headcount.tot_wh.state}}</td>
+					<td></td>
+					
+				</tr>
+				<tr>
+					<td>Hispanic</td>
+					<td>{{year.headcount.tot_hs.value}}</td>
+					<td>{{year.headcount.tot_hs.percent}}</td>
+					<td>{{year.headcount.tot_hs.state}}</td>
+					<td></td>
+					
+				</tr>
+				<tr>
+					<td>Multiracial</td>
+					<td>{{year.headcount.tot_mr.value}}</td>
+					<td>{{year.headcount.tot_mr.percent}}</td>
+					<td>{{year.headcount.tot_mr.state}}</td>
+					<td></td>
+					
+				</tr>
+			</tbody>
+		</table>
+		
+	</section>
+	
+	
+	<section id="finances" class="tab-box">
+		<h3>2008-9 Finances</h3>
+		<table class="schooldata">
+			<thead>
+				<tr>
+					<th>Per-pupil overview</th>
+					<th>Amount</th>
+					<th>Statewide rank</th>
+				</tr>				
+			</thead>
+			<tbody>
+				<tr>
+					<th>Federal revenue per pupil</th>
+					<td>${{year.ten_fourteen.AVG_FEDREV|intcomma}}</td>
+					<td>{{year.ten_fourteen.RNK_FEDREV}}</td>
+				</tr>
+				<tr>
+					<th>Total instruction expenditures per pupil</th>
+					<td>${{year.ten_fourteen.AVG_ITOT|intcomma}}</td>
+					<td>{{year.ten_fourteen.RNK_ITOT}}</td>
+				</tr>
+				<tr>
+					<th> Total administration per pupil</th>
+					<td>${{year.ten_fourteen.AVG_ADM|intcomma}}</td>
+					<td>{{year.ten_fourteen.RNK_ADM}}</td>
+				</tr>
+				<tr>
+					<th>Average teacher salaries</th>
+					<td>${{year.ten_fourteen.AVG_T_SAL|intcomma}}</td>
+					<td>{{year.ten_fourteen.RNK_T_SAL}}</td>
+				</tr>
+				<tr>
+					<th>Pupil-teacher ratio</th>
+					<td>{{year.ten_fourteen.AVG_P_TCHR}}</td>
+					<td>{{year.ten_fourteen.RNK_P_TCH}}</td>
+				</tr>
+			</tbody>
+			</table>	
+				
+			<table class="schooldata">
+        	
+				{% with district|hash:'2008-9' as finyear %}
+				<tr class="separator">
+					<th colspan="3">Balance sheet</th>
+				</tr>				
+				<tr>
+					<th>Total assets</th>
+					<td>${{finyear.ten_eleven.TOTASSETS.AMT_ALL|intcomma}}</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Total liabilities</th>
+					<td>${{finyear.ten_eleven.TOTLIAB.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								...							</div>
+						</div>
+					</td>
+				</tr>				
+				<tr>
+					<th>Debt</th>
+					<td>${{finyear.ten_eleven.DEBT.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								...							</div>
+						</div>
+					</td>
+				</tr>
+				
+				
+				<tr class="separator">
+					<th colspan="3">Revenue sources</th>
+				</tr>				
+				<tr>
+					<th>Local</th>
+					<td>${{finyear.ten_eleven.LOCREV.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+							Revenue produced within the school district boundaries for operating the schools and available to the district in the amount produced. The major source of local revenue in most districts is the general property tax levy. To avoid counting the same revenue multiple times; Statewide and Groupings reports DO NOT INCLUDE local revenue paid to another Michigan public school.				
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>Other political subdivisions</th>
+					<td>${{finyear.ten_eleven.OTHPOL.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								Revenue received or to be received from a non-public educational entity or a governmental unit other than the state or federal government. 
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>State</th>
+					<td>${{finyear.ten_eleven.STATEREV.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								Revenues received or to be received from the State of Michigan which are appropriated by the state out of state levied funds. The major source of state revenue in most districts is the State School Aid foundation allowance. 
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>Federal</th>
+					<td>${{finyear.ten_eleven.FEDREV.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								Revenue received or to be received from the federal government which is redistributed by the state; or redistributed by a local unit of government, such as a county or a city; or allocated directly by a federal agency, e.g., U.S. Department of Education.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>Incoming transfers</th>
+					<td>${{finyear.ten_eleven.TOTINCXFER.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								Incoming transfers include local revenues received or to be received from other k-12 public school districts or from other funds and which do not create a liability to be repaid. Other transactions include those transactions which arise from prior year operations and proceeds from the sale of fixed assets or long term loans. 
+							</div>
+						</div>
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Total revenues before transfers</th>
+					<td>${{finyear.ten_eleven.TOTREVBT.AMT_ALL|intcomma}}</td>
+					<td>
+					</td>
+				</tr>
+				<tr class="totals">
+					<th>Total incoming</th>
+					<td>${{finyear.ten_eleven.TOTREVXOT.AMT_ALL|intcomma}}</td>
+					<td>
+					</td>
+				</tr>
+				
+				
+				<tr class="separator">
+					<th colspan="2">Instructional costs</th>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								The cost of activities dealing directly with the teaching of students in the classroom or in a classroom situation. These expenditures do not include capital outlay. Per pupil expenditures for Basic and Added Needs Instruction are calculated using only K-12 and Special Education pupil fte as the divisor. Adult Education Instructional Costs per pupil are calculated using only Adult Education Participants as the divisor.							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>Basic programs with salaries</th>
+					<td>${{finyear.ten_eleven.BASINS.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								The classroom costs related to basic instructional classroom programs. This includes pre-k, elementary, middle, and high school programs.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>Added needs programs with salaries</th>
+					<td>${{finyear.ten_eleven.ADDINS.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								The classroom costs of added needs instructional programs offered by the district. These include special education, compensatory
+								education, or career/technical education.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr class="totals">
+					<th>Total instructional costs</th>
+					<td>${{finyear.ten_eleven.ITOT.AMT_ALL|intcomma}}</td>
+					<td>
+					</td>
+				</tr>
+				
+				
+				<tr class="separator">
+					<th colspan="3">Support services</th>
+				</tr>
+				<tr>
+					<th>Instructional support</th>
+					<td>${{finyear.ten_eleven.TOTINSSUP.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								The cost of activities which provide administrative, technical, and logistical support to facilitate and enhance instruction. These expenditures do not include capital outlay.					
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>Non-instructional support</th>
+					<td>${{finyear.ten_eleven.TOTNINSSUP.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								Administrative costs, including food service, transportation, and maintenance.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>&nbsp;&nbsp;&nbsp;&nbsp;Transportation</th>
+					<td>${{finyear.ten_eleven.TOTTRANS.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+								Those activities concerned with the conveyance of pupils to and from school and to and from school activities.						
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr class="totals">
+					<th>Total support</th>
+					<td>${{finyear.ten_eleven.TOTSS.AMT_ALL|intcomma}}</td>
+					<td>
+					</td>
+				</tr>
+				
+				<tr class="separator">
+					<th colspan="3">Total expenditures</th>
+				</tr>
+				<tr>
+					<th>Outgoing transfers</th>
+					<td>${{finyear.ten_eleven.TOTOUTXFER.AMT_ALL|intcomma}}</td>
+					<td>
+						<div class="tooltip">
+							<a href="">?</a>
+							<div class="tooltip-text">
+							Outgoing transfers are amounts disbursed or to be disbursed to other school districts as subgrants or to other funds and which do not create assets to be received in the future. Other transactions include those transactions which arise from prior year operations, debt service, and fund modifications.
+							</div>
+						</div>
+					</td>
+				</tr>	
+				<tr class="totals">
+					<th>Total expenditures with transfers</th>
+					<td>${{finyear.ten_eleven.TOTEXPOUT.AMT_ALL|intcomma}}</td>
+					<td>
+					</td>
+				</tr>				
+				{% endwith %}				
+								
+							
+			</tbody>
+		</table>
+			
+			<p class="sources">Sources: Data and explainers from <a href="http://www.michigan.gov/mde/0,1607,7-140-6530_6605-21514--,00.html">Bulletin 1014: Michigan Public Schools Ranked by Select 
+				Financial Information</a> and <a href="http://www.michigan.gov/mde/0,1607,7-140-6530_6605-21539--,00.html">Bulletin 1011: Analysis of Michigan 
+				Public Schools Revenue and Expenditures</a>, both published by the Michigan Department of Education.</p>
+	</section>
+	
+	<div id="sidebar">
+		<div id="sidebar-in">
+			<addr>
+			{{district.ADDR1}}<br />
+			{% if district.ADDR1 != district.ADDR2 %}{{district.ADDR2}}<br />{% endif %}
+			{{district.CITY1}}, MI {{district.ZIP1}}
+			</addr>
+			
+			
+			<p class="missing-data"><a href="/missingdata/{{building|hash:'District Code'}}">Missing or incorrect data?</a></p>
+				
+		</div>
+	</div>
+	
+	{% endwith %} 
+	{% endwith %} 
+	
+</div> <!-- end tabs -->
+
+<section id="school-list">
+<h3>Schools <input type="text" name="q" id="filter-search" /></h3>
+<table class="schooldata">
+	<thead>
+		<tr>
+			<th valign="bottom">School</th>
+			<th valign="bottom">Headcount</th>
+			<!--<th valign="bottom">Pre-K</th>-->
+			<th class="grade-bar-head">K</th>
+			<th class="grade-bar-head">1</th>
+			<th class="grade-bar-head">2</th>
+			<th class="grade-bar-head">3</th>
+			<th class="grade-bar-head">4</th>
+			<th class="grade-bar-head">5</th>
+			<th class="grade-bar-head">6</th>
+			<th class="grade-bar-head">7</th>
+			<th class="grade-bar-head">8</th>
+			<th class="grade-bar-head">9</th>
+			<th class="grade-bar-head">10</th>
+			<th class="grade-bar-head">11</th>
+			<th class="grade-bar-head">12</th>
+			<th>Free Lunch</th>
+			<th>AYP</th>
+		</tr>
+	</thead>
+		
+	<tbody>
+	{% for school in schools %}
+	{% with school|hash:'2009-10' as year %}
+		<tr>
+			<td><a href="{% url building school|hash:'Building Code' %}">{{school|hash:'Building Name'}}</a></td>
+			<td>{{year.headcount.tot_all.value}}</td>
+			<!--<td class="grade-bar">{% if "grade_Pre-K" in school.grades %}<span></span>{% endif %}</td>-->
+			<td class="grade-bar">{% if "grade_KG" in school.grades or "KG" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_1" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_2" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_3" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_4" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_5" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_6" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_7" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_8" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_9" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_10" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_11" in school.grades %}<span></span>{% endif %}</td>
+			<td class="grade-bar">{% if "grade_12" in school.grades %}<span></span>{% endif %}</td>
+			<td style="text-align:center">
+				{% if year.reduced_lunch.free_lunch_eligible_pct %}
+					{{year.reduced_lunch.free_lunch_eligible_pct}}%
+				{% endif %}
+			</td>
+			<td>{{year.ayp.Grade}}</td>
+		</tr>
+	{% endwith %}
+	{% endfor %}
+	</tbody>
+</table>
+</section> <!-- end schools list -->
+
+{{building}}<br /><br />
+{{district}}<br /><br />
+{{state}}
+
+{% endblock %}

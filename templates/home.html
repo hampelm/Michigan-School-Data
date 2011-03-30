@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load hash %}
+
+{% block title %}Michigan Public School Data{% endblock %}
+
+{% block content %}
+
+
+<h2>Find a school</h2>
+<form action="search" method="get" accept-charset="utf-8">
+	
+	{{search}}
+	<p><input type="submit" value="Search &rarr;"></p>
+</form>
+<!-- url building building|hash:'Building Code' -->
+<a href="http://localhost:8000/building/04477">Western</a>
+
+<h2>Welcome</h2>
+
+<h2>xx,xxx schools</h2>
+
+<h2>About</h2>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+;;
+;"Instructions for Using This Spreadsheet";
+;;
+;"To use this workbook follow these steps:";
+;;
+;"1.";"Click on the Selection tab at the bottom of the spreadsheet window."
+;;
+;"2.";"Obtain the desired district code (or school code) by typing all or part of the distict (or school) name into the appropriate search box on the Selection tab.  NOTE that you can only select public schools and districts."
+;;
+;"3.";"Enter the desired district code and school code into the appropriate area on the Selection tab. "
+;;
+;"4.";"You may now click on any of the tabs at the bottom of the spreadsheet window to view the associated information:"
+;;
+;;"The All Subjects tab contains the aggregate percent proficient or above performance data for each school/district chosen.  It also contains the aggregate performance data for the entire state, and a summary of the differences between the selected school/district and the State."
+;;
+;;"The ELA, Reading, Writing, Math, Science, and Social Studies tabs show the percentages in each of the four performance levels (not proficient, partially proficient, proficient, and advanced) in the selected school/district.  It also shows the statewide percents in each performance level, as well as a summary of the differences between the selected school/district and the State."
+;;
+;;"The 3rd_Grade_Public through 9th_Grade_Public tabs contain the raw data.  These data can be used to answer questions not addressed on any previous tabs.  These data are not changed by selecting specific schools/districts on the Selection tab."
+;;
+;;"The List tab contains reference information used to make the Selection tab work.  Information on this tab is not changed by using the Selection tab."

@@ -1,0 +1,49 @@
+;;;;;;;;;;;;;
+;"Grade";"X";"X";"X";"X";"X";;"Grade";"X";"X";"X";"X";"X"
+;6;"00000-00000-06-X";"00000-00000-06-X";"00000-00000-06-X";"00000-00000-06-X";"00000-00000-06-X";;6;"00000-00000-06-X";"00000-00000-06-X";"00000-00000-06-X";"00000-00000-06-X";"00000-00000-06-X"
+;9;"00000-00000-09-X";"00000-00000-09-X";"00000-00000-09-X";"00000-00000-09-X";"00000-00000-09-X";;9;"00000-00000-09-X";"00000-00000-09-X";"00000-00000-09-X";"00000-00000-09-X";"00000-00000-09-X"
+;;;;;;;;;;;;;
+;"REPORT OF PERCENT IN EACH PERFORMANCE LEVEL FOR";;;;;;;"REPORT OF PERCENT PROFICIENT OR ADVANCED FOR";;;;;
+;"DISTRICT:  ALL DISTRICTS";;;;;;;"DISTRICT:  ";;;;;
+;"SCHOOL:  ALL SCHOOLS";;;;;;;"SCHOOL:  ";;;;;
+;"Grade";"Performance Level";;;;;;"Grade";"Subject";;;;
+;;"Not
+Proficient";"Partially
+Proficient";"Proficient";"Advanced";"Proficient or
+Advanced";;;"Not
+Proficient";"Partially
+Proficient";"Proficient";"Advanced";"Proficient or
+Advanced"
+;6;10.5;16.1;31.1;42.3;73.4;;6;10.5;16.1;31.1;42.3;73.4
+;9;10.4;18.5;35.8;35.3;71.1;;9;10.4;18.5;35.8;35.3;71.1
+;;;;;;;;;;;;;
+;"REPORT OF PERCENT IN EACH PERFORMANCE LEVEL FOR";;;;;;;;;;;;
+;"DISTRICT:  ALL DISTRICTS";;;;;;;;;;;;
+;"SCHOOL:  ALL SCHOOLS";;;;;;;;;;;;
+;"Grade";"Performance Level";;;;;;;;;;;
+;;"Not
+Proficient";"Partially
+Proficient";"Proficient";"Advanced";"Proficient or
+Advanced";;;;;;;
+;6;10.5;16.1;31.1;42.3;73.4;;;;;;;
+;9;10.4;18.5;35.8;35.3;71.1;;;;;;;
+;;;;;;;;;;;;;
+;"STATEWIDE REPORT OF PERCENT IN EACH PERFORMANCE LEVEL";;;;;;;;;;;;
+;"Grade";"Performance Level";;;;;;;;;;;
+;;"Not
+Proficient";"Partially
+Proficient";"Proficient";"Advanced";"Proficient or
+Advanced";;;;;;;
+;6;10.5;16.1;31.1;42.3;73.4;;;;;;;
+;9;10.4;18.5;35.8;35.3;71.1;;;;;;;
+;;;;;;;;;;;;;
+;"DIFFERENCE FROM STATEWIDE PERCENTS IN PERFORMANCE LEVELS FOR";;;;;;;;;;;;
+;"DISTRICT:  ALL DISTRICTS";;;;;;;;;;;;
+;"SCHOOL:  ALL SCHOOLS";;;;;;;;;;;;
+;"Grade";"Performance Level";;;;;;;;;;;
+;;"Not
+Proficient";"Partially
+Proficient";"Proficient";"Advanced";"Proficient or
+Advanced";;;;;;;
+;6;0.0;0.0;0.0;0.0;0.0;;;;;;;
+;9;0.0;0.0;0.0;0.0;0.0;;;;;;;
