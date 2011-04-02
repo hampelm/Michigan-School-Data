@@ -1,8 +1,8 @@
 import os 
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-LOCAL_DEVELOPMENT = False
+LOCAL_DEVELOPMENT = True
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 MEDIA_ROOT = os.path.join(PROJECT_PATH, 'assets/')
@@ -28,8 +28,8 @@ DATABASES = {
 MONGO = {
     'host':'localhost',
     'port':27017,
-    'user':'mischool',
-    'password':'U6Oys7hDYClasKXUcPLkMvXby'
+    'user':None,
+    'password':None
 }
 
 # Local time zone for this installation. Choices can be found here:
@@ -105,8 +105,4 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 )
 
-try:
-    from settings_local import *
-except ImportError:
-    pass
 

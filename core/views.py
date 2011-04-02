@@ -30,6 +30,9 @@ school record:
 '''
 def connection():
     conn = Connection(MONGO.host, MONGO.port)
+    if MONOGO.username:
+        connection.authenticate(MONGO.username, MONGO.password)
+    
     db = conn.schools
     return db
     

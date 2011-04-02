@@ -100,12 +100,18 @@ def deploy():
     
     Does not perform the functions of load_new_data().
     """    
-    require('settings', provided_by=[production, staging])
+    require('settings', provided_by=[production])
             
     checkout_latest()
+    install_requirements()
     gzip_assets()
     maintenance_down()
     
+def install_settings():
+    with cd(env.repo_path):
+        run('rm -Rf %(path)s' % env)
+        run()
+        
 def reboot(): 
     """
     Restart the server.
@@ -116,7 +122,8 @@ def maintenance_down():
     """
     Reinstall the normal site configuration.
     """
-    install_conf()
+    # install_conf() # not handling this in nginx
+    install_settings()
     reboot()
 
 """

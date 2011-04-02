@@ -54,6 +54,9 @@ def UnicodeDictReader(utf8_data, **kwargs):
         
 def school_collection():
     connection = Connection(MONGO.host, MONGO.port)
+    if MONOGO.username:
+        connection.authenticate(MONGO.username, MONGO.password)
+        
     db = connection.schools
     return db.schools   
 
