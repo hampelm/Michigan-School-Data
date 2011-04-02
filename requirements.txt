@@ -3,4 +3,3 @@ fabric==0.9.3
 django-debug-toolbar
 python-dateutil
 pymongo
-python-flup

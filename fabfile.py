@@ -19,7 +19,7 @@ env.repo_path = '%(path)s/htdocs' % env
 env.nginx_config_path = '.....'
 env.python = 'python2.6'
 env.repository_url = 'git@github.com:hampelm/Michigan-School-Data.git' % env
-
+env.branch = 'master'
 """
 Environments
 """
@@ -41,11 +41,11 @@ def setup():
     
     Does NOT perform the functions of deploy().
     """    
-    require('settings', provided_by=[production, staging])
+    require('settings', provided_by=[production])
     
     setup_directories()
     setup_virtualenv()
-    clone_repo()
+    #clone_repo()
     checkout_latest()
     install_requirements()
 #    install_conf() # not handling nginx conf
@@ -81,7 +81,8 @@ def install_requirements():
     """
     Install the required packages using pip.
     """
-    run('source %(env_path)s/bin/activate; pip install -E %(env_path)s -r %(repo_path)s/requirements.txt' % env)
+    with cd(env.repo_path):
+        run('source %(env_path)s/bin/activate; pip install -E %(env_path)s -r %(repo_path)s/requirements.txt' % env)
 
 def install_conf():
     """
