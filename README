@@ -1,5 +1,5 @@
 A Django app for displaying Michigan school data. 
 
-Requires Monodb to store the data
+Requires Monodb to store the data.
 
-Includes data loader and raw data files under /parser
+Includes data loader and raw data files under parser/

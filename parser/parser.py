@@ -1,4 +1,5 @@
 import codecs
+from copy import deepcopy
 import csv
 import os
 import profile
@@ -813,22 +814,93 @@ def ayp_not_met():
 
             save(entity)
 
+
+def meap_longitudinal():
+    print "Starting longitudinal MEAP data"
+    filename = 'meap_longitudinal/2005-2010.csv'
+    path = os.path.join(raw, filename)        
+    f = open(path, "r")
+    raw_data = csv.DictReader(f, delimiter=',')
+    
+    all_data = {}
+    for line in raw_data:
+        temp_line = deepcopy(line)
+        for key, value in line.iteritems():  
+            # Check if the key represents a datapoint
+            # for example, "08-All" is the key for the percent of all students
+            # who passed in 2008.
+            parts = key.split('-')
+            if len(parts) > 1:
+                if parts[1] not in temp_line:
+                    # ensure that there is a key for the demographic.
+                    temp_line[parts[1]] = {}
+                    
+                # save the 
+                # looks like:
+                # { ... 
+                #   "[grade]": {
+                #         "All": { "08": 89, "07": 55, ... }
+                #         "Male": { "08": 73, ... }
+                #     }
+                # ... }
+                try:
+                    temp_line[parts[1]][parts[0]] = int(value)
+                except:
+                    # Some of the values are NULL because there are two few
+                    # students to report values without violating privacy.
+                    temp_line[parts[1]][parts[0]] = None
+                    
+    
+        # Temporarily store the record using (school, district) to identify.
+        if (temp_line['Building Code'], temp_line['District Code']) not in all_data:
+            all_data[(temp_line['Building Code'], temp_line['District Code'])] = {}
             
+        full_record = all_data[(temp_line['Building Code'], temp_line['District Code'])]
+        
+        if temp_line['Grade'] not in full_record:
+            full_record[temp_line['Grade']] = {}
             
+        full_record[temp_line['Grade']][temp_line['Subject']] = temp_line
+                
+        all_data[(temp_line['Building Code'], temp_line['District Code'])] = full_record
+        
+    # Now we need to save all the data.
+    # Remeber, records are keyed in (Building Code, District Code) pairs
+    for key, value in all_data.iteritems():
+        record = None
+        if '00000' in key[0]:
+            if '00000' in key[1]:
+                # This is the state record
+                record = get_state()
+            else:
+                # This is a district record.
+                record = get_district(key[1])
+        else:
+            # This is a school record
+            record = get_school(key[0])
+                
+        if record is not None:    
+            record['MEAP'] = value
+            save(record)
+        else:
+            print key
+    
     
         
-remove_all()
-load_basic_data()
-school_safety()
-#aggregate_school_safety()
-meap()
-meap_district()
-headcount_bldg_k12()
-reduced_free_lunch_schools()
-reduced_free_lunch_districts()
-bulletin_1014()
-bulletin_1011()
-ACT_breakdowns()
-generate_grade_strings()
-ayp_met()
-ayp_not_met()
+#remove_all()
+#load_basic_data()
+#school_safety()
+##aggregate_school_safety()
+#meap()
+#meap_district()
+#headcount_bldg_k12()
+#reduced_free_lunch_schools()
+#reduced_free_lunch_districts()
+#bulletin_1014()
+#bulletin_1011()
+#ACT_breakdowns()
+#generate_grade_strings()
+#ayp_met()
+#ayp_not_met()
+
+meap_longitudinal()
