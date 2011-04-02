@@ -1,0 +1,575 @@
+Requirement already satisfied (use --upgrade to upgrade): python-dateutil in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/python_dateutil-1.5-py2.6.egg (from -r requirements.txt (line 4))
+Requirement already satisfied (use --upgrade to upgrade): pymongo in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pymongo-1.6-py2.6-macosx-10.3-fat.egg (from -r requirements.txt (line 5))
+Requirement already satisfied (use --upgrade to upgrade): django-debug-toolbar in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages (from -r requirements.txt (line 3))
+Downloading/unpacking fabric==0.9.3 (from -r requirements.txt (line 1))
+  Getting page http://pypi.python.org/simple/fabric
+  URLs to search for versions for fabric==0.9.3 (from -r requirements.txt (line 1)):
+  * http://pypi.python.org/simple/fabric/0.9.3
+  * http://pypi.python.org/simple/fabric/
+  Getting page http://pypi.python.org/simple/fabric/0.9.3
+  Getting page http://pypi.python.org/simple/fabric/
+  Could not fetch URL http://pypi.python.org/simple/fabric/0.9.3: HTTP Error 404: Not Found (fabric/0.9.3)
+  Will skip URL http://pypi.python.org/simple/fabric/0.9.3 when looking for download links for fabric==0.9.3 (from -r requirements.txt (line 1))
+  Getting page http://fabfile.org
+  Getting page http://www.nongnu.org/fab/
+  Getting page https://savannah.nongnu.org/projects/fab/
+  Analyzing links from page http://pypi.python.org/simple/Fabric/
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-1.0.0.tar.gz#md5=9471af5fbda54318031f9ad6025e885d (from http://pypi.python.org/simple/Fabric/), version: 1.0.0
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-1.0.1.tar.gz#md5=2d8bc8055be51e4fd4247ceac8b79c05 (from http://pypi.python.org/simple/Fabric/), version: 1.0.1
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.5.tar.gz#md5=6118ebb1cb97a0548fe01bdd57a9a26a (from http://pypi.python.org/simple/Fabric/), version: 0.9.5
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.3.tar.gz#md5=e83dfd6c6889292e24ca7e4eb1ab371a (from http://pypi.python.org/simple/Fabric/), version: 0.9.3
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.4.tar.gz#md5=05acba95e3a28b77d5b913c3acef5909 (from http://pypi.python.org/simple/Fabric/), version: 0.9.4
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.0.tar.gz#md5=696e42e6e771fa2a365cd03536d4cdcf (from http://pypi.python.org/simple/Fabric/), version: 0.9.0
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.6.tar.gz#md5=1eeb0b540a4a0bf25175354cf767a8b0 (from http://pypi.python.org/simple/Fabric/), version: 0.0.6
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.1.tar.gz#md5=2c2dc002d0da6cc4041f1c12be51e762 (from http://pypi.python.org/simple/Fabric/), version: 0.9.1
+    Found link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.4.macosx-10.4-i386.tar.gz#md5=ae8c5097955cbe453aacd0f5eb6f23fc (from http://pypi.python.org/simple/Fabric/), version: 0.0.4.macosx-10.4-i386
+    Found link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.3.macosx-10.4-i386.tar.gz#md5=c887a7dd5ee59fbb1c5ccded6e5b596d (from http://pypi.python.org/simple/Fabric/), version: 0.0.3.macosx-10.4-i386
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.7.tar.gz#md5=18dab8530885cb689ed3d79f3a9eba86 (from http://pypi.python.org/simple/Fabric/), version: 0.0.7
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.4.tar.gz#md5=2e81ef8b628b8fedb0b3fd7f00b3f0eb (from http://pypi.python.org/simple/Fabric/), version: 0.0.4
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.5.tar.gz#md5=446f3c1276d78ea7269c7e452f541582 (from http://pypi.python.org/simple/Fabric/), version: 0.0.5
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.8.tar.gz#md5=4f09ecad0eb4984f7dc6bbf187195185 (from http://pypi.python.org/simple/Fabric/), version: 0.0.8
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.9.tar.gz#md5=ac79968ae85907dd45ecb4b09c826571 (from http://pypi.python.org/simple/Fabric/), version: 0.0.9
+    Found link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.5.macosx-10.4-i386.tar.gz#md5=68b06f103835493d47107600f2757e3e (from http://pypi.python.org/simple/Fabric/), version: 0.0.5.macosx-10.4-i386
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.1.0.tar.gz#md5=82bbaef1f59486a591de5b536629b504 (from http://pypi.python.org/simple/Fabric/), version: 0.1.0
+    Found link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.2.macosx-10.4-i386.tar.gz#md5=d09773af77ce36bc1b55d0cdcf8598c0 (from http://pypi.python.org/simple/Fabric/), version: 0.0.2.macosx-10.4-i386
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.3.tar.gz#md5=7bc64a78efedaf219dda6d39faa6d613 (from http://pypi.python.org/simple/Fabric/), version: 0.0.3
+    Found link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.1.macosx-10.4-i386.tar.gz#md5=ca0b71422e2ce4d71947d13751d17672 (from http://pypi.python.org/simple/Fabric/), version: 0.0.1.macosx-10.4-i386
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.2.tar.gz#md5=5ba652d4d4525fb6b470edf55747ea45 (from http://pypi.python.org/simple/Fabric/), version: 0.9.2
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.1.1.tar.gz#md5=712991961bb876d2bb70d662cb67f454 (from http://pypi.python.org/simple/Fabric/), version: 0.1.1
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.1.tar.gz#md5=0f5f1f3a513c388b0cd5e68bf782686f (from http://pypi.python.org/simple/Fabric/), version: 0.0.1
+    Found link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.2.tar.gz#md5=c0ae6c66e1708ed84aefa19375519f38 (from http://pypi.python.org/simple/Fabric/), version: 0.0.2
+    Skipping link http://fabfile.org (from http://pypi.python.org/simple/Fabric/); not a file
+    Skipping link http://www.nongnu.org/fab/ (from http://pypi.python.org/simple/Fabric/); not a file
+    Skipping link https://savannah.nongnu.org/projects/fab/ (from http://pypi.python.org/simple/Fabric/); not a file
+    Skipping link http://docs.fabfile.org/changes/0.9.2.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/changes/0.9.4.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/changes/1.0.1.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/changes/0.9.1.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/0.9.5/changes/0.9.5.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/changes/1.0.0.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/changes/0.9.3.html (from http://pypi.python.org/simple/Fabric/); unknown archive format: .html
+    Found link https://github.com/bitprophet/fabric/tarball/master#egg=fabric-dev (from http://pypi.python.org/simple/Fabric/), version: dev
+  Analyzing links from page http://docs.fabfile.org/en/1.0.1/index.html
+    Skipping link http://docs.fabfile.org/en/1.0.1/_static/rtd.css (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .css
+    Skipping link http://docs.fabfile.org/en/1.0.1/_static/pygments.css (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .css
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/tutorial.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/genindex.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/py-modindex.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#fabric (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#about (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#installation (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/installation.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#development (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/development.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#documentation (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#tutorial (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#usage-documentation (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/env.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/execution.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/fab.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/fabfiles.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/interactivity.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/library.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/output_controls.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/usage/ssh.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#faq (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/faq.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#api-documentation (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#core-api (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/operations.html#fabric.operations.run (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/operations.html#fabric.operations.sudo (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/colors.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/context_managers.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/decorators.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/network.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/operations.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/core/utils.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#contrib-api (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/contrib/console.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/contrib/django.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/contrib/files.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/api/contrib/project.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#changes-from-previous-versions (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/0.9.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/0.9.1.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/0.9.2.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/0.9.3.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/0.9.4.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/0.9.5.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/1.0.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/changes/1.0.1.html (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#getting-help (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#usage-docs (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#api-docs (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#mailing-list (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://lists.nongnu.org/mailman/listinfo/fab-user (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#twitter (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://twitter.com/pyfabric (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#bugs-ticket-tracker (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://redmine.org (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://code.fabfile.org (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#irc (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://docs.fabfile.org/en/1.0.1/index.html#wiki (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .html
+    Skipping link http://moinmo.in (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://wiki.fabfile.org (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://docs.fabfile.org/en/1.0.1/_sources/index.txt (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .txt
+    Skipping link http://sphinx.pocoo.org/ (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://readthedocs.org/projects/fabric/?fromdocs=fabric (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://readthedocs.org/docs/fabric/latest/ (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+    Skipping link http://readthedocs.org/docs/fabric/1.0.1/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/fabric/1.0.0/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .0
+    Skipping link http://readthedocs.org/docs/fabric/0.9.5/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .5
+    Skipping link http://readthedocs.org/docs/fabric/0.9.4/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .4
+    Skipping link http://readthedocs.org/docs/fabric/0.9.3/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/fabric/0.9.2/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/fabric/0.9.1/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/fabric/0.9.0/ (from http://docs.fabfile.org/en/1.0.1/index.html); unknown archive format: .0
+    Skipping link http://www.revsys.com?ref=rtd&project=fabric (from http://docs.fabfile.org/en/1.0.1/index.html); not a file
+  Analyzing links from page http://www.nongnu.org/fab/
+  Analyzing links from page https://savannah.nongnu.org/projects/fab/
+    Skipping link https://savannah.nongnu.org/css/Savannah.css (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .css
+    Skipping link https://savannah.nongnu.org/images/Savannah.theme/icon.png (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .png
+    Skipping link https://savannah.nongnu.org/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/account/login.php?uri=%2Fprojects%2Ffab%2F (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/account/register.php (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/projects?reload=1&amp; (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/projects?printer=1&amp; (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/register/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/search/index.php?type_of_search=soft&amp;words=%%% (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/people/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/stats/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/cookbook/?group=administration (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/userguide/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/support/?group=administration (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/contact.php (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link http://savannah.gnu.org/maintenance/FaQ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://www.gnu.org/help/help.html (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .html
+    Skipping link http://www.gnu.org/directory/GNU (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://www.gnu.org/software/devel.html (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .html
+    Skipping link http://www.gnu.org/licenses/license-list.html (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .html
+    Skipping link http://www.gnu.org/prep/ftp.html (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .html
+    Skipping link http://www.fsf.org/events/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://gplv3.fsf.org/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://www.fsf.org/directory/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://savannah.gnu.org/maintenance/SavannahCryptographicRestrictions (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://savannah.gnu.org/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://gna.org/ (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/project/memberlist.php?group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/project/search.php?group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/cookbook/?group=fab (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/cookbook/edit.php?func=additem&amp;group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/cookbook/edit.php?func=browse&amp;group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/cookbook/edit.php?func=digest&amp;group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/cookbook/export.php?group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/cookbook/?func=search&amp;group=fab (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/mail/?group=fab (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/cvs/?group=fab (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://web.cvs.savannah.nongnu.org/viewvc/?root=fab (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/users/karmazilla (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link https://savannah.nongnu.org/users/bitprophet (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://www.gnu.org/licenses/old-licenses/gpl-2.0.html (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .html
+    Skipping link https://savannah.nongnu.org/project/memberlist-gpgkeys.php?group=fab (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .php
+    Skipping link https://savannah.nongnu.org/projects/fab/#top (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://git.sv.gnu.org/gitweb/?p=savane-cleanup.git;a=blob;f=frontend/php/projects;hb=HEAD (from https://savannah.nongnu.org/projects/fab/); not a file
+    Skipping link http://www.gnu.org/graphics/meditate.html (from https://savannah.nongnu.org/projects/fab/); unknown archive format: .html
+    Skipping link http://savannah.nongnu.org/projects/savane-cleanup (from https://savannah.nongnu.org/projects/fab/); not a file
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-1.0.0.tar.gz#md5=9471af5fbda54318031f9ad6025e885d (from http://pypi.python.org/simple/Fabric/), version 1.0.0 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-1.0.1.tar.gz#md5=2d8bc8055be51e4fd4247ceac8b79c05 (from http://pypi.python.org/simple/Fabric/), version 1.0.1 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.5.tar.gz#md5=6118ebb1cb97a0548fe01bdd57a9a26a (from http://pypi.python.org/simple/Fabric/), version 0.9.5 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.4.tar.gz#md5=05acba95e3a28b77d5b913c3acef5909 (from http://pypi.python.org/simple/Fabric/), version 0.9.4 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.0.tar.gz#md5=696e42e6e771fa2a365cd03536d4cdcf (from http://pypi.python.org/simple/Fabric/), version 0.9.0 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.6.tar.gz#md5=1eeb0b540a4a0bf25175354cf767a8b0 (from http://pypi.python.org/simple/Fabric/), version 0.0.6 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.1.tar.gz#md5=2c2dc002d0da6cc4041f1c12be51e762 (from http://pypi.python.org/simple/Fabric/), version 0.9.1 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.4.macosx-10.4-i386.tar.gz#md5=ae8c5097955cbe453aacd0f5eb6f23fc (from http://pypi.python.org/simple/Fabric/), version 0.0.4.macosx-10.4-i386 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.3.macosx-10.4-i386.tar.gz#md5=c887a7dd5ee59fbb1c5ccded6e5b596d (from http://pypi.python.org/simple/Fabric/), version 0.0.3.macosx-10.4-i386 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.7.tar.gz#md5=18dab8530885cb689ed3d79f3a9eba86 (from http://pypi.python.org/simple/Fabric/), version 0.0.7 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.4.tar.gz#md5=2e81ef8b628b8fedb0b3fd7f00b3f0eb (from http://pypi.python.org/simple/Fabric/), version 0.0.4 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.5.tar.gz#md5=446f3c1276d78ea7269c7e452f541582 (from http://pypi.python.org/simple/Fabric/), version 0.0.5 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.8.tar.gz#md5=4f09ecad0eb4984f7dc6bbf187195185 (from http://pypi.python.org/simple/Fabric/), version 0.0.8 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.9.tar.gz#md5=ac79968ae85907dd45ecb4b09c826571 (from http://pypi.python.org/simple/Fabric/), version 0.0.9 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.5.macosx-10.4-i386.tar.gz#md5=68b06f103835493d47107600f2757e3e (from http://pypi.python.org/simple/Fabric/), version 0.0.5.macosx-10.4-i386 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.1.0.tar.gz#md5=82bbaef1f59486a591de5b536629b504 (from http://pypi.python.org/simple/Fabric/), version 0.1.0 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.2.macosx-10.4-i386.tar.gz#md5=d09773af77ce36bc1b55d0cdcf8598c0 (from http://pypi.python.org/simple/Fabric/), version 0.0.2.macosx-10.4-i386 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.3.tar.gz#md5=7bc64a78efedaf219dda6d39faa6d613 (from http://pypi.python.org/simple/Fabric/), version 0.0.3 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/any/F/Fabric/Fabric-0.0.1.macosx-10.4-i386.tar.gz#md5=ca0b71422e2ce4d71947d13751d17672 (from http://pypi.python.org/simple/Fabric/), version 0.0.1.macosx-10.4-i386 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.2.tar.gz#md5=5ba652d4d4525fb6b470edf55747ea45 (from http://pypi.python.org/simple/Fabric/), version 0.9.2 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.1.1.tar.gz#md5=712991961bb876d2bb70d662cb67f454 (from http://pypi.python.org/simple/Fabric/), version 0.1.1 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.1.tar.gz#md5=0f5f1f3a513c388b0cd5e68bf782686f (from http://pypi.python.org/simple/Fabric/), version 0.0.1 doesn't match ==0.9.3
+  Ignoring link http://pypi.python.org/packages/source/F/Fabric/Fabric-0.0.2.tar.gz#md5=c0ae6c66e1708ed84aefa19375519f38 (from http://pypi.python.org/simple/Fabric/), version 0.0.2 doesn't match ==0.9.3
+  Ignoring link https://github.com/bitprophet/fabric/tarball/master#egg=fabric-dev (from http://pypi.python.org/simple/Fabric/), version dev doesn't match ==0.9.3
+  Downloading from URL http://pypi.python.org/packages/source/F/Fabric/Fabric-0.9.3.tar.gz#md5=e83dfd6c6889292e24ca7e4eb1ab371a (from http://pypi.python.org/simple/Fabric/)
+  Running setup.py egg_info for package fabric
+    running egg_info
+    creating pip-egg-info/Fabric.egg-info
+    writing requirements to pip-egg-info/Fabric.egg-info/requires.txt
+    writing pip-egg-info/Fabric.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/Fabric.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/Fabric.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/Fabric.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/Fabric.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/Fabric.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    writing manifest file 'pip-egg-info/Fabric.egg-info/SOURCES.txt'
+  Source in ./build/fabric has version 0.9.3, which satisfies requirement fabric==0.9.3 (from -r requirements.txt (line 1))
+Obtaining django from git+https://github.com/django/django.git@1.2.3#egg=django (from -r requirements.txt (line 2))
+  Cloning https://github.com/django/django.git (to 1.2.3) to ./src/django
+  Found command git at /usr/local/bin/git
+  Running command /usr/local/bin/git clone -q https://github.com/django/django.git /Users/matth/Projects/schools/src/django
+  Running command /usr/local/bin/git tag
+  0.90
+  0.91
+  0.91.1
+  0.91.2
+  0.91.3
+  0.95
+  0.95.1
+  0.95.2
+  0.95.3
+  0.95.4
+  0.96
+  0.96.1
+  0.96.2
+  0.96.3
+  0.96.4
+  0.96.5
+  1.0
+  1.0.1
+  1.0.2
+  1.0.3
+  1.0.4
+  1.1
+  1.1.1
+  1.1.2
+  1.1.3
+  1.1.4
+  1.2
+  1.2.1
+  1.2.2
+  1.2.3
+  1.2.4
+  1.2.5
+  1.3
+  Running command /usr/local/bin/git rev-parse 0.90
+  d99e01fe54633aa688ab79e9d02de004d6d1f389
+  Running command /usr/local/bin/git rev-parse 0.91
+  c0ce3f1ba259236397beef06844449004c558880
+  Running command /usr/local/bin/git rev-parse 0.91.1
+  f005c93207c6be810b8f099fd9f3e4f15d8889da
+  Running command /usr/local/bin/git rev-parse 0.91.2
+  18f98825586a7dbd78d796cff6c895680712c831
+  Running command /usr/local/bin/git rev-parse 0.91.3
+  ca920fc7ce5aa19162d0153066ed6a109a00f87f
+  Running command /usr/local/bin/git rev-parse 0.95
+  f91578ccc8b4d2e0358af454ad499117d0aaea77
+  Running command /usr/local/bin/git rev-parse 0.95.1
+  73f3b7b9fca4d54b62912968cfb8107929ea8f18
+  Running command /usr/local/bin/git rev-parse 0.95.2
+  5b75dd9289d19632eba4c52d4d7cfd741781c2b1
+  Running command /usr/local/bin/git rev-parse 0.95.3
+  5541d8619e466f9d25177d6a901fa57d5d0094a8
+  Running command /usr/local/bin/git rev-parse 0.95.4
+  13a10d45dcbb5454336e2a5f41bd0174a59c748c
+  Running command /usr/local/bin/git rev-parse 0.96
+  dff08ce8d6ac1add73f6169aee43990ff1bfbde1
+  Running command /usr/local/bin/git rev-parse 0.96.1
+  de6b86207dce1b7f8a648e4797fe6ed5f51e97a6
+  Running command /usr/local/bin/git rev-parse 0.96.2
+  4ca2eaf2866ee8ecea395c1d56640d3c39b3f443
+  Running command /usr/local/bin/git rev-parse 0.96.3
+  8afdd31365c386c41e2ae5ea5c60f332514553f9
+  Running command /usr/local/bin/git rev-parse 0.96.4
+  3e9c726db461787b99766006fe2e55b179d7c381
+  Running command /usr/local/bin/git rev-parse 0.96.5
+  e14363f7157826168bbce9fb51be739c9645fab1
+  Running command /usr/local/bin/git rev-parse 1.0
+  4eeca24048abc7e249e6a7b8ca25660131d73888
+  Running command /usr/local/bin/git rev-parse 1.0.1
+  a7fb3c72b9b57aeb6bd21e1d9e4ae01ce62380a3
+  Running command /usr/local/bin/git rev-parse 1.0.2
+  5cdcd7cd71bfc33f18ae132dba2f10541d621fcc
+  Running command /usr/local/bin/git rev-parse 1.0.3
+  d0eb7636c5b7139456f382a17811ee47c16a2ad6
+  Running command /usr/local/bin/git rev-parse 1.0.4
+  ed3f5e12f0d39af6edd9931e2efa894ab767d5c3
+  Running command /usr/local/bin/git rev-parse 1.1
+  ea463448b22c78c24176170a13a883815e29384e
+  Running command /usr/local/bin/git rev-parse 1.1.1
+  bbec0483ecc79e22936e89c25df77b2f4a449adf
+  Running command /usr/local/bin/git rev-parse 1.1.2
+  65af576d504f1fc2921a1316920cf3027870a5c7
+  Running command /usr/local/bin/git rev-parse 1.1.3
+  63700e4b671141e9afe34c3683ecfe76a110abe5
+  Running command /usr/local/bin/git rev-parse 1.1.4
+  6e25a1f300fde33219762d1972b21ce01c51c931
+  Running command /usr/local/bin/git rev-parse 1.2
+  f40ee77a7cf37bdc4aab9e1df388340bbfc2f2b2
+  Running command /usr/local/bin/git rev-parse 1.2.1
+  65d85e395e278cebf9e02f56dcc379a48c4a2074
+  Running command /usr/local/bin/git rev-parse 1.2.2
+  cdd62fa3f266423cf713573603b5d51d9a13a7e8
+  Running command /usr/local/bin/git rev-parse 1.2.3
+  a85fe4dddc4b133de289770c89c58a7bf6bcc7c8
+  Running command /usr/local/bin/git rev-parse 1.2.4
+  355512345c3c33d5c186e0e203dc0de790e26558
+  Running command /usr/local/bin/git rev-parse 1.2.5
+  b8ac1085778ebed65a5c6d2af6dda4eff82bb66f
+  Running command /usr/local/bin/git rev-parse 1.3
+  eca4737a3fb1f4645431aed6b326409ca2177d9f
+  Running command /usr/local/bin/git branch -r
+    origin/1.0.X
+    origin/1.1.X
+    origin/1.2.X
+    origin/1.3.X
+    origin/HEAD -> origin/master
+    origin/master
+    origin/soc2009/admin-ui
+    origin/soc2009/http-wsgi-improvements
+    origin/soc2009/i18n-improvements
+    origin/soc2009/model-validation
+    origin/soc2009/multidb
+    origin/soc2009/test-improvements
+    origin/soc2010/app-loading
+    origin/soc2010/query-refactor
+    origin/soc2010/test-refactor
+  Running command /usr/local/bin/git rev-parse origin/1.0.X
+  21c336f3069d96445b6bb2ecc63e461dd4fd2573
+  Running command /usr/local/bin/git rev-parse origin/1.1.X
+  f50c6c2234409918125a29ecefdc563486976dee
+  Running command /usr/local/bin/git rev-parse origin/1.2.X
+  8f874fb013e38128472723ed785ac5eef76bff28
+  Running command /usr/local/bin/git rev-parse origin/1.3.X
+  755a7f40efd29e7ad8932cf87a40a311491a52df
+  Running command /usr/local/bin/git rev-parse origin/HEAD
+  4f58b12781473449f224c68514f2d2945501de8a
+  Running command /usr/local/bin/git rev-parse origin/master
+  4f58b12781473449f224c68514f2d2945501de8a
+  Running command /usr/local/bin/git rev-parse origin/soc2009/admin-ui
+  953ecb5560febde5da8f3d90543625425ed2797b
+  Running command /usr/local/bin/git rev-parse origin/soc2009/http-wsgi-improvements
+  131cf6cedd150ab8d1dc98b87642c04bc8299016
+  Running command /usr/local/bin/git rev-parse origin/soc2009/i18n-improvements
+  d59e1a9ff545d0c62edb669c4d316b1a503b1c33
+  Running command /usr/local/bin/git rev-parse origin/soc2009/model-validation
+  226384224690045649630bfd6bb19795f4ce14c8
+  Running command /usr/local/bin/git rev-parse origin/soc2009/multidb
+  8565530db3d9d3b663d5767bd3796d33b34b5f39
+  Running command /usr/local/bin/git rev-parse origin/soc2009/test-improvements
+  a981fef11e9398ea557d0aa2dc4390edfeec240d
+  Running command /usr/local/bin/git rev-parse origin/soc2010/app-loading
+  b9b6d336ade025e71894b2710e2ff4cb97fe2932
+  Running command /usr/local/bin/git rev-parse origin/soc2010/query-refactor
+  78f410b6e66085877ac07459fc056d950b8cf3d1
+  Running command /usr/local/bin/git rev-parse origin/soc2010/test-refactor
+  ad096059b58afd35b395b01ad4eba36b8ff863de
+  Running command /usr/local/bin/git checkout -q 1.2.3
+  Running setup.py egg_info for package django
+    running egg_info
+    creating Django.egg-info
+    writing Django.egg-info/PKG-INFO
+    writing top-level names to Django.egg-info/top_level.txt
+    writing dependency_links to Django.egg-info/dependency_links.txt
+    writing manifest file 'Django.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'Django.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching 'django/dispatch/LICENSE.txt'
+    warning: no files found matching '*' under directory 'examples'
+    writing manifest file 'Django.egg-info/SOURCES.txt'
+Requirement already satisfied (use --upgrade to upgrade): pycrypto>=1.9 in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.3-fat.egg (from fabric==0.9.3->-r requirements.txt (line 1))
+Downloading/unpacking paramiko>=1.7.6 (from fabric==0.9.3->-r requirements.txt (line 1))
+  Getting page http://pypi.python.org/simple/paramiko
+  URLs to search for versions for paramiko>=1.7.6 (from fabric==0.9.3->-r requirements.txt (line 1)):
+  * http://pypi.python.org/simple/paramiko/
+  Getting page http://www.lag.net/%7erobey/paramiko/
+  Could not fetch URL http://www.lag.net/%7erobey/paramiko/ (from http://pypi.python.org/simple/paramiko/): HTTP Error 404: Not Found
+  Will skip URL http://www.lag.net/%7erobey/paramiko/ when looking for download links for paramiko>=1.7.6 (from fabric==0.9.3->-r requirements.txt (line 1))
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.9-ivysaur.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.9-fearow.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.1-charmander.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/%7erobey/paramiko/secsh-0.1-bulbasaur.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.9-doduo.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Getting page http://www.lag.net/paramiko/
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.4.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.5.4.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.6.3.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.9-eevee.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.9-horsea.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-1.0.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.7.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.5.2.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/%7erobey/paramiko/paramiko-0.9-gyarados.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.3.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.7.5.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: 
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.7.2.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.2.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.3.1.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.6.1.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.6.4.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.7.1.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.6.2.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.6.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.1.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Skipping page http://www.lag.net/paramiko/download/paramiko-1.5.1.zip (from http://pypi.python.org/simple/paramiko/) because of Content-Type: application/zip
+  Analyzing links from page http://pypi.python.org/simple/paramiko/
+    Found link http://pypi.python.org/packages/source/p/paramiko/paramiko-1.7.6.zip#md5=b1cfe0cd55772115f808a11c1baba8a0 (from http://pypi.python.org/simple/paramiko/), version: 1.7.6
+    Skipping link http://www.lag.net/%7erobey/paramiko/ (from http://pypi.python.org/simple/paramiko/); not a file
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-ivysaur.zip (from http://pypi.python.org/simple/paramiko/), version: 0.9-ivysaur
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-fearow.zip (from http://pypi.python.org/simple/paramiko/), version: 0.9-fearow
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.1-charmander.zip (from http://pypi.python.org/simple/paramiko/), version: 0.1-charmander
+    Skipping link http://www.lag.net/%7erobey/paramiko/secsh-0.1-bulbasaur.zip (from http://pypi.python.org/simple/paramiko/); wrong project name (not paramiko)
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-doduo.zip (from http://pypi.python.org/simple/paramiko/), version: 0.9-doduo
+    Skipping link http://www.lag.net/paramiko/ (from http://pypi.python.org/simple/paramiko/); not a file
+    Found link http://www.lag.net/paramiko/download/paramiko-1.4.zip (from http://pypi.python.org/simple/paramiko/), version: 1.4
+    Found link http://www.lag.net/paramiko/download/paramiko-1.5.4.zip (from http://pypi.python.org/simple/paramiko/), version: 1.5.4
+    Found link http://www.lag.net/paramiko/download/paramiko-1.6.3.zip (from http://pypi.python.org/simple/paramiko/), version: 1.6.3
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-eevee.zip (from http://pypi.python.org/simple/paramiko/), version: 0.9-eevee
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-horsea.zip (from http://pypi.python.org/simple/paramiko/), version: 0.9-horsea
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-1.0.zip (from http://pypi.python.org/simple/paramiko/), version: 1.0
+    Found link http://www.lag.net/paramiko/download/paramiko-1.7.zip (from http://pypi.python.org/simple/paramiko/), version: 1.7
+    Found link http://www.lag.net/paramiko/download/paramiko-1.5.2.zip (from http://pypi.python.org/simple/paramiko/), version: 1.5.2
+    Found link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-gyarados.zip (from http://pypi.python.org/simple/paramiko/), version: 0.9-gyarados
+    Found link http://www.lag.net/paramiko/download/paramiko-1.3.zip (from http://pypi.python.org/simple/paramiko/), version: 1.3
+    Found link http://www.lag.net/paramiko/download/paramiko-1.7.5.zip (from http://pypi.python.org/simple/paramiko/), version: 1.7.5
+    Found link http://www.lag.net/paramiko/download/paramiko-1.7.2.zip (from http://pypi.python.org/simple/paramiko/), version: 1.7.2
+    Found link http://www.lag.net/paramiko/download/paramiko-1.2.zip (from http://pypi.python.org/simple/paramiko/), version: 1.2
+    Found link http://www.lag.net/paramiko/download/paramiko-1.3.1.zip (from http://pypi.python.org/simple/paramiko/), version: 1.3.1
+    Found link http://www.lag.net/paramiko/download/paramiko-1.6.1.zip (from http://pypi.python.org/simple/paramiko/), version: 1.6.1
+    Found link http://www.lag.net/paramiko/download/paramiko-1.6.4.zip (from http://pypi.python.org/simple/paramiko/), version: 1.6.4
+    Found link http://www.lag.net/paramiko/download/paramiko-1.7.1.zip (from http://pypi.python.org/simple/paramiko/), version: 1.7.1
+    Found link http://www.lag.net/paramiko/download/paramiko-1.6.2.zip (from http://pypi.python.org/simple/paramiko/), version: 1.6.2
+    Found link http://www.lag.net/paramiko/download/paramiko-1.6.zip (from http://pypi.python.org/simple/paramiko/), version: 1.6
+    Found link http://www.lag.net/paramiko/download/paramiko-1.1.zip (from http://pypi.python.org/simple/paramiko/), version: 1.1
+    Found link http://www.lag.net/paramiko/download/paramiko-1.5.1.zip (from http://pypi.python.org/simple/paramiko/), version: 1.5.1
+  Analyzing links from page http://www.lag.net/paramiko/
+    Skipping link http://www.python.org/ (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://www.lag.net/jaramiko (from http://www.lag.net/paramiko/); not a file
+    Found link http://www.lag.net/paramiko/download/paramiko-1.7.4.zip (from http://www.lag.net/paramiko/), version: 1.7.4
+    Skipping link http://www.lag.net/paramiko/download/paramiko-1.7.4.zip.asc (from http://www.lag.net/paramiko/); unknown archive format: .asc
+    Found link http://www.lag.net/paramiko/download/paramiko-1.7.4.tar.gz (from http://www.lag.net/paramiko/), version: 1.7.4
+    Skipping link http://www.lag.net/paramiko/download/paramiko-1.7.4.tar.gz.asc (from http://www.lag.net/paramiko/); unknown archive format: .asc
+    Skipping link http://www.lag.net/paramiko/download/ (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://dag.wieers.com/packages/python-paramiko/ (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://dries.studentenweb.org/rpm/packages/python-paramiko/info.html (from http://www.lag.net/paramiko/); unknown archive format: .html
+    Skipping link http://packages.debian.org/unstable/python/python-paramiko (from http://www.lag.net/paramiko/); not a file
+    Skipping link https://launchpad.net/distros/ubuntu/gutsy/i386/python-paramiko (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://www.amk.ca/python/code/crypto.html (from http://www.lag.net/paramiko/); unknown archive format: .html
+    Skipping link http://www.lag.net/paramiko/docs/ (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://www.lag.net/mailman/listinfo/paramiko (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://launchpad.net/products/paramiko (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://github.com/robey/paramiko/ (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://validator.w3.org/check?uri=referer (from http://www.lag.net/paramiko/); not a file
+    Skipping link http://jigsaw.w3.org/css-validator/ (from http://www.lag.net/paramiko/); not a file
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-ivysaur.zip (from http://pypi.python.org/simple/paramiko/), version 0.9-ivysaur doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-fearow.zip (from http://pypi.python.org/simple/paramiko/), version 0.9-fearow doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.1-charmander.zip (from http://pypi.python.org/simple/paramiko/), version 0.1-charmander doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-doduo.zip (from http://pypi.python.org/simple/paramiko/), version 0.9-doduo doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.4.zip (from http://pypi.python.org/simple/paramiko/), version 1.4 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.5.4.zip (from http://pypi.python.org/simple/paramiko/), version 1.5.4 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.6.3.zip (from http://pypi.python.org/simple/paramiko/), version 1.6.3 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-eevee.zip (from http://pypi.python.org/simple/paramiko/), version 0.9-eevee doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-horsea.zip (from http://pypi.python.org/simple/paramiko/), version 0.9-horsea doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-1.0.zip (from http://pypi.python.org/simple/paramiko/), version 1.0 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.7.zip (from http://pypi.python.org/simple/paramiko/), version 1.7 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.5.2.zip (from http://pypi.python.org/simple/paramiko/), version 1.5.2 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/%7erobey/paramiko/paramiko-0.9-gyarados.zip (from http://pypi.python.org/simple/paramiko/), version 0.9-gyarados doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.3.zip (from http://pypi.python.org/simple/paramiko/), version 1.3 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.7.5.zip (from http://pypi.python.org/simple/paramiko/), version 1.7.5 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.7.2.zip (from http://pypi.python.org/simple/paramiko/), version 1.7.2 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.2.zip (from http://pypi.python.org/simple/paramiko/), version 1.2 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.3.1.zip (from http://pypi.python.org/simple/paramiko/), version 1.3.1 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.6.1.zip (from http://pypi.python.org/simple/paramiko/), version 1.6.1 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.6.4.zip (from http://pypi.python.org/simple/paramiko/), version 1.6.4 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.7.1.zip (from http://pypi.python.org/simple/paramiko/), version 1.7.1 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.6.2.zip (from http://pypi.python.org/simple/paramiko/), version 1.6.2 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.6.zip (from http://pypi.python.org/simple/paramiko/), version 1.6 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.1.zip (from http://pypi.python.org/simple/paramiko/), version 1.1 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.5.1.zip (from http://pypi.python.org/simple/paramiko/), version 1.5.1 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.7.4.zip (from http://www.lag.net/paramiko/), version 1.7.4 doesn't match >=1.7.6
+  Ignoring link http://www.lag.net/paramiko/download/paramiko-1.7.4.tar.gz (from http://www.lag.net/paramiko/), version 1.7.4 doesn't match >=1.7.6
+  Downloading from URL http://pypi.python.org/packages/source/p/paramiko/paramiko-1.7.6.zip#md5=b1cfe0cd55772115f808a11c1baba8a0 (from http://pypi.python.org/simple/paramiko/)
+  Running setup.py egg_info for package paramiko
+    running egg_info
+    creating pip-egg-info/paramiko.egg-info
+    writing requirements to pip-egg-info/paramiko.egg-info/requires.txt
+    writing pip-egg-info/paramiko.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/paramiko.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/paramiko.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/paramiko.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/paramiko.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*' under directory 'docs'
+    writing manifest file 'pip-egg-info/paramiko.egg-info/SOURCES.txt'
+  Source in ./build/paramiko has version 1.7.6, which satisfies requirement paramiko>=1.7.6 (from fabric==0.9.3->-r requirements.txt (line 1))
+Installing collected packages: django, fabric, paramiko
+  Running setup.py develop for django
+    Running command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/schools/src/django/setup.py'; execfile('/Users/matth/Projects/schools/src/django/setup.py')" develop --no-deps
+    running develop
+    running egg_info
+    writing Django.egg-info/PKG-INFO
+    writing top-level names to Django.egg-info/top_level.txt
+    writing dependency_links to Django.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'Django.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching 'django/dispatch/LICENSE.txt'
+    warning: no files found matching '*' under directory 'examples'
+    writing manifest file 'Django.egg-info/SOURCES.txt'
+    running build_ext
+    Creating /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/Django.egg-link (link to .)
+    Adding Django 1.2.3 to easy-install.pth file
+    Installing django-admin.py script to /Library/Frameworks/Python.framework/Versions/2.6/bin
+    error: /Library/Frameworks/Python.framework/Versions/2.6/bin/django-admin.py: Permission denied
+    Complete output from command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/schools/src/django/setup.py'; execfile('/Users/matth/Projects/schools/src/django/setup.py')" develop --no-deps:
+    running develop
+
+running egg_info
+
+writing Django.egg-info/PKG-INFO
+
+writing top-level names to Django.egg-info/top_level.txt
+
+writing dependency_links to Django.egg-info/dependency_links.txt
+
+warning: manifest_maker: standard file '-c' not found
+
+reading manifest file 'Django.egg-info/SOURCES.txt'
+
+reading manifest template 'MANIFEST.in'
+
+warning: no files found matching 'django/dispatch/LICENSE.txt'
+
+warning: no files found matching '*' under directory 'examples'
+
+writing manifest file 'Django.egg-info/SOURCES.txt'
+
+running build_ext
+
+Creating /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/Django.egg-link (link to .)
+
+Adding Django 1.2.3 to easy-install.pth file
+
+Installing django-admin.py script to /Library/Frameworks/Python.framework/Versions/2.6/bin
+
+error: /Library/Frameworks/Python.framework/Versions/2.6/bin/django-admin.py: Permission denied
+
+----------------------------------------
+Command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/schools/src/django/setup.py'; execfile('/Users/matth/Projects/schools/src/django/setup.py')" develop --no-deps failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 157, in run
+    requirement_set.install(install_options)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 1165, in install
+    requirement.install(install_options)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 518, in install
+    self.install_editable()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 583, in install_editable
+    show_stdout=False)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/__init__.py", line 207, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/schools/src/django/setup.py'; execfile('/Users/matth/Projects/schools/src/django/setup.py')" develop --no-deps failed with error code 1
