@@ -1,6 +1,7 @@
 import codecs
 from copy import deepcopy
 import csv
+import imp
 import os
 import profile
 import re
@@ -11,6 +12,9 @@ from pymongo import Connection
 from django.template.defaultfilters import slugify
 
 PARSER_PATH = os.path.abspath(os.path.dirname(__file__))
+
+settings = imp.load_source('app_settings', os.path.join(PARSER_PATH, '../settings.py'))
+MONGO = settings.MONGO
 
 raw = os.path.join(PARSER_PATH, 'raw/')
 
@@ -49,7 +53,7 @@ def UnicodeDictReader(utf8_data, **kwargs):
         yield dict([(key, value.decode('latin1')) for key, value in row.iteritems()])
         
 def school_collection():
-    connection = Connection('localhost', 27017)
+    connection = Connection(MONGO.host, MONGO.port)
     db = connection.schools
     return db.schools   
 

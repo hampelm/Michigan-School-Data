@@ -28,8 +28,8 @@ DATABASES = {
 MONGO = {
     'host':'localhost',
     'port':27017,
+    'user':'mischool',
     'password':'U6Oys7hDYClasKXUcPLkMvXby'
-    'user':
 }
 
 # Local time zone for this installation. Choices can be found here:
