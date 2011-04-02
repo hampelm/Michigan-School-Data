@@ -28,7 +28,7 @@ def production():
     Work on production environment
     """
     env.settings = 'production'
-    env.hosts = ['TODO']
+    env.hosts = ['aawiki.aadl.org']
     env.user = 'mischool'
 
         
@@ -37,7 +37,7 @@ Commands - setup
 """
 def setup():
     """
-    Setup a fresh virtualenv, install everything we need, and fire up the database.
+    Setup a fresh virtualenv, install everything we need.
     
     Does NOT perform the functions of deploy().
     """    
@@ -48,8 +48,7 @@ def setup():
     clone_repo()
     checkout_latest()
     install_requirements()
-    install_conf()
-    deploy_requirements_to_s3()
+#    install_conf() # not handling nginx conf
 
 def setup_directories():
     """
@@ -101,23 +100,11 @@ def deploy():
     Does not perform the functions of load_new_data().
     """    
     require('settings', provided_by=[production, staging])
-    
-    with settings(warn_only=True):
-        maintenance_up()
-        
+            
     checkout_latest()
     gzip_assets()
-    deploy_to_s3()
     maintenance_down()
     
-def maintenance_up():
-    """
-    Install the Apache maintenance configuration.
-    """
-    sudo('cp %(repo_path)s/%(project_name)s/configs/%(settings)s/apache_maintenance %(apache_config_path)s' % env)
-    sudo('cp %(repo_path)s/%(project_name)s/configs_api/%(settings)s/apache_maintenance %(apache_config_path)s_api' % env)
-    reboot()
-
 def reboot(): 
     """
     Restart the server.
@@ -134,14 +121,14 @@ def maintenance_down():
 """
 Commands - data
 """
-def load_new_data():
+def load_data():
     """
-    Erase the current database and load new data from the SQL dump file.
+    Load data using the parser:
     """
     require('settings', provided_by=[production, staging])
-
-    # .....
     
+    with cd(env.repo_path):
+        run('python parser/parser.py')    
     
 
 """
@@ -155,21 +142,21 @@ def echo_host():
     run('echo %(settings)s; echo %(hosts)s' % env)
 
 """
-Deaths, destroyers of worlds
+Shiva, destroyers of worlds
 """
-def shiva_the_destroyer():
-    """
-    Remove all directories, databases, etc. associated with the application.
-    """
-    with settings(warn_only=True):
-        run('rm -Rf %(path)s' % env)
-        run('rm -Rf %(log_path)s' % env)
-        pgpool_down()
-        run('dropdb %(project_name)s' % env)
-        run('dropuser %(project_name)s' % env)
-        pgpool_up()
-        sudo('rm %(apache_config_path)s' % env)
-        sudo('rm %(apache_config_path)s_api' % env)
-        reboot()
-        run('s3cmd del --recursive s3://%(s3_bucket)s/%(project_name)s' % env)
+# def shiva_the_destroyer():
+#     """
+#     Remove all directories, databases, etc. associated with the application.
+#     """
+#     with settings(warn_only=True):
+#         run('rm -Rf %(path)s' % env)
+#         run('rm -Rf %(log_path)s' % env)
+#         pgpool_down()
+#         run('dropdb %(project_name)s' % env)
+#         run('dropuser %(project_name)s' % env)
+#         pgpool_up()
+#         sudo('rm %(apache_config_path)s' % env)
+#         sudo('rm %(apache_config_path)s_api' % env)
+#         reboot()
+#         run('s3cmd del --recursive s3://%(s3_bucket)s/%(project_name)s' % env)
 
