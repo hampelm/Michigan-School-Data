@@ -29,7 +29,7 @@ school record:
             record
 '''
 def connection():
-    conn = Connection('localhost', 27017)
+    conn = Connection(MONGO.host, MONGO.port)
     db = conn.schools
     return db
     

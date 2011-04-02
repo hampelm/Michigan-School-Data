@@ -1,8 +1,8 @@
 import os 
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
-LOCAL_DEVELOPMENT = True
+LOCAL_DEVELOPMENT = False
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 MEDIA_ROOT = os.path.join(PROJECT_PATH, 'assets/')
@@ -23,6 +23,13 @@ DATABASES = {
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
+}
+
+MONGO = {
+    'host':'localhost',
+    'port':27017,
+    'password':'U6Oys7hDYClasKXUcPLkMvXby'
+    'user':
 }
 
 # Local time zone for this installation. Choices can be found here:
@@ -97,3 +104,9 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
+
+try:
+    from settings_local import *
+except ImportError:
+    pass
+
