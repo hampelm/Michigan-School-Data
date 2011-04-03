@@ -103,7 +103,7 @@ def deploy():
     require('settings', provided_by=[production])
             
     checkout_latest()
-    install_requirements()
+    #install_requirements()
     maintenance_down()
     
 def install_settings():
@@ -123,7 +123,7 @@ def maintenance_down():
     """
     # install_conf() # not handling this in nginx
     install_settings()
-    reboot()
+#    reboot()
 
 """
 Commands - data
@@ -132,7 +132,7 @@ def load_data():
     """
     Load data using the parser:
     """
-    require('settings', provided_by=[production, staging])
+    require('settings', provided_by=[production])
     
     with cd(env.repo_path):
         run('python parser/parser.py')    
