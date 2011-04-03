@@ -182,9 +182,7 @@ def load_basic_data():
     exclude = ['01', '06', '07'] 
     
     # Get a database connection
-    connection = Connection('localhost', 27017)
-    db = connection.schools
-    collection = db.schools
+    connection = school_collection()
     
     records_to_insert = []
     districts_saved = []
