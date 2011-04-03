@@ -230,9 +230,7 @@ def load_basic_data():
     
     
 def generate_grade_strings():
-    connection = Connection('localhost', 27017)
-    db = connection.schools
-    collection = db.schools
+    collection = school_collection()
     
     buildings = collection.find({'Building Code': {'$ne':'00000'}})
     
