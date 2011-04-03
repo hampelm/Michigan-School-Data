@@ -26,6 +26,7 @@ DATABASES = {
 }
 
 MONGO = {
+    'database': 'mischool',
     'host':'localhost',
     'port':27017,
     'user':'mischool',

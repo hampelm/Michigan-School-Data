@@ -54,10 +54,11 @@ def UnicodeDictReader(utf8_data, **kwargs):
         
 def school_collection():
     connection = Connection(MONGO['host'], MONGO['port'])
-    if MONGO['user']:
-        connection.authenticate(MONGO['user'], MONGO['password'])
         
-    db = connection.schools
+    db = connection[MONGO['database']]
+    if MONGO['user']:
+        db.authenticate(MONGO['user'], MONGO['password'])
+    
     return db.schools   
 
 def remove_all():

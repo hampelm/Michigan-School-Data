@@ -33,7 +33,7 @@ def connection():
     if MONOGO.username:
         connection.authenticate(MONGO.username, MONGO.password)
     
-    db = conn.schools
+    db = connection[MONGO['database']]
     return db
     
 def collection():
