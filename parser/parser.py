@@ -220,7 +220,7 @@ def load_basic_data():
                 # Building records can be batch inserted.
                 records_to_insert.append(line)
             
-    print len(records_to_insert) + " schools being inserted"
+    print str(len(records_to_insert)) + " schools being inserted"
     collection.insert(records_to_insert)
     collection.save({'Statewide Record': True, '2009-10': {}}) #save a  dummy for the whole state.
     # collection.ensure_index('Building Code')
