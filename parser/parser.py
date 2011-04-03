@@ -74,6 +74,8 @@ def get_school(building_code):
     school = collection.find_one({"Building Code": building_code})
     
     if school != None and building_code != '00000':
+        school = dict(school)
+        collection.database.connection.end_request()
         return school
     else:
         return None       
@@ -82,6 +84,8 @@ def get_district(district_code):
     collection = school_collection()
     district = collection.find_one({"Building Code": '00000', "District Code": district_code})
     if district != None:
+        district = dict(district)
+        collection.database.connection.end_request()
         return district
     else:
         return None 
