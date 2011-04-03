@@ -65,7 +65,7 @@ def remove_all():
     collection = school_collection()
     print str(collection.count()) + " remaining"
     print "Removing all"
-    collection.remove({})
+    collection.remove({}, safe=True)
     print "Done"
     print str(collection.count()) + " remaining"
    
@@ -905,17 +905,17 @@ def connection_test():
 
 remove_all()
 load_basic_data()
-school_safety()
-#aggregate_school_safety()
-meap()
-meap_district()
-headcount_bldg_k12()
-reduced_free_lunch_schools()
-reduced_free_lunch_districts()
-bulletin_1014()
-bulletin_1011()
-ACT_breakdowns()
-generate_grade_strings()
-ayp_met()
-ayp_not_met()
-meap_longitudinal()
+#school_safety()
+##aggregate_school_safety()
+#meap()
+#meap_district()
+#headcount_bldg_k12()
+#reduced_free_lunch_schools()
+#reduced_free_lunch_districts()
+#bulletin_1014()
+#bulletin_1011()
+#ACT_breakdowns()
+#generate_grade_strings()
+#ayp_met()
+#ayp_not_met()
+#meap_longitudinal()
