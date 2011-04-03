@@ -53,9 +53,9 @@ def UnicodeDictReader(utf8_data, **kwargs):
         yield dict([(key, value.decode('latin1')) for key, value in row.iteritems()])
         
 def school_collection():
-    connection = Connection(MONGO.host, MONGO.port)
-    if MONOGO.username:
-        connection.authenticate(MONGO.username, MONGO.password)
+    connection = Connection(MONGO['host'], MONGO['port'])
+    if MONGO['user']:
+        connection.authenticate(MONGO['user'], MONGO['password'])
         
     db = connection.schools
     return db.schools   
@@ -892,8 +892,11 @@ def meap_longitudinal():
         else:
             print key
     
+def connection_test():
+    print MONGO
+    state = get_state()
     
-        
+
 remove_all()
 load_basic_data()
 school_safety()

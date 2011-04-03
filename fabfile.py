@@ -109,7 +109,7 @@ def deploy():
 def install_settings():
     with cd(env.repo_path):
         run('rm -f settings.py' % env)
-        run('mv settings_remote.py settings.py');
+        run('cp settings_remote.py settings.py');
         
 def reboot(): 
     """
@@ -135,6 +135,7 @@ def load_data():
     require('settings', provided_by=[production])
     
     with cd(env.repo_path):
+        run('source %(env_path)s/bin/activate' % env)
         run('python parser/parser.py')    
     
 
