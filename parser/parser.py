@@ -93,7 +93,7 @@ def get_state():
     
 def save(entity):
     collection = school_collection()
-    collection.save(entity)
+    collection.save(entity, safe=True)
 
 def ensure_year(record, year):
     if year not in record:
@@ -221,7 +221,7 @@ def load_basic_data():
                 records_to_insert.append(line)
             
     print str(len(records_to_insert)) + " schools being inserted"
-    collection.insert(records_to_insert)
+    collection.insert(records_to_insert, safe=True)
     collection.save({'Statewide Record': True, '2009-10': {}}) #save a  dummy for the whole state.
     # collection.ensure_index('Building Code')
     # collection.ensure_index('District Code')
