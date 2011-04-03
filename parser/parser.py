@@ -222,8 +222,8 @@ def load_basic_data():
             
     collection.insert(records_to_insert)
     collection.save({'Statewide Record': True, '2009-10': {}}) #save a  dummy for the whole state.
-    collection.ensure_index('Building Code')
-    collection.ensure_index('District Code')
+    # collection.ensure_index('Building Code')
+    # collection.ensure_index('District Code')
     
     
 def generate_grade_strings():
