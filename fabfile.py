@@ -104,13 +104,12 @@ def deploy():
             
     checkout_latest()
     install_requirements()
-    gzip_assets()
     maintenance_down()
     
 def install_settings():
     with cd(env.repo_path):
-        run('rm -Rf %(path)s' % env)
-        run()
+        run('rm -f settings.py' % env)
+        run('mv settings_remote.py settings.py');
         
 def reboot(): 
     """
