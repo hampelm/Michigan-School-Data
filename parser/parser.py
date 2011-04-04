@@ -78,6 +78,7 @@ def get_school(building_code):
         collection.database.connection.end_request()
         return school
     else:
+        collection.database.connection.end_request()
         return None       
         
 def get_district(district_code):
@@ -88,6 +89,7 @@ def get_district(district_code):
         collection.database.connection.end_request()
         return district
     else:
+        collection.database.connection.end_request()
         return None 
         
 def get_state():
