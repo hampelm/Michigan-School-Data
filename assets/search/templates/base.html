@@ -1,0 +1,58 @@
+{% load hash %}
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{% block title %}{% endblock %}</title>
+		<script type="text/javascript" src="http://use.typekit.com/dtp6zog.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>			
+		
+		<script type="text/javascript" src="/assets/js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="/assets/js/jquery-ui-1.8.10.custom.min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        
+		<script type="text/javascript" src="/assets/js/schools.js"></script>
+		
+	
+		<style type="text/css" media="screen">
+			@import url(/assets/css/base.css);			
+			{% block css %}{% endblock %}
+		</style>
+		
+		
+		{% block head %}
+		{% endblock %}
+	</head>
+	
+	<body onload="initialize()">
+			
+		<div id="page">	
+			<header id="header">
+				<h1> <a href="/">Michigan School Data</a></h1>
+				
+				<input type="text" name="q" id="search" />
+			</header>
+			
+			<div id="banner">
+		    <div id="banner-in">
+		    <div id="banner-center">
+		        {% block banner %}{% endblock %}
+		    </div>
+		    </div>
+			</div>
+			
+			<div id="container">
+				{% block content %}{% endblock %}			
+			</div>
+			
+			<footer>
+				<nav>
+					A project of the Detroit Ledger. 
+					<a href="/about">About</a>
+					<a href="/report/{% if building %}{{building|hash:'District Code'}}{% endif %}">Report an error</a>
+				</nav>
+			</footer>
+		</div>		
+	</body>
+	
+</html>

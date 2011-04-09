@@ -17,7 +17,7 @@
 <h3 class="fact"><span class="num">{{year.ten_fourteen.AVG_P_TCHR}} : 1</span> student-teacher ratio</h3>
 <h3 class="fact"><span class="num">{{year.reduced_lunch.free_lunch_eligible_pct}}%</span> free lunch eligible</h3>
 <h3 class="fact last">
-    <span class="num">{{year.ayp.Grade}}</span> AYP grade
+    <span class="num">{{year.ayp.Grade|default:"N/A"}}</span> AYP grade
 </h3>
 </div>
 {% endwith %}
@@ -133,8 +133,8 @@
         {% endwith %}
         
         <p class="sources">
-            <a href="http://www.michigan.gov/mde/0,1607,7-140-22709_31168_31530---,00.html">MEAP data</a> from the Michigan Department of Education website.
-            <a href="http://www.michigan.gov/mde/0,1607,7-140-22709_35150_47475---,00.html">ACT data</a> from the Michigan Department of Education Michigan Merit Examination website.
+            <a href="http://www.michigan.gov/mde/0,1607,7-140-22709_31168_31530---,00.html">MEAP data</a> from the Michigan Department of Education.
+            <a href="http://www.michigan.gov/mde/0,1607,7-140-22709_35150_47475---,00.html">ACT data</a> from the Michigan Department of Education Michigan Merit Examination.
         </p>    
     </section>
     
@@ -232,27 +232,156 @@
                 </thead>
             
                 <tbody>
-                    <tr><td>Student Bullying:        </td><td>{{year.school_safety.Student_Bullying.value}}         </td><td>{{year.school_safety.Student_Bullying.district}}         </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Truancy:                 </td><td>{{year.school_safety.Truancy.value}}                  </td><td>{{year.school_safety.Truancy.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Physical Assaults:       </td><td>{{year.school_safety.Physical_Assaults.value}}        </td><td>{{year.school_safety.Physical_Assaults.district}}        </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Gang Activity:           </td><td>{{year.school_safety.Gang_Activity.value}}            </td><td>{{year.school_safety.Gang_Activity.district}}            </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Illegal Possession:      </td><td>{{year.school_safety.Illegal_Possession.value}}       </td><td>{{year.school_safety.Illegal_Possession.district}}       </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Trespassers:             </td><td>{{year.school_safety.Trespassers.value}}              </td><td>{{year.school_safety.Trespassers.district}}              </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Vandalism:               </td><td>{{year.school_safety.Vandalism.value}}                </td><td>{{year.school_safety.Vandalism.district}}                </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Property Damage:         </td><td>${{year.school_safety.Property_Damage.value}}         </td><td>${{year.school_safety.Property_Damage.district}}         </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Criminal Sexual Conduct: </td><td>{{year.school_safety.Criminal_Sexual_Conduct.value}}  </td><td>{{year.school_safety.Criminal_Sexual_Conduct.district}}  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Hostage:                 </td><td>{{year.school_safety.Hostage.value}}                  </td><td>{{year.school_safety.Hostage.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Weapons:                 </td><td>{{year.school_safety.Weapons.value}}                  </td><td>{{year.school_safety.Weapons.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Homicide:                </td><td>{{year.school_safety.Homicide.value}}                 </td><td>{{year.school_safety.Homicide.district}}                 </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Drive By Shooting:       </td><td>{{year.school_safety.Drive_By_Shooting.value}}        </td><td>{{year.school_safety.Drive_By_Shooting.district}}        </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Bomb Threat:             </td><td>{{year.school_safety.Bomb_Threat.value}}              </td><td>{{year.school_safety.Bomb_Threat.district}}              </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Explosion:               </td><td>{{year.school_safety.Explosion.value}}                </td><td>{{year.school_safety.Explosion.district}}                </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Arson:                   </td><td>{{year.school_safety.Arson.value}}                    </td><td>{{year.school_safety.Arson.district}}                    </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Robbery:                 </td><td>{{year.school_safety.Robbery.value}}                  </td><td>{{year.school_safety.Robbery.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
-                    <tr><td>Unauthorized Removal:    </td><td>{{year.school_safety.Unauthorized_Removal.value}}     </td><td>{{year.school_safety.Unauthorized_Removal.district}}     </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr>
+                        <td>Student Bullying:</td>
+                        <td>{{year.school_safety.Student_Bullying.value}}</td>
+                        <td>{{year.school_safety.Student_Bullying.district}}</td>
+                        <td>
+                            <div class="tooltip">
+    							<a href="">?</a>
+    							<div class="tooltip-text">
+Incidents of student bullying that have occurred during the past school year on school property or at a school-sponsored activity.     						
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Truancy:</td>
+                        <td>{{year.school_safety.Truancy.value}}</td>
+                        <td>{{year.school_safety.Truancy.district|intcomma}}</td>
+                        <td>
+                            <div class="tooltip">
+    							<a href="">?</a>
+    							<div class="tooltip-text">
+Incidents of physical assaults between a student and another person(s) that were reported to law enforcement or that resulted in suspension or expulsion.     							</div>
+    						</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Physical Assaults:</td>
+                        <td>{{year.school_safety.Physical_Assaults.value}}</td>
+                        <td>{{year.school_safety.Physical_Assaults.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Gang Activity:</td>
+                        <td>{{year.school_safety.Gang_Activity.value}}</td>
+                        <td>{{year.school_safety.Gang_Activity.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Illegal Possession:</td>
+                        <td>{{year.school_safety.Illegal_Possession.value}}</td>
+                        <td>{{year.school_safety.Illegal_Possession.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Trespassers:</td>
+                        <td>{{year.school_safety.Trespassers.value}}</td>
+                        <td>{{year.school_safety.Trespassers.district}}</td>
+                        <td>
+                            <div class="tooltip">
+    							<a href="">?</a>
+    							<div class="tooltip-text">
+The number of incidents when 911 or law enforcement were called as a result of an intruder or trespasser. An intruder or trespasser is defined as one who enters or remains on a public school campus or facility without authorization and with no lawful purpose.
+                                </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Vandalism:</td>
+                        <td>{{year.school_safety.Vandalism.value}}</td>
+                        <td>{{year.school_safety.Vandalism.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Property Damage:</td>
+                        <td>${{year.school_safety.Property_Damage.value|intcomma}}</td>
+                        <td>${{year.school_safety.Property_Damage.district|intcomma}}</td>
+                        <td>
+                            <div class="tooltip">
+    							<a href="">?</a>
+    							<div class="tooltip-text">
+An estimate of the funds, rounded to the nearest whole number, needed to repair the vandalism or destruction of school property    						
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Criminal Sexual Conduct:</td>
+                        <td>{{year.school_safety.Criminal_Sexual_Conduct.value}}</td>
+                        <td>{{year.school_safety.Criminal_Sexual_Conduct.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Hostage:</td>
+                        <td>{{year.school_safety.Hostage.value}}</td>
+                        <td>{{year.school_safety.Hostage.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Weapons:</td>
+                        <td>{{year.school_safety.Weapons.value}}</td>
+                        <td>{{year.school_safety.Weapons.district}}</td>
+                        <td>
+                            <div class="tooltip">
+    							<a href="">?</a>
+    							<div class="tooltip-text">
+Incidents when a person was in possession of a dangerous weapon anywhere on school property or at a school-sponsored activity, including but not limited to buses, cars, and lockers. The term "dangerous weapon" means a firearm, dirk, dagger, stiletto, iron bar, knife with a blade over three (3) inches in length, pocket knife opened by a mechanical device, and brass knuckles.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Homicide:</td>
+                        <td>{{year.school_safety.Homicide.value}}</td>
+                        <td>{{year.school_safety.Homicide.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Drive By Shooting:</td>
+                        <td>{{year.school_safety.Drive_By_Shooting.value}}</td>
+                        <td>{{year.school_safety.Drive_By_Shooting.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Bomb Threat:</td>
+                        <td>{{year.school_safety.Bomb_Threat.value}}</td>
+                        <td>{{year.school_safety.Bomb_Threat.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Explosion:</td>
+                        <td>{{year.school_safety.Explosion.value}}</td>
+                        <td>{{year.school_safety.Explosion.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Arson:</td>
+                        <td>{{year.school_safety.Arson.value}}</td>
+                        <td>{{year.school_safety.Arson.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Robbery:</td>
+                        <td>{{year.school_safety.Robbery.value}}</td>
+                        <td>{{year.school_safety.Robbery.district}}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Unauthorized Removal:</td>
+                        <td>{{year.school_safety.Unauthorized_Removal.value}}</td>
+                        <td>{{year.school_safety.Unauthorized_Removal.district}}</td>
+                        <td>
+                            <div class="tooltip">
+    							<a href="">?</a>
+    							<div class="tooltip-text">
+Incidents over the past school year when a student was removed from school without authorization. Examples may include a teacher, administrator, other staff, other student, or non-legal guardian who removes a student from school property or a school-sponsored activity without prior approval from the appropriate authority.                             
+                            </div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
-        
+            
+            <p class="sources">Safety information is from the State of Michigan 
+                <a href="http://www.michigan.gov/cepi/0,1607,7-113-21423_30415---,00.html">Center for Educational Performance and Information (CEPI)</a>. District and State numbers may have been aggregated.
+            </p>
     </section>
     
     <div id="sidebar">
@@ -267,9 +396,7 @@
             {{building.CITY1}}, MI {{building.ZIP1}}
             </p>
             <!--
-            <p class="school-contact">
-                {{building.HONORIFIC}} {{building.FNAME}} {{building.LNAME}}<br />
-                
+            <p class="school-contact">                
                 {% if building.EMAIL %}<a href="mailto:{{building.EMAIL}}">{{building.EMAIL}}</a>{% endif %}
             </p>
             <h3>

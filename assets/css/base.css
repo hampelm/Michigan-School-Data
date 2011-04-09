@@ -297,15 +297,16 @@ h4 {
     display:inline-block;
     font-weight:normal;
     font-style:none;
+    height:20px;
+    width:20px;
+    text-align:center;
+    border-radius:16px;
+    padding-top:2px;
+    border-bottom:0px none;
 }
 .tooltip a:hover {
     background:#11085E;
     color:#fff;
-    height:20px;
-    width:20px;
-    border-radius:12px;
-    text-align:center;
-    padding-top:2px;
 }
 .tooltip-text {
     font-weight:normal;

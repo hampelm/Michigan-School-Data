@@ -1,5 +1,6 @@
 $(function() {
 	$( "#tabs" ).tabs();
+	$( "#academics" ).tabs();
 
 
     $.widget( "custom.complete_custom", $.ui.autocomplete, {

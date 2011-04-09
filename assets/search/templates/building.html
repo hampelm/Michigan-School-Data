@@ -1,0 +1,294 @@
+{% extends "base.html" %}
+{% load hash %}
+{% load humanize %}
+
+{% block title %}{{building|hash:'Building Name'}} - Michigan Public School Data{% endblock %}
+
+{% block banner %}
+{% with building|hash:'2009-10' as year %}
+{% with district|hash:'2009-10' as district_year %}
+<hgroup>
+<h2 class="district"><a href="{% url district building|hash:'District Code' %}">{{building|hash:'District Name'}}</a></h2>
+<h2 class="building">{{building|hash:'Building Name'}}</h2>
+</hgroup>
+
+<div class="factbar floatcontainer">
+<h3 class="fact"><span class="num">{{year.headcount.tot_all.value|intcomma}}</span> students </h3>
+<h3 class="fact"><span class="num">{{year.ten_fourteen.AVG_P_TCHR}} : 1</span> student-teacher ratio</h3>
+<h3 class="fact"><span class="num">{{year.reduced_lunch.free_lunch_eligible_pct}}%</span> free lunch eligible</h3>
+<h3 class="fact last">
+    <span class="num">{{year.ayp.Grade}}</span> AYP grade
+</h3>
+</div>
+{% endwith %}
+{% endwith %}
+{% endblock %}
+
+
+{% block content %}
+{% with building|hash:'2009-10' as year %}
+{% with district|hash:'2009-10' as district_year %}
+
+{% if "06" not in building.Type  %}
+<div id="tabs" class="floatcontainer">
+    <ul class="floatcontainer">
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#demographics">Demographics</a></li>
+        <li><a href="#safety">Safety</a></li>
+    </ul>
+    
+    <section id="academics" class="tab-box">
+        <h3>Academics</h3>
+        
+        {% if year.MEAP %}
+        <h4>MEAP</h4>
+        <table class="schooldata">
+            <thead>
+                <tr>
+                    <th>Grade</th>
+                    <th>Subject</th>
+                    <th>% Met/exceeded </th>
+                    <th>District</th>    
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            {% for grade,value in year.MEAP.items %}
+                {% for subject, values in value.items %}
+                    <tr>
+                        <td>{{grade}}</td>
+                         <td>{{subject}}</td>
+                        <td>{{values.value}}</td>
+                        <td>{{values.district}}</td>
+                        <td>{{values.state}}</td>
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+            </tbody>
+        </table>        
+        {% endif %}
+        
+        {% with building|hash:'2010' as act_year %}
+        {% if act_year.ACT %}
+        <h4>ACT</h4>
+        <table class="schooldata">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Score</th>
+                    <th>District</th>    
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Composite</td>
+                    <td>{{act_year.ACT.Composite.Mean}}</td>
+                    <td>{{act_year.ACT.Composite.district}}</td>
+                    <td>{{act_year.ACT.Composite.state}}</td>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td>{{act_year.ACT.Mathematics.Mean}}</td>
+                    <td>{{act_year.ACT.Mathematics.district}}</td>
+                    <td>{{act_year.ACT.Mathematics.state}}</td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td>{{act_year.ACT.Science.Mean}}</td>
+                    <td>{{act_year.ACT.Science.district}}</td>
+                    <td>{{act_year.ACT.Science.state}}</td>
+                </tr>            
+                
+                <tr>
+                    <td>English</td>
+                    <td>{{act_year.ACT.English.Mean}}</td>
+                    <td>{{act_year.ACT.English.district}}</td>
+                    <td>{{act_year.ACT.English.state}}</td>
+                </tr>            
+                {% with act_year.ACT|hash:'English+Writing' as english_writing %}
+                <tr>
+                    <td>English+Writing</td>
+                    <td>{{english_writing.Mean}}</td>
+                    <td>{{english_writing.district}}</td>
+                    <td>{{english_writing.state}}</td>
+                </tr>        
+                {% endwith %}
+                <tr>
+                    <td>Writing</td>
+                    <td>{{act_year.ACT.Writing.Mean}}</td>
+                    <td>{{act_year.ACT.Writing.district}}</td>
+                    <td>{{act_year.ACT.Writing.state}}</td>
+                </tr>            
+                <tr>
+                    <td>Reading</td>
+                    <td>{{act_year.ACT.Reading.Mean}}</td>
+                    <td>{{act_year.ACT.Reading.district}}</td>
+                    <td>{{act_year.ACT.Reading.state}}</td>
+                </tr>
+            </tbody>
+        </table>
+        {% endif %}
+        {% endwith %}
+        
+        <p class="sources">
+            <a href="http://www.michigan.gov/mde/0,1607,7-140-22709_31168_31530---,00.html">MEAP data</a> from the Michigan Department of Education website.
+            <a href="http://www.michigan.gov/mde/0,1607,7-140-22709_35150_47475---,00.html">ACT data</a> from the Michigan Department of Education Michigan Merit Examination website.
+        </p>    
+    </section>
+    
+    <section id="demographics" class="tab-box">
+        <h3>Demographics</h3>
+        <table class="schooldata">
+            <thead>
+                <tr>
+                    <th>Group</th>
+                    <th>Count</th>
+                    <th>%</th>
+                    <th>District</th>
+                    <th>State</th>        
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Total</td>
+                    <td>{{year.headcount.tot_all.value|intcomma}}</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>American Indian</td>
+                    <td>{{year.headcount.tot_ai.value|intcomma}}</td>
+                    <td>{{year.headcount.tot_ai.percent}}%</td>
+                    <td>{{year.headcount.tot_ai.district}}%</td>
+                    <td>{{year.headcount.tot_ai.state}}%</td>
+                </tr>
+                <tr>
+                    <td>Asian</td>
+                    <td>{{year.headcount.tot_as.value|intcomma}}</td>
+                    <td>{{year.headcount.tot_as.percent}}</td>
+                    <td>{{year.headcount.tot_as.district}}</td>
+                    <td>{{year.headcount.tot_as.state}}</td>
+                </tr>
+                <tr>
+                    <td>African-American</td>
+                    <td>{{year.headcount.tot_aa.value|intcomma}}</td>
+                    <td>{{year.headcount.tot_aa.percent}}</td>
+                    <td>{{year.headcount.tot_aa.district}}</td>
+                    <td>{{year.headcount.tot_aa.state}}</td>
+                </tr>
+                <!--
+                <tr>
+                    <td>Native Hawaiian</td>
+                    <td>{{year.headcount.tot_hw.value}}</td>
+                    <td>{{year.headcount.tot_hw.percent}}</td>
+                    <td>{{year.headcount.tot_hw.district}}</td>
+                    <td>{{year.headcount.tot_hw.state}}</td>
+                </tr>
+                -->
+                <tr>
+                    <td>White</td>
+                    <td>{{year.headcount.tot_wh.value|intcomma}}</td>
+                    <td>{{year.headcount.tot_wh.percent}}</td>
+                    <td>{{year.headcount.tot_wh.district}}</td>
+                    <td>{{year.headcount.tot_wh.state}}</td>
+                </tr>
+                <tr>
+                    <td>Hispanic</td>
+                    <td>{{year.headcount.tot_hs.value|intcomma}}</td>
+                    <td>{{year.headcount.tot_hs.percent}}</td>
+                    <td>{{year.headcount.tot_hs.district}}</td>
+                    <td>{{year.headcount.tot_hs.state}}</td>
+                </tr>
+                <tr>
+                    <td>Multiracial</td>
+                    <td>{{year.headcount.tot_mr.value|intcomma}}</td>
+                    <td>{{year.headcount.tot_mr.percent}}</td>
+                    <td>{{year.headcount.tot_mr.district}}</td>
+                    <td>{{year.headcount.tot_mr.state}}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="sources">Demographic information is from the State of Michigan 
+            <a href="http://michigan.gov/cepi">Center for Educational Performance and Information (CEPI)</a>
+        </p>
+        
+    </section>
+
+    <section id="safety" class="tab-box">
+            <h3>Safety</h3>
+            <table class="schooldata">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>School</th>
+                        <th>District</th>
+                        <th></th>
+                    
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    <tr><td>Student Bullying:        </td><td>{{year.school_safety.Student_Bullying.value}}         </td><td>{{year.school_safety.Student_Bullying.district}}         </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Truancy:                 </td><td>{{year.school_safety.Truancy.value}}                  </td><td>{{year.school_safety.Truancy.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Physical Assaults:       </td><td>{{year.school_safety.Physical_Assaults.value}}        </td><td>{{year.school_safety.Physical_Assaults.district}}        </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Gang Activity:           </td><td>{{year.school_safety.Gang_Activity.value}}            </td><td>{{year.school_safety.Gang_Activity.district}}            </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Illegal Possession:      </td><td>{{year.school_safety.Illegal_Possession.value}}       </td><td>{{year.school_safety.Illegal_Possession.district}}       </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Trespassers:             </td><td>{{year.school_safety.Trespassers.value}}              </td><td>{{year.school_safety.Trespassers.district}}              </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Vandalism:               </td><td>{{year.school_safety.Vandalism.value}}                </td><td>{{year.school_safety.Vandalism.district}}                </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Property Damage:         </td><td>${{year.school_safety.Property_Damage.value}}         </td><td>${{year.school_safety.Property_Damage.district}}         </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Criminal Sexual Conduct: </td><td>{{year.school_safety.Criminal_Sexual_Conduct.value}}  </td><td>{{year.school_safety.Criminal_Sexual_Conduct.district}}  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Hostage:                 </td><td>{{year.school_safety.Hostage.value}}                  </td><td>{{year.school_safety.Hostage.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Weapons:                 </td><td>{{year.school_safety.Weapons.value}}                  </td><td>{{year.school_safety.Weapons.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Homicide:                </td><td>{{year.school_safety.Homicide.value}}                 </td><td>{{year.school_safety.Homicide.district}}                 </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Drive By Shooting:       </td><td>{{year.school_safety.Drive_By_Shooting.value}}        </td><td>{{year.school_safety.Drive_By_Shooting.district}}        </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Bomb Threat:             </td><td>{{year.school_safety.Bomb_Threat.value}}              </td><td>{{year.school_safety.Bomb_Threat.district}}              </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Explosion:               </td><td>{{year.school_safety.Explosion.value}}                </td><td>{{year.school_safety.Explosion.district}}                </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Arson:                   </td><td>{{year.school_safety.Arson.value}}                    </td><td>{{year.school_safety.Arson.district}}                    </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Robbery:                 </td><td>{{year.school_safety.Robbery.value}}                  </td><td>{{year.school_safety.Robbery.district}}                  </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                    <tr><td>Unauthorized Removal:    </td><td>{{year.school_safety.Unauthorized_Removal.value}}     </td><td>{{year.school_safety.Unauthorized_Removal.district}}     </td><td><a href="" class="explainer ui-icon ui-icon-comment">?</a></td></tr>
+                </tbody>
+            </table>
+        
+    </section>
+    
+    <div id="sidebar">
+        <div id="sidebar-in">
+            <div id="map_canvas" style="height: 175px;"></div>
+            <div id="geocode_address" style="display:none;">
+                {{building.ADDR1}} {% if building.ADDR1 != building.ADDR2 %}{{building.ADDR2}}{% endif %} {{building.CITY1}}, MI {{building.ZIP1}}
+            </div>
+            <p class="address">
+            {{building.ADDR1}}<br />
+            {% if building.ADDR1 != building.ADDR2 %}{{building.ADDR2}}<br />{% endif %}
+            {{building.CITY1}}, MI {{building.ZIP1}}
+            </p>
+            <!--
+            <p class="school-contact">
+                {{building.HONORIFIC}} {{building.FNAME}} {{building.LNAME}}<br />
+                
+                {% if building.EMAIL %}<a href="mailto:{{building.EMAIL}}">{{building.EMAIL}}</a>{% endif %}
+            </p>
+            <h3>
+            <span class="num">{{year.headcount.tot_all.value}}</span> students.
+            </h3>
+            -->
+            
+            <p class="missing-data"><a href="/report/{{building|hash:'District Code'}}">Missing or incorrect data?</a></p>
+            
+        </div>
+    </div>
+    
+</div> <!-- end tabs -->
+{% endif %}
+{% endwith %} 
+{% endwith %} 
+<!--
+{{building}}<br /><br />
+{{district}}<br /><br />
+{{state}}
+-->
+{% endblock %}

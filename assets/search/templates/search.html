@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% load hash %}
+{% load humanize %}
+
+{% block title %}"{{query}}" Search Results - Michigan Public School Data{% endblock %}
+
+{% block banner %}
+    <h2 class="building">"{{query}}" Search Results</h2>
+{% endblock %}
+{% block content %}
+
+{% if not districts %}
+    {% if not schools %}
+        <section>
+        <h3>No results found.</h3>
+        </section>
+    {% endif %}
+{% endif %}
+
+{% if districts %}
+<section id="district-list" class="floatcontainer">
+    <h3>{{districts|length}} Districts</h3>
+    {% for district in districts %}
+        <div class="district-result {% cycle 'box1' 'box1' 'box1' 'last' %}">
+            <a href="{% url district district|hash:'District Code' %}">{{district|hash:'District Name'}}</a>
+        </div>
+
+    {% endfor %}
+</section>
+{% endif %}
+
+{% if schools %}
+<section id="school-list">
+    <h3>{{schools|length}} Schools</h3>
+    <table class="schooldata">
+    	<thead>
+    		<tr>
+    			<th valign="bottom">School</th>
+    			<th valign="bottom">District</th>
+    			<th valign="bottom">Headcount</th>
+    			<!--<th valign="bottom">Pre-K</th>-->
+    			<th class="grade-bar-head">K</th>
+    			<th class="grade-bar-head">1</th>
+    			<th class="grade-bar-head">2</th>
+    			<th class="grade-bar-head">3</th>
+    			<th class="grade-bar-head">4</th>
+    			<th class="grade-bar-head">5</th>
+    			<th class="grade-bar-head">6</th>
+    			<th class="grade-bar-head">7</th>
+    			<th class="grade-bar-head">8</th>
+    			<th class="grade-bar-head">9</th>
+    			<th class="grade-bar-head">10</th>
+    			<th class="grade-bar-head">11</th>
+    			<th class="grade-bar-head">12</th>
+    		</tr>
+    	</thead>
+		
+    	<tbody>
+    	{% for school in schools %}
+    	{% with school|hash:'2009-10' as year %}
+    		<tr>
+    			<td><a href="{% url building school|hash:'Building Code' %}">{{school|hash:'Building Name'}}</a></td>
+    			<td><a href="{% url district school|hash:'District Code' %}">{{school|hash:'District Name'}}</a></td>
+    			
+    			<td style="padding-left:20px;">{{year.headcount.tot_all.value|intcomma}}</td>
+    			<!--<td class="grade-bar">{% if "grade_Pre-K" in school.grades %}<span></span>{% endif %}</td>-->
+    			<td class="grade-bar">{% if "grade_KG" in school.grades or "KG" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_1" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_2" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_3" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_4" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_5" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_6" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_7" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_8" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_9" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_10" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_11" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_12" in school.grades %}<span></span>{% endif %}</td>
+    		</tr>
+    	{% endwith %}
+    	{% endfor %}
+    	</tbody>
+    </table>
+</section> <!-- end schools list -->
+{% endif %}
+
+{% endblock %}

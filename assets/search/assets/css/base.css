@@ -1,0 +1,446 @@
+/* Basic structure =========================================================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:#333;
+    font-size: 12px;
+    font-family:'Lucida Grande', sans-serif;
+}
+#banner {
+    background: #3F8628 url(/assets/images/green-bg-tall.png) repeat-x left bottom;
+    padding-bottom:13px;    
+    margin:10px 0px;
+}
+#banner-in {
+    background: #3F8628  url(/assets/images/green-bg-tall.png) repeat-x left top;
+    padding-top:15px;
+}
+#page {
+    line-height: 1.5;
+    clear: both;
+    overflow: hidden;    
+}
+#container,
+#header,
+#banner-center,
+footer {
+    width: 963px;
+    margin: 0px auto 0px auto;
+    /* 4 cols 222, gutter 25 */
+
+}
+#school-list, footer {
+    border-top:3px double #eee;
+    margin-top:2em;
+    padding-top:2em;
+    display:block;
+    background-image: -moz-linear-gradient(
+        center top,
+        rgb(248,248,248) 0%,
+        rgb(255,255,255) 10px
+    );
+}
+footer {
+    padding:1em;
+}
+footer a {
+    margin-right:1em;
+}
+/* Navigation ==============================================================*/
+#nav {
+    font-size: 1.2em;   
+    overflow:hidden;
+    margin:10px 0px 15px 20px; 
+}
+#nav li {
+    text-indent: 0px;
+    list-style: none;
+    margin-left:20px; 
+    display:inline; 
+    float:left;
+}
+#nav a {
+    border: 0px none;
+}
+#nav .selected a {
+    background: white;
+}
+
+
+/* Basic styles ============================================================*/
+a {
+    color: #0C345E;
+    text-decoration: none;
+    border-bottom: 1px dotted #0C345E;
+}
+a:hover {
+    color: #0C345E;
+    border-bottom: 1px solid #0C345E;
+}
+a img, a.rsslink, a.ui-icon { border:0px none; }
+
+
+form input, 
+form textarea, 
+th, 
+.status, 
+.ac_results, 
+#container h1, 
+.errorlist li {
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    vertical-align: top;
+    font-weight: normal;
+}
+    table.schooldata {
+        width:100%;
+        margin-bottom:2em;
+    }
+    th {
+        color: #333;
+        border-bottom: 1px solid #eee;
+        padding-right: 10px ;
+        font-weight:bold;
+        padding-top:4px;
+    }
+    thead th {
+        border-bottom: 2px solid #eee;
+    }
+    tr.above  th {
+        border-bottom:0px none;
+    }
+    tr.above th.category {
+        border-bottom:2px solid #eee;
+        border-right:5px solid #fff;
+        text-align:center;
+    }
+    tr.separator th, tr.separator td {
+        border-bottom:2px solid #eee;
+        padding-top:1em;
+        font-weight:bold;
+    }
+    tr.separator-small th, tr.separator-small td {
+        border-bottom:2px solid #ddd;
+    }
+    
+    tbody td {
+        border-bottom: 1px solid #eee;
+    }
+    tbody .totals td, tbody .totals th {
+        font-style:italic;
+    }
+    tbody td, 
+    tbody th {
+        padding:3px 3px 3px 0px;
+        font-weight:normal;
+    }
+    tbody td.grade-bar {
+        padding:3px 0px;
+        vertical-align:middle;
+    }
+    thead th.grade-bar-head {
+        text-align:center;
+    }
+    tbody td.grade-bar span {
+        display:block;
+        height:5px;
+        background:#999;
+        width:100%;
+    }
+    
+
+/* Headers =================================================================*/
+h1, h2, h4, h5, h6 {
+    font-weight:600; 
+}
+#container h1 {
+    line-height: 1em!important;
+    margin-bottom: .25em ;
+    font-size: 1.5em;
+}
+#container h2,
+#banner h2 { 
+    margin:0;
+    line-height:1;
+    }
+    #banner h2.building {
+        font-size:30px;
+        margin:10px 0px 10px 0px;
+        border-bottom:2px solid #3F8628;
+        color:#FFF1BD;
+    }
+    #banner h2.district a {
+        color:#FFF1BD;
+        border-bottom:1px dotted #FFF1BD;
+    }
+    #container h3,
+    #container .info h2 { color:#3F8628; }
+    #container .info h2 { margin-top:0; }
+
+h3 {
+    font-weight:normal;
+    margin-bottom:.75em;
+    font-size:20px;
+    line-height:1;
+}
+h3 .num {
+    font-size:40px;
+    display:block;
+}
+h4 {
+    font-size:16px;
+}
+
+/* The Header ==============================================================*/
+    #header h1{
+        font-size: 36px;
+        font-weight: 800;
+        margin-top: 5px;
+        width:550px;
+        display:inline-block;
+        line-height:64px;
+    }
+    #header .logo-ledger {
+        display:inline-block;
+        background:#fff url(/assets/images/logo-ledger.png) no-repeat left top;
+        height:47px;
+        width:257px;
+        font-size:1px;
+        text-indent:-9999px;
+    }
+    #header h1 a {
+        color: #3F8628;
+        border:0px none;
+    }
+    #header h1 a:hover {
+        color: #036;
+    }
+    ul.ui-autocomplete {
+        width:300px;
+        background:#fff;
+        box-shadow:0px 0px 3px 1px #999;
+    }
+    ul.ui-autocomplete li {
+        list-style:none;
+        margin:0;
+        padding:0;
+        border-bottom:1px solid #eee;
+    }
+    ul.ui-autocomplete li a {
+        display:block;
+        padding:5px;
+        border-bottom:0px none;
+    }
+    ul.ui-autocomplete li a:hover {
+        background:#eee;
+        text-shadow:#fff 1px 1px 1px;
+    }  
+    
+    
+/* Banner ==================================================================*/
+#banner .factbar {
+    box-shadow:inset 0 0 15px #124801;
+    -moz-box-shadow:inset 0 0 15px #124801;
+    background:#1E7303;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    line-height:1;
+}
+#banner .factbar .fact {
+    width:182px;
+    margin-right:20px;
+    margin-bottom:0;
+    padding:10px 20px;
+    float:left;
+    color:#FFF1BD;
+    font-weight:100;
+}
+#banner .factbar .last {
+    margin-right:0;
+}
+      
+      
+/* Main content ============================================================*/
+#container p { 
+    margin-bottom:1em; 
+}
+    #container .flatpage p { 
+        margin-right:200px;
+    }
+    #container li { 
+        margin-left:15px;
+    }
+        form li { 
+            margin-left:0!important; 
+        }   
+    #container p.missing-data {
+        margin-bottom:0;
+    }
+
+
+.sources, .sources a {
+    color:#666;
+}
+
+.tooltip a {
+    position:absolute;
+    z-index:90;
+    display:inline-block;
+    font-weight:normal;
+    font-style:none;
+}
+.tooltip a:hover {
+    background:#11085E;
+    color:#fff;
+    height:20px;
+    width:20px;
+    border-radius:12px;
+    text-align:center;
+    padding-top:2px;
+}
+.tooltip-text {
+    font-weight:normal;
+    display:none;
+    position:absolute;
+    background:#fff;
+    -webkit-box-shadow: 0px 0px 8px 6px #ccc;
+    -moz-box-shadow: 0px 0px 8px 6px #ccc;
+    box-shadow: 0px 0px 8px 6px #ccc;
+    width:220px;
+    padding:4px;
+    z-index:100;
+}
+
+.district-result {
+    width:192px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:10px 20px;
+    float:left;
+    color:#FFF1BD;
+    font-weight:100;
+    box-shadow:inset 0 0 15px #ddd;
+    -moz-box-shadow:inset 0 0 15px #ddd;
+    background:#eee;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    height:3em;
+}
+.district-result.last {
+    margin-right:0px;
+}
+
+/* Tabs ====================================================================*/
+.ui-tabs-nav {  }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+#container .ui-tabs {
+    margin:10px 0px 15px 0px;
+    padding:0;
+}
+#container #tabs section {
+    width:716px;
+    margin-right:25px;
+    float:left;
+}
+#container #tabs ul {
+    background:none;
+    padding:0;
+    border:0px none;
+    border-bottom:1px solid #eee;
+    margin-bottom:15px;
+}
+#container .ui-tabs li {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-indent:0;
+    margin-right:1px;
+    display:inline-block;
+}
+#container .ui-tabs .ui-state-default {
+    border:0px none;
+}
+#container .ui-tabs-panel {
+    padding:0;
+}
+#container .ui-tabs li a {
+    padding:7px 11px;
+    background:#eee;
+    border:0px none;
+    display:inline-block;
+    color:#0C345E;
+    text-shadow: #eee 1px 1px 0px;
+    font-weight:bold;
+}
+#container .ui-tabs li.ui-tabs-selected a {
+    background:#ccc;
+}
+
+
+
+/* Sidebar =================================================================*/
+       
+#sidebar {
+    border:5px solid #ddd;
+    width:212px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    background:#ddd;
+    float:right;
+}
+    #page #container #sidebar #sidebar-in {
+        border:1px solid #fff;
+        border-radius:4px;
+        -moz-border-radius:4px;
+        padding:10px;
+        float:none;
+        background:#eee;
+        box-shadow:inset 0 0 10px #ccc;
+        -moz-box-shadow:inset 0 0 10px #ccc;
+        
+  }
+    
+    
+/* 	
+	FLOATCONTAINER  ==========================================================
+	Adding class="floatcontainer" to an element forces an 
+	element to expand around floated items,
+	instead of collapsing.
+*/
+.floatcontainer:after, #toc:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.floatcontainer, #toc {
+    display: inline-block;
+} 
+/* Mark Hadley's fix for IE Mac */ 
+/* Hides from IE Mac \*/ 
+* html .floatcontainer, * html #toc {
+    height: * 1%;
+} 
+.floatcontainer, * html #toc {
+    display: block;
+}
+/* End floatcontainer 
+Hack */ 
+	

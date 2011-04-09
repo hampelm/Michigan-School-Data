@@ -52,6 +52,7 @@ def UnicodeDictReader(utf8_data, **kwargs):
     for row in csv_reader:
         yield dict([(key, value.decode('latin1')) for key, value in row.iteritems()])
         
+            
 def school_collection():
     connection = Connection(MONGO['host'], MONGO['port'])
         
@@ -215,15 +216,27 @@ def load_basic_data():
             line['slug'] = slugify(line['Building Name'])
             line['district-slug'] = slugify(line['District Name'])
             
+            #try:
+            line['FNAME'] =  line['FNAME'].encode('utf-8')
+            line['LNAME'] =  line['LNAME'].encode('utf-8')
+            #except:
+            #    print "Could not handle " + line["FNAME"] + " " + line["LNAME"]
+            
             # Save the districts one-by-one so that we can refer to them 
             # when creating building records.
-                
-            if line['Building Code'] == '00000':                    
-                districts_saved.append(line['District Code'])
-                save(line) 
+            
+            if 'District Code' in line:
+                if line['Building Code'] == '00000':                    
+                    districts_saved.append(line['District Code'])
+                    save(line) 
+                else:
+                    # Building records can be batch inserted.
+                    records_to_insert.append(line)
             else:
-                # Building records can be batch inserted.
-                records_to_insert.append(line)
+                print line 
+                
+                
+    
             
     print str(len(records_to_insert)) + " schools being inserted"
     collection.insert(records_to_insert, safe=True)
@@ -325,34 +338,37 @@ def aggregate_school_safety():
     records = school_collection()
     districts = records.distinct('District Code')
     for code in districts:
-        schools = records.find({'District Code': code})
+        schools = records.find({'District Code': code, 'Building Code': {'$ne': '00000'}})
         schools = list(schools)
         
         if len(schools) != 0 and code and 'school_safety' in schools[0]['2009-10']:
             base = schools[0]['2009-10']['school_safety']
             for school in schools:
-                # print school['2009-10']
+               # print school['2009-10']
                 
-                if school['2009-10']['school_safety'] == {}:
-                    break
+                if 'school_safety' in school['2009-10']:
+                    if school['2009-10']['school_safety'] == {}:
+                        break
                 
-                for key, values in school['2009-10']['school_safety'].iteritems():
-                    if isinstance(values, dict) and isinstance(values['value'], int):
-                        try:
-                            base[key]['district'] += values['value']
-                        except:
-                            pass
+                    for key, values in school['2009-10']['school_safety'].iteritems():
+                        if isinstance(values, dict) and isinstance(values['value'], int):
+                            try:
+                                base[key]['district'] += values['value']
+                            except:
+                                pass
                 
             for school in schools:
-                if school['2009-10']['school_safety'] == {}:
-                    break
+                if 'school_safety' in school['2009-10']:
                 
-                for key, values in school['2009-10']['school_safety'].iteritems():
-                    if isinstance(values, dict) and isinstance(values['value'], int):
-                        try:
-                            school['2009-10']['school_safety'][key]['district'] = base[key]['district']
-                        except:
-                            pass
+                    if school['2009-10']['school_safety'] == {}:
+                        break
+                
+                    for key, values in school['2009-10']['school_safety'].iteritems():
+                        if isinstance(values, dict) and isinstance(values['value'], int):
+                            try:
+                                school['2009-10']['school_safety'][key]['district'] = base[key]['district']
+                            except:
+                                pass
                 
             for school in schools:
                 save(school)
@@ -651,13 +667,17 @@ def ACT_breakdowns():
             entity['2010']['ACT'][subject] = line
             
             if '00000' in line['Building Code'] and '00000' in line['District Code']:
+                # This is the state entry
                 state[line['Subject']] = line
             elif '00000' in line['Building Code'] and '00000' not in line['District Code']:
+                # This line is for a district
                 if line['District Code'] not in districts:
                     districts[line['District Code']] = {}
+                line['state'] = state[line['Subject']]['Mean']
                 districts[line['District Code']][line['Subject']] = line
                 
             else:
+                # This line is for an individual school
                 try:
                     line['state'] = state[line['Subject']]['Mean']
                     line['district'] = districts[line['District Code']][line['Subject']]['Mean']
@@ -839,7 +859,7 @@ def meap_longitudinal():
     
     all_data = {}
     for line in raw_data:
-        temp_line = deepcopy(line)
+        temp_line = {}
         for key, value in line.iteritems():  
             # Check if the key represents a datapoint
             # for example, "08-All" is the key for the percent of all students
@@ -867,17 +887,17 @@ def meap_longitudinal():
                     
     
         # Temporarily store the record using (school, district) to identify.
-        if (temp_line['Building Code'], temp_line['District Code']) not in all_data:
-            all_data[(temp_line['Building Code'], temp_line['District Code'])] = {}
+        if (line['Building Code'], line['District Code']) not in all_data:
+            all_data[(line['Building Code'], line['District Code'])] = {}
             
-        full_record = all_data[(temp_line['Building Code'], temp_line['District Code'])]
+        full_record = all_data[(line['Building Code'], line['District Code'])]
         
-        if temp_line['Grade'] not in full_record:
-            full_record[temp_line['Grade']] = {}
+        if line['Grade'] not in full_record:
+            full_record[line['Grade']] = {}
             
-        full_record[temp_line['Grade']][temp_line['Subject']] = temp_line
+        full_record[line['Grade']][line['Subject']] = temp_line
                 
-        all_data[(temp_line['Building Code'], temp_line['District Code'])] = full_record
+        all_data[(line['Building Code'], line['District Code'])] = full_record
         
     # Now we need to save all the data.
     # Remeber, records are keyed in (Building Code, District Code) pairs
@@ -905,19 +925,19 @@ def connection_test():
     state = get_state()
     
 
-remove_all()
-load_basic_data()
-school_safety()
+#remove_all()
+#load_basic_data()
+#school_safety()
 #aggregate_school_safety()
-meap()
-meap_district()
-headcount_bldg_k12()
-reduced_free_lunch_schools()
-reduced_free_lunch_districts()
-bulletin_1014()
-bulletin_1011()
+#meap()
+#meap_district()
+#headcount_bldg_k12()
+#reduced_free_lunch_schools()
+#reduced_free_lunch_districts()
+#bulletin_1014()
+#bulletin_1011()
 ACT_breakdowns()
-generate_grade_strings()
-ayp_met()
-ayp_not_met()
-meap_longitudinal()
+#generate_grade_strings()
+#ayp_met()
+#ayp_not_met()
+#meap_longitudinal()
