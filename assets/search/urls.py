@@ -3,13 +3,12 @@ from django.conf.urls.defaults import *
 
 from core.views import *
 
-# Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
-
-urlpatterns = patterns('',    
+urlpatterns = patterns('',   
     url(r'^json', search_json),
-    url(r'^', search),
+    url(r'^search/json', search_json),
+    url(r'^$', search),
+    url(r'^search', search),
+    
 )
 
 if settings.LOCAL_DEVELOPMENT:

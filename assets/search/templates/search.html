@@ -19,10 +19,10 @@
 
 {% if districts %}
 <section id="district-list" class="floatcontainer">
-    <h3>{{districts|length}} Districts</h3>
+    <h3>{{districts|length}} District{{districts|length|pluralize }}</h3>
     {% for district in districts %}
         <div class="district-result {% cycle 'box1' 'box1' 'box1' 'last' %}">
-            <a href="{% url district district|hash:'District Code' %}">{{district|hash:'District Name'}}</a>
+            <a href="/district/{{district.district_code}}">{{district.district_name}}</a>
         </div>
 
     {% endfor %}
@@ -31,14 +31,14 @@
 
 {% if schools %}
 <section id="school-list">
-    <h3>{{schools|length}} Schools</h3>
+    <h3>{{schools|length}} School{{schools|length|pluralize }}</h3>
     <table class="schooldata">
     	<thead>
     		<tr>
     			<th valign="bottom">School</th>
     			<th valign="bottom">District</th>
-    			<th valign="bottom">Headcount</th>
-    			<!--<th valign="bottom">Pre-K</th>-->
+    			<!--<th valign="bottom">Headcount</th>
+    			<th valign="bottom">Pre-K</th>
     			<th class="grade-bar-head">K</th>
     			<th class="grade-bar-head">1</th>
     			<th class="grade-bar-head">2</th>
@@ -51,7 +51,7 @@
     			<th class="grade-bar-head">9</th>
     			<th class="grade-bar-head">10</th>
     			<th class="grade-bar-head">11</th>
-    			<th class="grade-bar-head">12</th>
+    			<th class="grade-bar-head">12</th>-->
     		</tr>
     	</thead>
 		
@@ -59,8 +59,8 @@
     	{% for school in schools %}
     	{% with school|hash:'2009-10' as year %}
     		<tr>
-    			<td><a href="{% url building school|hash:'Building Code' %}">{{school|hash:'Building Name'}}</a></td>
-    			<td><a href="{% url district school|hash:'District Code' %}">{{school|hash:'District Name'}}</a></td>
+    			<td><a href="/building/{{school.building_code}}">{{school.building_name}}</a></td>
+    			<td><a href="/district/{{school.district_code}}">{{school.district_name}}</a></td>
     			
     			<td style="padding-left:20px;">{{year.headcount.tot_all.value|intcomma}}</td>
     			<!--<td class="grade-bar">{% if "grade_Pre-K" in school.grades %}<span></span>{% endif %}</td>-->

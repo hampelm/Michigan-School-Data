@@ -16,7 +16,7 @@ $(function() {
 				ul.append( "<li class='ui-autocomplete-category'><a href='/building/" + item.buildingcode + "'>" + item.buildingname + "</a></li>" );
 			});
 			if(too_long) {
-			    ul.append( "<li class='ui-autocomplete-category see-all'><a href='/search/" + 'term' + "'><strong>See all " + original_length + " results</strong></a></li>" )
+			    ul.append( "<li class='ui-autocomplete-category see-all'><a href='/search/?q=" + 'term' + "'><strong>See all " + original_length + " results</strong></a></li>" )
 			} 
 		}
 	});

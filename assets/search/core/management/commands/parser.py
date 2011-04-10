@@ -63,11 +63,13 @@ class Command(BaseCommand):
                 # column, so here we figure out which one we're dealing with.
             
                 if line['Building Code'] == '00000':
+                    # This is a district
                     line['District Name'] = line['Building Name']
                     entry.district_name =  line['Building Name']
                     entry.district_code = line['District Code']
                     entry.building_code = '00000'
                 else:
+                    # This is a state.
                     entry.building_name = line['Building Name']
                     entry.building_code = line['Building Code']
                     # The state data does not include district name for schools,
@@ -75,6 +77,8 @@ class Command(BaseCommand):
                     # already been saved.
                     try:
                         entry.district_name = districts_saved[line['District Code']]['District Name']
+                        entry.district_code = districts_saved[line['District Code']]['District Code']
+                        
                     except:
                         print line['District Code']
                         print districts_saved

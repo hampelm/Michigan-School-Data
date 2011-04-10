@@ -10,7 +10,7 @@ import re
 
 #======= Helpers
 class SearchForm(forms.Form):
-    q = forms.CharField(max_length=100)
+    term = forms.CharField(max_length=100)
 
 '''
 school record:
@@ -49,7 +49,7 @@ def search(request):
     if request.method == 'GET': 
         form = SearchForm(request.GET)
         if form.is_valid():
-            query = form.cleaned_data['q']
+            query = form.cleaned_data['term']
             context['query'] = query
                     
             #school_results = all_records.find({
@@ -61,10 +61,8 @@ def search(request):
             school_results = School.objects.filter(building_name__icontains=query).exclude(district_code='00000').order_by('building_name')
             context['schools'] = list(school_results)
             
-            
-            school_results = School.objects.filter(district_name__icontains=query, building_code='00000').order_by('district_name')
-                        
-            #context['districts'] = list(district_results)            
+            district_results = School.objects.filter(district_name__icontains=query, building_code="00000").order_by('district_name')
+            context['districts'] = list(district_results)            
                     
     context['form'] = form
     return render_to_response('search.html', context)
@@ -74,7 +72,7 @@ def search(request):
 def search_json(request):
     if request.GET:
         context = {}
-        query = request.GET['q']
+        query = request.GET['term']
         
         school_results = School.objects.filter(building_name__icontains=query).exclude(district_code='00000').order_by('building_name')
         context['schools'] = list(school_results)
@@ -82,6 +80,11 @@ def search_json(request):
         cleaned_results = []
         for result in school_results:
             print result.building_code
-            cleaned_results.append({'buildingname': result.building_name, 'buildingcode': result.building_code})
+            cleaned_results.append({
+                'buildingname': result.building_name, 
+                'buildingcode': result.building_code, 
+                'districtcode': result.district_code,
+                'url': '/building/' + result.building_code
+            })
         return HttpResponse(json.dumps(cleaned_results), mimetype="application/json")
     

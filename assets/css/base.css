@@ -29,6 +29,7 @@ body {
 footer {
     width: 963px;
     margin: 0px auto 0px auto;
+    display:block;
     /* 4 cols 222, gutter 25 */
 
 }

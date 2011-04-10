@@ -22,10 +22,6 @@ $(function() {
 
 	$( "#search" ).complete_custom({
         source: "/search/json",
-        select: function( event, ui ) {
-          window.location.href = ui.item.href;
-        },
-        
 		minLength: 2
 	});
     
