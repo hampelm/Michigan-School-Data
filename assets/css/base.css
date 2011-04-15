@@ -10,12 +10,12 @@ body {
     font-family:'Lucida Grande', sans-serif;
 }
 #banner {
-    background: #3F8628 url(/assets/images/green-bg-tall.png) repeat-x left bottom;
+    background: #1e7303 url(/assets/images/green-bg-tall.png) repeat-x left bottom;
     padding-bottom:13px;    
     margin:10px 0px;
 }
 #banner-in {
-    background: #3F8628  url(/assets/images/green-bg-tall.png) repeat-x left top;
+    background: #1e7303  url(/assets/images/green-bg-tall.png) repeat-x left top;
     padding-top:15px;
 }
 #page {
@@ -33,7 +33,7 @@ footer {
     /* 4 cols 222, gutter 25 */
 
 }
-#school-list, footer {
+footer {
     border-top:3px double #eee;
     margin-top:2em;
     padding-top:2em;
@@ -172,17 +172,19 @@ h1, h2, h4, h5, h6 {
 #banner h2 { 
     margin:0;
     line-height:1;
+    color:#FFF1BD;
+    
+    }
+    #banner h2 a {
+        color:#FFF1BD;
+        border-bottom:1px dotted #FFF1BD;
     }
     #banner h2.building {
         font-size:30px;
         margin:10px 0px 10px 0px;
-        border-bottom:2px solid #3F8628;
         color:#FFF1BD;
     }
-    #banner h2.district a {
-        color:#FFF1BD;
-        border-bottom:1px dotted #FFF1BD;
-    }
+    
     #container h3,
     #container .info h2 { color:#3F8628; }
     #container .info h2 { margin-top:0; }
@@ -201,11 +203,15 @@ h4 {
     font-size:16px;
 }
 
+#search {
+    font-size:16px;
+}
+
 /* The Header ==============================================================*/
     #header h1{
         font-size: 36px;
         font-weight: 800;
-        margin-top: 5px;
+        margin-top: 15px;
         width:550px;
         display:inline-block;
         line-height:64px;
@@ -219,7 +225,7 @@ h4 {
         text-indent:-9999px;
     }
     #header h1 a {
-        color: #3F8628;
+        color: #1E7303;
         border:0px none;
     }
     #header h1 a:hover {
@@ -228,7 +234,9 @@ h4 {
     ul.ui-autocomplete {
         width:300px;
         background:#fff;
-        box-shadow:0px 0px 3px 1px #999;
+        border:1px solid #999;
+        -moz-box-shadow:4px 4px 6px 1px #aaa;
+        box-shadow:4px 4px 6px 1px #aaa;        
     }
     ul.ui-autocomplete li {
         list-style:none;
@@ -271,6 +279,10 @@ h4 {
       
       
 /* Main content ============================================================*/
+section {
+    display:block;
+}
+
 #container p { 
     margin-bottom:1em; 
 }
@@ -287,6 +299,9 @@ h4 {
         margin-bottom:0;
     }
 
+section#front {
+    margin-right:300px;
+}
 
 .sources, .sources a {
     color:#666;

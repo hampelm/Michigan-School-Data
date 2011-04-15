@@ -13,14 +13,23 @@ $(function() {
     			items = items.slice(0,10);
 			}
 			$.each( items, function( index, item ) {
-				ul.append( "<li class='ui-autocomplete-category'><a href='/building/" + item.buildingcode + "'>" + item.buildingname + "</a></li>" );
+				ul.append( "<li class='ui-autocomplete-category'><a onclick='window.location.href=this.href;' href='/building/" + item.buildingcode + "'>" + item.buildingname + "</a></li>" );
 			});
 			if(too_long) {
-			    ul.append( "<li class='ui-autocomplete-category see-all'><a href='/search/?q=" + 'term' + "'><strong>See all " + original_length + " results</strong></a></li>" )
+			    ul.append( "<li class='ui-autocomplete-category see-all'><a onclick='window.location.href=this.href;' href='/search/?term=" + this.term + "'><strong>See all " + original_length + " results</strong></a></li>" )
 			} 
 		}
 	});
 
+	$( "#search-home" ).complete_custom({
+        source: "/search/json",
+        select: function( event, ui ) {
+          window.location.href = ui.item.href;
+        },
+        
+		minLength: 2
+	});
+	
 	$( "#search" ).complete_custom({
         source: "/search/json",
         select: function( event, ui ) {
@@ -29,6 +38,7 @@ $(function() {
         
 		minLength: 2
 	});
+	
     
     $(".tooltip").hover(
         function(){

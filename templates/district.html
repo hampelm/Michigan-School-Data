@@ -27,14 +27,75 @@
 
 <div id="tabs" class="floatcontainer">
 	<ul class="floatcontainer">
+	    <li><a href="#school-list">Schools</a></li>
 		<li><a href="#academics">Academics</a></li>
 		<li><a href="#demographics">Demographics</a></li>
 		<li><a href="#finances">Finances</a></li>
 	</ul>
 	
+	<section id="school-list">
+    <h3>Schools</h3>
+    <table class="schooldata">
+    	<thead>
+    		<tr>
+    			<th valign="bottom">School</th>
+    			<th valign="bottom">Headcount</th>
+    			<!--<th valign="bottom">Pre-K</th>-->
+    			<th class="grade-bar-head">K</th>
+    			<th class="grade-bar-head">1</th>
+    			<th class="grade-bar-head">2</th>
+    			<th class="grade-bar-head">3</th>
+    			<th class="grade-bar-head">4</th>
+    			<th class="grade-bar-head">5</th>
+    			<th class="grade-bar-head">6</th>
+    			<th class="grade-bar-head">7</th>
+    			<th class="grade-bar-head">8</th>
+    			<th class="grade-bar-head">9</th>
+    			<th class="grade-bar-head">10</th>
+    			<th class="grade-bar-head">11</th>
+    			<th class="grade-bar-head">12</th>
+    			<th>Free Lunch</th>
+    			<th>AYP</th>
+    		</tr>
+    	</thead>
+
+    	<tbody>
+    	{% for school in schools %}
+    	{% with school|hash:'2009-10' as year %}
+    		<tr>
+    			<td><a href="{% url building school|hash:'Building Code' %}">{{school|hash:'Building Name'}}</a></td>
+    			<td>{{year.headcount.tot_all.value}}</td>
+    			<!--<td class="grade-bar">{% if "grade_Pre-K" in school.grades %}<span></span>{% endif %}</td>-->
+    			<td class="grade-bar">{% if "grade_KG" in school.grades or "KG" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_1" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_2" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_3" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_4" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_5" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_6" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_7" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_8" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_9" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_10" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_11" in school.grades %}<span></span>{% endif %}</td>
+    			<td class="grade-bar">{% if "grade_12" in school.grades %}<span></span>{% endif %}</td>
+    			<td style="text-align:center">
+    				{% if year.reduced_lunch.free_lunch_eligible_pct %}
+    					{{year.reduced_lunch.free_lunch_eligible_pct}}%
+    				{% endif %}
+    			</td>
+    			<td>{{year.ayp.Grade}}</td>
+    		</tr>
+    	{% endwith %}
+    	{% endfor %}
+    	</tbody>
+    </table>
+    </section> <!-- end schools list -->
+    
 	<section id="academics">
 		
-		<h4>MEAP</h4>
+		<section id="meap">
+		<h3>MEAP</h3>
 		<ul class="floatcontainer">
 		    <li><a href="#grade-All">All</a></li>
 		    <li><a href="#grade-3">3</a></li>
@@ -47,7 +108,8 @@
 		</ul>
 		
     	{% for grade, groups in district.MEAP.items %}
-    	    <table class="schooldata" id="grade-{{grade}}">
+    	<section  id="grade-{{grade}}">
+    	    <table class="schooldata">
     		    {% for subject,values in groups.items %}
     			<tr class="separator">
     				<th>{{subject}}</th>
@@ -66,11 +128,13 @@
                     <td>{{values.All.10}}</td>
                     <td>{{state.MEAP}}</td>
                 </tr>     
+<!--
                 <tr>
                     <td>Students with disabilities</td>
                     <td>{{values.students_with_disabilities.value}}</td>
                     <td>{{values.students_with_disabilities.state}}</td>
-                </tr>     
+                </tr> 
+-->    
                 <tr>
                     <td>Economically disadvantaged</td>
                     <td>{{values.ED.10}}</td>
@@ -123,12 +187,13 @@
                 </tr>            
             {% endfor %}
 		    </table>
+		</section>
         {% endfor %}
-        
+        </section>
         
         {% with district|hash:'2010' as act_year %}
         {% if act_year.ACT %}
-        <h4>ACT</h4>
+        <h3>ACT</h3>
         <table class="schooldata">
             <thead>
                 <tr>
@@ -525,15 +590,14 @@
 	</section>
 	
 	<div id="sidebar">
-		<div id="sidebar-in">
+		<div id="sidebar-in">            
 			<addr>
 			{{district.ADDR1}}<br>
 			{% if district.ADDR1 != district.ADDR2 %}{{district.ADDR2}}<br>{% endif %}
 			{{district.CITY1}}, MI {{district.ZIP1}}
 			</addr>
 			
-			
-			<p class="missing-data"><a href="/missingdata/{{building|hash:'District Code'}}">Missing or incorrect data?</a></p>
+            <p class="missing-data"><a href="/about/#report">Missing or incorrect data?</a></p>
 				
 		</div>
 	</div>
@@ -543,63 +607,5 @@
 	
 </div> <!-- end tabs -->
 
-<section id="school-list">
-<h3>Schools</h3>
-<table class="schooldata">
-	<thead>
-		<tr>
-			<th valign="bottom">School</th>
-			<th valign="bottom">Headcount</th>
-			<!--<th valign="bottom">Pre-K</th>-->
-			<th class="grade-bar-head">K</th>
-			<th class="grade-bar-head">1</th>
-			<th class="grade-bar-head">2</th>
-			<th class="grade-bar-head">3</th>
-			<th class="grade-bar-head">4</th>
-			<th class="grade-bar-head">5</th>
-			<th class="grade-bar-head">6</th>
-			<th class="grade-bar-head">7</th>
-			<th class="grade-bar-head">8</th>
-			<th class="grade-bar-head">9</th>
-			<th class="grade-bar-head">10</th>
-			<th class="grade-bar-head">11</th>
-			<th class="grade-bar-head">12</th>
-			<th>Free Lunch</th>
-			<th>AYP</th>
-		</tr>
-	</thead>
-		
-	<tbody>
-	{% for school in schools %}
-	{% with school|hash:'2009-10' as year %}
-		<tr>
-			<td><a href="{% url building school|hash:'Building Code' %}">{{school|hash:'Building Name'}}</a></td>
-			<td>{{year.headcount.tot_all.value}}</td>
-			<!--<td class="grade-bar">{% if "grade_Pre-K" in school.grades %}<span></span>{% endif %}</td>-->
-			<td class="grade-bar">{% if "grade_KG" in school.grades or "KG" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_1" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_2" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_3" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_4" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_5" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_6" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_7" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_8" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_9" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_10" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_11" in school.grades %}<span></span>{% endif %}</td>
-			<td class="grade-bar">{% if "grade_12" in school.grades %}<span></span>{% endif %}</td>
-			<td style="text-align:center">
-				{% if year.reduced_lunch.free_lunch_eligible_pct %}
-					{{year.reduced_lunch.free_lunch_eligible_pct}}%
-				{% endif %}
-			</td>
-			<td>{{year.ayp.Grade}}</td>
-		</tr>
-	{% endwith %}
-	{% endfor %}
-	</tbody>
-</table>
-</section> <!-- end schools list -->
 
 {% endblock %}

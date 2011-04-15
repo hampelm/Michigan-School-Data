@@ -10,7 +10,7 @@ import re
 
 #======= Helpers
 class SearchForm(forms.Form):
-    q = forms.CharField(max_length=100)
+    term = forms.CharField(max_length=100)
 
 '''
 school record:
@@ -101,7 +101,7 @@ def search(request):
     if request.method == 'GET': 
         form = SearchForm(request.GET)
         if form.is_valid():
-            query = form.cleaned_data['q']
+            query = form.cleaned_data['term']
             context['query'] = query
             
             all_records = collection()

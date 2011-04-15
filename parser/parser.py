@@ -374,7 +374,20 @@ def aggregate_school_safety():
                 save(school)
         
     
+def meap_remove_all():
+    print 'Cleaning old MEAP data'
+    collection = school_collection()
+    entries = collection.find()
+    for entry in entries:
+        try:
+            entry['2009-10']['MEAP'] = []
+        except:
+            pass
+        save(entry)
+        
+        
 def meap():
+    meap_remove_all()
     
     files = [
         ('meap/3rd_Grade_Public.csv', '3rd Grade'),
@@ -440,22 +453,18 @@ def meap():
             if entity != None:
                 # Checks if there already is 2009-10 MEAP data recorded
                 # for this entity
+                                    
                 if 'MEAP' not in entity['2009-10']:
-                    entity['2009-10']['MEAP'] = {}
+                    entity['2009-10']['MEAP'] = []
             
-                # Checks if there already is 2009-10 MEAP data for this grade
-                # recorded for this entity
-                if grade not in entity['2009-10']['MEAP']:
-                    entity['2009-10']['MEAP'][grade] = {}
-            
-                # Records the MEAP subject
-                subject = line['Subject']
-                
-                entity['2009-10']['MEAP'][grade][subject] = {
+                entity['2009-10']['MEAP'].append(                
+                {
+                    'subject': line['Subject'],
+                    'grade': grade,
                     'value': line['Met/Exceeded_Standards'],
                     'district': district_exceeded[line['District_Number']],
                     'state':state_exceeded
-                }
+                })
             
                 save(entity)
                 
@@ -929,14 +938,14 @@ def connection_test():
 #load_basic_data()
 #school_safety()
 #aggregate_school_safety()
-#meap()
+meap()
 #meap_district()
 #headcount_bldg_k12()
 #reduced_free_lunch_schools()
 #reduced_free_lunch_districts()
 #bulletin_1014()
 #bulletin_1011()
-ACT_breakdowns()
+#ACT_breakdowns()
 #generate_grade_strings()
 #ayp_met()
 #ayp_not_met()

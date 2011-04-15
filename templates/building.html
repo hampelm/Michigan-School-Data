@@ -14,7 +14,7 @@
 
 <div class="factbar floatcontainer">
 <h3 class="fact"><span class="num">{{year.headcount.tot_all.value|intcomma}}</span> students </h3>
-<h3 class="fact"><span class="num">{{year.ten_fourteen.AVG_P_TCHR}} : 1</span> student-teacher ratio</h3>
+<!--<h3 class="fact"><span class="num">{{year.ten_fourteen.AVG_P_TCHR}} : 1</span> student-teacher ratio</h3>-->
 <h3 class="fact"><span class="num">{{year.reduced_lunch.free_lunch_eligible_pct}}%</span> free lunch eligible</h3>
 <h3 class="fact last">
     <span class="num">{{year.ayp.Grade|default:"N/A"}}</span> AYP grade
@@ -24,10 +24,10 @@
 {% endwith %}
 {% endblock %}
 
-
 {% block content %}
 {% with building|hash:'2009-10' as year %}
 {% with district|hash:'2009-10' as district_year %}
+
 
 {% if "06" not in building.Type  %}
 <div id="tabs" class="floatcontainer">
@@ -54,16 +54,14 @@
             </thead>
             <tbody>
                 
-            {% for grade,value in year.MEAP.items %}
-                {% for subject, values in value.items %}
-                    <tr>
-                        <td>{{grade}}</td>
-                         <td>{{subject}}</td>
-                        <td>{{values.value}}</td>
-                        <td>{{values.district}}</td>
-                        <td>{{values.state}}</td>
-                    </tr>
-                {% endfor %}
+            {% for item in year.MEAP %}
+                <tr>
+                    <td>{{item.grade}}</td>
+                     <td>{{item.subject}}</td>
+                    <td>{{item.value}}</td>
+                    <td>{{item.district}}</td>
+                    <td>{{item.state}}</td>
+                </tr>
             {% endfor %}
             </tbody>
         </table>        
@@ -223,7 +221,7 @@
             <table class="schooldata">
                 <thead>
                     <tr>
-                        <th></th>
+                        <th>Issue</th>
                         <th>School</th>
                         <th>District</th>
                         <th></th>
@@ -395,6 +393,8 @@ Incidents over the past school year when a student was removed from school witho
             {% if building.ADDR1 != building.ADDR2 %}{{building.ADDR2}}<br />{% endif %}
             {{building.CITY1}}, MI {{building.ZIP1}}
             </p>
+            
+            <p>Grades {{building.GRADESTR}}</p>
             <!--
             <p class="school-contact">                
                 {% if building.EMAIL %}<a href="mailto:{{building.EMAIL}}">{{building.EMAIL}}</a>{% endif %}
@@ -404,7 +404,7 @@ Incidents over the past school year when a student was removed from school witho
             </h3>
             -->
             
-            <p class="missing-data"><a href="/report/{{building|hash:'District Code'}}">Missing or incorrect data?</a></p>
+            <p class="missing-data"><a href="/about/#report">Missing or incorrect data?</a></p>
             
         </div>
     </div>
